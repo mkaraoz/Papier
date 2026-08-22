@@ -8,7 +8,13 @@ import org.mk.papier.model.WordList
 class WordRepository(private val context: Context) {
 
     fun loadWords(): List<Word> {
-        val json = context.assets.open("words.json").bufferedReader().use { it.readText() }
+        val json = context.assets.open(WORDS_FILE).bufferedReader().use { it.readText() }
         return Gson().fromJson(json, WordList::class.java).words
+    }
+
+    companion object {
+        // Release word list — the full vocabulary. This keeps growing.
+        // For quick feature testing, swap to the small "words.json" test set.
+        private const val WORDS_FILE = "vocabulary.json"
     }
 }

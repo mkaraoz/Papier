@@ -1,0 +1,1012 @@
+{
+  "words": [
+    {
+      "id": "1",
+      "dutch": "huis",
+      "article": "het",
+      "english": "house",
+      "type": "noun",
+      "example": "Ik woon in een groot huis.",
+      "exampleTranslation": "I live in a big house."
+    },
+    {
+      "id": "2",
+      "dutch": "fiets",
+      "article": "de",
+      "english": "bicycle",
+      "type": "noun",
+      "example": "Ik rij elke dag op mijn fiets.",
+      "exampleTranslation": "I ride my bicycle every day."
+    },
+    {
+      "id": "3",
+      "dutch": "boek",
+      "article": "het",
+      "english": "book",
+      "type": "noun",
+      "example": "Dit is een goed boek.",
+      "exampleTranslation": "This is a good book."
+    },
+    {
+      "id": "4",
+      "dutch": "lopen",
+      "article": null,
+      "english": "to walk",
+      "type": "verb",
+      "example": "Ik loop elke dag naar het park.",
+      "exampleTranslation": "I walk to the park every day."
+    },
+    {
+      "id": "5",
+      "dutch": "eten",
+      "article": null,
+      "english": "to eat",
+      "type": "verb",
+      "example": "We eten om zes uur.",
+      "exampleTranslation": "We eat at six o'clock."
+    },
+    {
+      "id": "6",
+      "dutch": "werken",
+      "article": null,
+      "english": "to work",
+      "type": "verb",
+      "example": "Hij werkt in een kantoor.",
+      "exampleTranslation": "He works in an office."
+    },
+    {
+      "id": "7",
+      "dutch": "mooi",
+      "article": null,
+      "english": "beautiful",
+      "type": "adjective",
+      "example": "De bloemen zijn erg mooi.",
+      "exampleTranslation": "The flowers are very beautiful."
+    },
+    {
+      "id": "8",
+      "dutch": "groot",
+      "article": null,
+      "english": "big",
+      "type": "adjective",
+      "example": "Amsterdam is een grote stad.",
+      "exampleTranslation": "Amsterdam is a big city."
+    },
+    {
+      "id": "9",
+      "dutch": "water",
+      "article": "het",
+      "english": "water",
+      "type": "noun",
+      "example": "Wil je een glas water?",
+      "exampleTranslation": "Do you want a glass of water?"
+    },
+    {
+      "id": "10",
+      "dutch": "snel",
+      "article": null,
+      "english": "fast",
+      "type": "adverb",
+      "example": "De trein rijdt erg snel.",
+      "exampleTranslation": "The train goes very fast."
+    },
+    {
+      "id": "11",
+      "dutch": "deur",
+      "article": "de",
+      "english": "door",
+      "type": "noun",
+      "example": "De deur is open.",
+      "exampleTranslation": "The door is open."
+    },
+    {
+      "id": "12",
+      "dutch": "schrijven",
+      "article": null,
+      "english": "to write",
+      "type": "verb",
+      "example": "Ik schrijf een brief.",
+      "exampleTranslation": "I write a letter."
+    },
+    {
+      "id": "13",
+      "dutch": "oud",
+      "article": null,
+      "english": "old",
+      "type": "adjective",
+      "example": "Dit huis is oud.",
+      "exampleTranslation": "This house is old."
+    },
+    {
+      "id": "14",
+      "dutch": "altijd",
+      "article": null,
+      "english": "always",
+      "type": "adverb",
+      "example": "Hij is altijd vroeg.",
+      "exampleTranslation": "He is always early."
+    },
+    {
+      "id": "15",
+      "dutch": "kind",
+      "article": "het",
+      "english": "child",
+      "type": "noun",
+      "example": "Het kind speelt buiten.",
+      "exampleTranslation": "The child plays outside."
+    },
+    {
+      "id": "16",
+      "dutch": "spreken",
+      "article": null,
+      "english": "to speak",
+      "type": "verb",
+      "example": "Ze spreekt goed Nederlands.",
+      "exampleTranslation": "She speaks Dutch well."
+    },
+    {
+      "id": "17",
+      "dutch": "klein",
+      "article": null,
+      "english": "small",
+      "type": "adjective",
+      "example": "De kat is klein.",
+      "exampleTranslation": "The cat is small."
+    },
+    {
+      "id": "18",
+      "dutch": "winkel",
+      "article": "de",
+      "english": "shop",
+      "type": "noun",
+      "example": "De winkel is dicht.",
+      "exampleTranslation": "The shop is closed."
+    },
+    {
+      "id": "19",
+      "dutch": "gaan",
+      "article": null,
+      "english": "to go",
+      "type": "verb",
+      "example": "Ik ga naar huis.",
+      "exampleTranslation": "I go home."
+    },
+    {
+      "id": "20",
+      "dutch": "straat",
+      "article": "de",
+      "english": "street",
+      "type": "noun",
+      "example": "Ik woon in een mooie straat.",
+      "exampleTranslation": "I live on a nice street."
+    },
+    {
+      "id": "21",
+      "dutch": "dat",
+      "article": null,
+      "english": "that",
+      "type": "pronoun",
+      "example": "Dat is mijn huis.",
+      "exampleTranslation": "That is my house."
+    },
+    {
+      "id": "22",
+      "dutch": "dit",
+      "article": null,
+      "english": "this",
+      "type": "pronoun",
+      "example": "Dit is mijn boek.",
+      "exampleTranslation": "This is my book."
+    },
+    {
+      "id": "23",
+      "dutch": "dorp",
+      "article": "het",
+      "english": "village",
+      "type": "noun",
+      "example": "Ik woon in een klein dorp.",
+      "exampleTranslation": "I live in a small village."
+    },
+    {
+      "id": "24",
+      "dutch": "een",
+      "article": null,
+      "english": "a / an",
+      "type": "article",
+      "example": "Ik heb een fiets.",
+      "exampleTranslation": "I have a bicycle."
+    },
+    {
+      "id": "25",
+      "dutch": "één",
+      "article": null,
+      "english": "one",
+      "type": "numeral",
+      "example": "Ik heb maar één boek.",
+      "exampleTranslation": "I only have one book."
+    },
+    {
+      "id": "26",
+      "dutch": "hij",
+      "article": null,
+      "english": "he",
+      "type": "pronoun",
+      "example": "Hij werkt in een winkel.",
+      "exampleTranslation": "He works in a shop."
+    },
+    {
+      "id": "27",
+      "dutch": "ik",
+      "article": null,
+      "english": "I",
+      "type": "pronoun",
+      "example": "Ik woon in Amsterdam.",
+      "exampleTranslation": "I live in Amsterdam."
+    },
+    {
+      "id": "28",
+      "dutch": "in",
+      "article": null,
+      "english": "in",
+      "type": "preposition",
+      "example": "Ik woon in Nederland.",
+      "exampleTranslation": "I live in the Netherlands."
+    },
+    {
+      "id": "29",
+      "dutch": "jaar",
+      "article": "het",
+      "english": "year",
+      "type": "noun",
+      "example": "Ik woon hier al vijf jaar.",
+      "exampleTranslation": "I have lived here for five years already."
+    },
+    {
+      "id": "30",
+      "dutch": "komen",
+      "article": null,
+      "english": "to come",
+      "type": "verb",
+      "example": "Ik kom uit Nederland.",
+      "exampleTranslation": "I come from the Netherlands."
+    },
+    {
+      "id": "31",
+      "dutch": "leren",
+      "article": null,
+      "english": "to learn",
+      "type": "verb",
+      "example": "Ik leer Nederlands.",
+      "exampleTranslation": "I am learning Dutch."
+    },
+    {
+      "id": "32",
+      "dutch": "maand",
+      "article": "de",
+      "english": "month",
+      "type": "noun",
+      "example": "Volgende maand ga ik op vakantie.",
+      "exampleTranslation": "Next month I'm going on vacation."
+    },
+    {
+      "id": "33",
+      "dutch": "naar",
+      "article": null,
+      "english": "to",
+      "type": "preposition",
+      "example": "Ik ga naar school.",
+      "exampleTranslation": "I'm going to school."
+    },
+    {
+      "id": "34",
+      "dutch": "Nederland",
+      "article": null,
+      "english": "the Netherlands",
+      "type": "noun",
+      "example": "Ik woon in Nederland.",
+      "exampleTranslation": "I live in the Netherlands."
+    },
+    {
+      "id": "35",
+      "dutch": "Nederlands",
+      "article": null,
+      "english": "Dutch (language)",
+      "type": "noun",
+      "example": "Ik spreek een beetje Nederlands.",
+      "exampleTranslation": "I speak a little Dutch."
+    },
+    {
+      "id": "36",
+      "dutch": "niet",
+      "article": null,
+      "english": "not",
+      "type": "adverb",
+      "example": "Ik woon niet in Utrecht.",
+      "exampleTranslation": "I don't live in Utrecht."
+    },
+    {
+      "id": "37",
+      "dutch": "nu",
+      "article": null,
+      "english": "now",
+      "type": "adverb",
+      "example": "Ik werk nu in Amsterdam.",
+      "exampleTranslation": "I work in Amsterdam now."
+    },
+    {
+      "id": "38",
+      "dutch": "school",
+      "article": "de",
+      "english": "school",
+      "type": "noun",
+      "example": "De school is dicht.",
+      "exampleTranslation": "The school is closed."
+    },
+    {
+      "id": "39",
+      "dutch": "stad",
+      "article": "de",
+      "english": "city",
+      "type": "noun",
+      "example": "Amsterdam is een mooie stad.",
+      "exampleTranslation": "Amsterdam is a beautiful city."
+    },
+    {
+      "id": "40",
+      "dutch": "uit",
+      "article": null,
+      "english": "from / out",
+      "type": "preposition",
+      "example": "Ik kom uit Polen.",
+      "exampleTranslation": "I come from Poland."
+    },
+    {
+      "id": "41",
+      "dutch": "wonen",
+      "article": null,
+      "english": "to live",
+      "type": "verb",
+      "example": "Ik woon in een huis.",
+      "exampleTranslation": "I live in a house."
+    },
+    {
+      "id": "42",
+      "dutch": "ze",
+      "article": null,
+      "english": "she / they",
+      "type": "pronoun",
+      "example": "Ze woont in Utrecht.",
+      "exampleTranslation": "She lives in Utrecht."
+    },
+    {
+      "id": "43",
+      "dutch": "zijn",
+      "article": null,
+      "english": "to be",
+      "type": "verb",
+      "example": "Ik ben Iwan.",
+      "exampleTranslation": "I am Iwan."
+    },
+    {
+      "id": "44",
+      "dutch": "achternaam",
+      "article": "de",
+      "english": "surname",
+      "type": "noun",
+      "example": "Wat is je achternaam?",
+      "exampleTranslation": "What is your surname?"
+    },
+    {
+      "id": "45",
+      "dutch": "al",
+      "article": null,
+      "english": "already",
+      "type": "adverb",
+      "example": "Ik woon hier al twee jaar.",
+      "exampleTranslation": "I have already lived here for two years."
+    },
+    {
+      "id": "46",
+      "dutch": "en",
+      "article": null,
+      "english": "and",
+      "type": "conjunction",
+      "example": "Ik heet Iwan en ik woon in Almere.",
+      "exampleTranslation": "My name is Iwan and I live in Almere."
+    },
+    {
+      "id": "47",
+      "dutch": "hallo",
+      "article": null,
+      "english": "hello",
+      "type": "interjection",
+      "example": "Hallo, hoe gaat het?",
+      "exampleTranslation": "Hello, how are you?"
+    },
+    {
+      "id": "48",
+      "dutch": "hebben",
+      "article": null,
+      "english": "to have",
+      "type": "verb",
+      "example": "Ik heb een fiets.",
+      "exampleTranslation": "I have a bicycle."
+    },
+    {
+      "id": "49",
+      "dutch": "heten",
+      "article": null,
+      "english": "to be called",
+      "type": "verb",
+      "example": "Ik heet Iwan.",
+      "exampleTranslation": "My name is Iwan."
+    },
+    {
+      "id": "50",
+      "dutch": "hoe",
+      "article": null,
+      "english": "how",
+      "type": "adverb",
+      "example": "Hoe heet je?",
+      "exampleTranslation": "What is your name?"
+    },
+    {
+      "id": "51",
+      "dutch": "hoelang",
+      "article": null,
+      "english": "how long",
+      "type": "adverb",
+      "example": "Hoelang woon je hier al?",
+      "exampleTranslation": "How long have you lived here already?"
+    },
+    {
+      "id": "52",
+      "dutch": "ja",
+      "article": null,
+      "english": "yes",
+      "type": "interjection",
+      "example": "Ja, dat klopt.",
+      "exampleTranslation": "Yes, that's right."
+    },
+    {
+      "id": "53",
+      "dutch": "je",
+      "article": null,
+      "english": "you (informal)",
+      "type": "pronoun",
+      "example": "Hoe heet je?",
+      "exampleTranslation": "What is your name?"
+    },
+    {
+      "id": "54",
+      "dutch": "jij",
+      "article": null,
+      "english": "you (emphatic)",
+      "type": "pronoun",
+      "example": "En jij, hoe heet jij?",
+      "exampleTranslation": "And you, what's your name?"
+    },
+    {
+      "id": "55",
+      "dutch": "kloppen",
+      "article": null,
+      "english": "to be correct / to knock",
+      "type": "verb",
+      "example": "Dat klopt.",
+      "exampleTranslation": "That's correct."
+    },
+    {
+      "id": "56",
+      "dutch": "les",
+      "article": "de",
+      "english": "lesson",
+      "type": "noun",
+      "example": "De les begint om negen uur.",
+      "exampleTranslation": "The lesson starts at nine o'clock."
+    },
+    {
+      "id": "57",
+      "dutch": "leuk",
+      "article": null,
+      "english": "nice / fun",
+      "type": "adjective",
+      "example": "Dat is leuk!",
+      "exampleTranslation": "That's nice!"
+    },
+    {
+      "id": "58",
+      "dutch": "mijn",
+      "article": null,
+      "english": "my",
+      "type": "pronoun",
+      "example": "Dit is mijn boek.",
+      "exampleTranslation": "This is my book."
+    },
+    {
+      "id": "59",
+      "dutch": "oké",
+      "article": null,
+      "english": "okay",
+      "type": "interjection",
+      "example": "Oké, tot morgen!",
+      "exampleTranslation": "Okay, see you tomorrow!"
+    },
+    {
+      "id": "60",
+      "dutch": "ook",
+      "article": null,
+      "english": "also",
+      "type": "adverb",
+      "example": "Ik woon ook in Almere.",
+      "exampleTranslation": "I also live in Almere."
+    },
+    {
+      "id": "61",
+      "dutch": "spellen",
+      "article": null,
+      "english": "to spell",
+      "type": "verb",
+      "example": "Kun je dat spellen?",
+      "exampleTranslation": "Can you spell that?"
+    },
+    {
+      "id": "62",
+      "dutch": "telefoonnummer",
+      "article": "het",
+      "english": "phone number",
+      "type": "noun",
+      "example": "Wat is je telefoonnummer?",
+      "exampleTranslation": "What is your phone number?"
+    },
+    {
+      "id": "63",
+      "dutch": "vandaan",
+      "article": null,
+      "english": "from",
+      "type": "adverb",
+      "example": "Waar kom je vandaan?",
+      "exampleTranslation": "Where are you from?"
+    },
+    {
+      "id": "64",
+      "dutch": "voornaam",
+      "article": "de",
+      "english": "first name",
+      "type": "noun",
+      "example": "Mijn voornaam is Iwan.",
+      "exampleTranslation": "My first name is Iwan."
+    },
+    {
+      "id": "65",
+      "dutch": "waar",
+      "article": null,
+      "english": "where",
+      "type": "adverb",
+      "example": "Waar woon je?",
+      "exampleTranslation": "Where do you live?"
+    },
+    {
+      "id": "66",
+      "dutch": "wat",
+      "article": null,
+      "english": "what",
+      "type": "pronoun",
+      "example": "Wat is je naam?",
+      "exampleTranslation": "What is your name?"
+    },
+    {
+      "id": "67",
+      "dutch": "adres",
+      "article": "het",
+      "english": "address",
+      "type": "noun",
+      "example": "Wat is je adres?",
+      "exampleTranslation": "What is your address?"
+    },
+    {
+      "id": "68",
+      "dutch": "april",
+      "article": null,
+      "english": "April",
+      "type": "noun",
+      "example": "Ik ben in april jarig.",
+      "exampleTranslation": "My birthday is in April."
+    },
+    {
+      "id": "69",
+      "dutch": "e-mailadres",
+      "article": "het",
+      "english": "email address",
+      "type": "noun",
+      "example": "Wat is je e-mailadres?",
+      "exampleTranslation": "What is your email address?"
+    },
+    {
+      "id": "70",
+      "dutch": "formulier",
+      "article": "het",
+      "english": "form",
+      "type": "noun",
+      "example": "Kunt u dit formulier invullen?",
+      "exampleTranslation": "Can you fill in this form?"
+    },
+    {
+      "id": "71",
+      "dutch": "geboortedatum",
+      "article": "de",
+      "english": "date of birth",
+      "type": "noun",
+      "example": "Wat is uw geboortedatum?",
+      "exampleTranslation": "What is your date of birth?"
+    },
+    {
+      "id": "72",
+      "dutch": "geboren",
+      "article": null,
+      "english": "born",
+      "type": "adjective",
+      "example": "Ik ben geboren in Polen.",
+      "exampleTranslation": "I was born in Poland."
+    },
+    {
+      "id": "73",
+      "dutch": "gemeente",
+      "article": "de",
+      "english": "municipality",
+      "type": "noun",
+      "example": "De gemeente helpt u graag.",
+      "exampleTranslation": "The municipality is happy to help you."
+    },
+    {
+      "id": "74",
+      "dutch": "gemeentehuis",
+      "article": "het",
+      "english": "town hall",
+      "type": "noun",
+      "example": "Ik ga naar het gemeentehuis.",
+      "exampleTranslation": "I'm going to the town hall."
+    },
+    {
+      "id": "75",
+      "dutch": "goedemorgen",
+      "article": null,
+      "english": "good morning",
+      "type": "interjection",
+      "example": "Goedemorgen, meneer.",
+      "exampleTranslation": "Good morning, sir."
+    },
+    {
+      "id": "76",
+      "dutch": "helpen",
+      "article": null,
+      "english": "to help",
+      "type": "verb",
+      "example": "Kunt u mij helpen?",
+      "exampleTranslation": "Can you help me?"
+    },
+    {
+      "id": "77",
+      "dutch": "invullen",
+      "article": null,
+      "english": "to fill in",
+      "type": "verb",
+      "example": "Kunt u dit formulier invullen?",
+      "exampleTranslation": "Can you fill in this form?"
+    },
+    {
+      "id": "78",
+      "dutch": "kunnen",
+      "article": null,
+      "english": "to be able to / can",
+      "type": "verb",
+      "example": "Kunt u mij helpen?",
+      "exampleTranslation": "Can you help me?"
+    },
+    {
+      "id": "79",
+      "dutch": "man",
+      "article": "de",
+      "english": "man / husband",
+      "type": "noun",
+      "example": "Dat is mijn man.",
+      "exampleTranslation": "That is my husband."
+    },
+    {
+      "id": "80",
+      "dutch": "meneer",
+      "article": null,
+      "english": "sir / mister",
+      "type": "noun",
+      "example": "Goedemorgen, meneer.",
+      "exampleTranslation": "Good morning, sir."
+    },
+    {
+      "id": "81",
+      "dutch": "mobiel",
+      "article": null,
+      "english": "mobile",
+      "type": "adjective",
+      "example": "Wat is je mobiele nummer?",
+      "exampleTranslation": "What is your mobile number?"
+    },
+    {
+      "id": "82",
+      "dutch": "nationaliteit",
+      "article": "de",
+      "english": "nationality",
+      "type": "noun",
+      "example": "Wat is uw nationaliteit?",
+      "exampleTranslation": "What is your nationality?"
+    },
+    {
+      "id": "83",
+      "dutch": "nieuw",
+      "article": null,
+      "english": "new",
+      "type": "adjective",
+      "example": "Zij is de nieuwe buurvrouw.",
+      "exampleTranslation": "She is the new neighbor."
+    },
+    {
+      "id": "84",
+      "dutch": "op",
+      "article": null,
+      "english": "on / at",
+      "type": "preposition",
+      "example": "Ik werk op kantoor.",
+      "exampleTranslation": "I work at the office."
+    },
+    {
+      "id": "85",
+      "dutch": "postcode",
+      "article": "de",
+      "english": "postal code",
+      "type": "noun",
+      "example": "Wat is uw postcode?",
+      "exampleTranslation": "What is your postal code?"
+    },
+    {
+      "id": "86",
+      "dutch": "u",
+      "article": null,
+      "english": "you (formal)",
+      "type": "pronoun",
+      "example": "Kunt u mij helpen?",
+      "exampleTranslation": "Can you help me?"
+    },
+    {
+      "id": "87",
+      "dutch": "uw",
+      "article": null,
+      "english": "your (formal)",
+      "type": "pronoun",
+      "example": "Wat is uw naam?",
+      "exampleTranslation": "What is your name?"
+    },
+    {
+      "id": "88",
+      "dutch": "vrouw",
+      "article": "de",
+      "english": "woman / wife",
+      "type": "noun",
+      "example": "Dat is mijn vrouw.",
+      "exampleTranslation": "That is my wife."
+    },
+    {
+      "id": "89",
+      "dutch": "woonplaats",
+      "article": "de",
+      "english": "place of residence",
+      "type": "noun",
+      "example": "Wat is uw woonplaats?",
+      "exampleTranslation": "What is your place of residence?"
+    },
+    {
+      "id": "90",
+      "dutch": "zullen",
+      "article": null,
+      "english": "shall / will",
+      "type": "verb",
+      "example": "Zullen we beginnen?",
+      "exampleTranslation": "Shall we begin?"
+    },
+    {
+      "id": "91",
+      "dutch": "alleen",
+      "article": null,
+      "english": "alone / only",
+      "type": "adverb",
+      "example": "Ik woon alleen.",
+      "exampleTranslation": "I live alone."
+    },
+    {
+      "id": "92",
+      "dutch": "appen",
+      "article": null,
+      "english": "to text / message",
+      "type": "verb",
+      "example": "Ik app met mijn buurvrouw.",
+      "exampleTranslation": "I text with my neighbor."
+    },
+    {
+      "id": "93",
+      "dutch": "buren",
+      "article": "de",
+      "english": "neighbors",
+      "type": "noun",
+      "example": "Onze buren zijn aardig.",
+      "exampleTranslation": "Our neighbors are nice."
+    },
+    {
+      "id": "94",
+      "dutch": "buurvrouw",
+      "article": "de",
+      "english": "female neighbor",
+      "type": "noun",
+      "example": "Dit is onze nieuwe buurvrouw.",
+      "exampleTranslation": "This is our new neighbor."
+    },
+    {
+      "id": "95",
+      "dutch": "geen",
+      "article": null,
+      "english": "no / none",
+      "type": "pronoun",
+      "example": "Ik heb geen kinderen.",
+      "exampleTranslation": "I have no children."
+    },
+    {
+      "id": "96",
+      "dutch": "getrouwd",
+      "article": null,
+      "english": "married",
+      "type": "adjective",
+      "example": "Ben je getrouwd?",
+      "exampleTranslation": "Are you married?"
+    },
+    {
+      "id": "97",
+      "dutch": "graag",
+      "article": null,
+      "english": "gladly / would like",
+      "type": "adverb",
+      "example": "Ik wil je graag ontmoeten.",
+      "exampleTranslation": "I would love to meet you."
+    },
+    {
+      "id": "98",
+      "dutch": "hobby",
+      "article": "de",
+      "english": "hobby",
+      "type": "noun",
+      "example": "Koken is mijn hobby.",
+      "exampleTranslation": "Cooking is my hobby."
+    },
+    {
+      "id": "99",
+      "dutch": "houden van",
+      "article": null,
+      "english": "to love / like",
+      "type": "verb",
+      "example": "Ik houd van koken.",
+      "exampleTranslation": "I love cooking."
+    },
+    {
+      "id": "100",
+      "dutch": "jullie",
+      "article": null,
+      "english": "you (plural)",
+      "type": "pronoun",
+      "example": "Wat doen jullie dit weekend?",
+      "exampleTranslation": "What are you (all) doing this weekend?"
+    },
+    {
+      "id": "101",
+      "dutch": "koken",
+      "article": null,
+      "english": "to cook",
+      "type": "verb",
+      "example": "Ik houd van koken.",
+      "exampleTranslation": "I love cooking."
+    },
+    {
+      "id": "102",
+      "dutch": "met",
+      "article": null,
+      "english": "with",
+      "type": "preposition",
+      "example": "Ik woon met mijn man.",
+      "exampleTranslation": "I live with my husband."
+    },
+    {
+      "id": "103",
+      "dutch": "nog",
+      "article": null,
+      "english": "still / yet",
+      "type": "adverb",
+      "example": "Woon je nog in Almere?",
+      "exampleTranslation": "Do you still live in Almere?"
+    },
+    {
+      "id": "104",
+      "dutch": "ontmoeten",
+      "article": null,
+      "english": "to meet",
+      "type": "verb",
+      "example": "Ik wil je graag ontmoeten.",
+      "exampleTranslation": "I would love to meet you."
+    },
+    {
+      "id": "105",
+      "dutch": "poes",
+      "article": "de",
+      "english": "cat",
+      "type": "noun",
+      "example": "Onze poes heet Kitty.",
+      "exampleTranslation": "Our cat is called Kitty."
+    },
+    {
+      "id": "106",
+      "dutch": "restaurant",
+      "article": "het",
+      "english": "restaurant",
+      "type": "noun",
+      "example": "We eten in een restaurant.",
+      "exampleTranslation": "We are eating at a restaurant."
+    },
+    {
+      "id": "107",
+      "dutch": "sporten",
+      "article": null,
+      "english": "to do sports / exercise",
+      "type": "verb",
+      "example": "Ik sport twee keer per week.",
+      "exampleTranslation": "I exercise twice a week."
+    },
+    {
+      "id": "108",
+      "dutch": "week",
+      "article": "de",
+      "english": "week",
+      "type": "noun",
+      "example": "Volgende week ga ik op vakantie.",
+      "exampleTranslation": "Next week I'm going on vacation."
+    },
+    {
+      "id": "109",
+      "dutch": "weekend",
+      "article": "het",
+      "english": "weekend",
+      "type": "noun",
+      "example": "Wat doe je dit weekend?",
+      "exampleTranslation": "What are you doing this weekend?"
+    },
+    {
+      "id": "110",
+      "dutch": "welkom",
+      "article": null,
+      "english": "welcome",
+      "type": "interjection",
+      "example": "Welkom in ons huis!",
+      "exampleTranslation": "Welcome to our house!"
+    },
+    {
+      "id": "111",
+      "dutch": "wie",
+      "article": null,
+      "english": "who",
+      "type": "pronoun",
+      "example": "Wie is dat?",
+      "exampleTranslation": "Who is that?"
+    },
+    {
+      "id": "112",
+      "dutch": "willen",
+      "article": null,
+      "english": "to want",
+      "type": "verb",
+      "example": "Ik wil koffie.",
+      "exampleTranslation": "I want coffee."
+    }
+  ]
+}

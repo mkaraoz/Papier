@@ -1,0 +1,94 @@
+{
+  "words": [
+    {
+      "id": "1",
+      "dutch": "huis",
+      "article": "het",
+      "english": "house",
+      "type": "noun",
+      "example": "Ik woon in een groot huis.",
+      "exampleTranslation": "I live in a big house."
+    },
+    {
+      "id": "2",
+      "dutch": "fiets",
+      "article": "de",
+      "english": "bicycle",
+      "type": "noun",
+      "example": "Ik rij elke dag op mijn fiets.",
+      "exampleTranslation": "I ride my bicycle every day."
+    },
+    {
+      "id": "3",
+      "dutch": "boek",
+      "article": "het",
+      "english": "book",
+      "type": "noun",
+      "example": "Dit is een goed boek.",
+      "exampleTranslation": "This is a good book."
+    },
+    {
+      "id": "4",
+      "dutch": "lopen",
+      "article": null,
+      "english": "to walk",
+      "type": "verb",
+      "example": "Ik loop elke dag naar het park.",
+      "exampleTranslation": "I walk to the park every day."
+    },
+    {
+      "id": "5",
+      "dutch": "eten",
+      "article": null,
+      "english": "to eat",
+      "type": "verb",
+      "example": "We eten om zes uur.",
+      "exampleTranslation": "We eat at six o'clock."
+    },
+    {
+      "id": "6",
+      "dutch": "werken",
+      "article": null,
+      "english": "to work",
+      "type": "verb",
+      "example": "Hij werkt in een kantoor.",
+      "exampleTranslation": "He works in an office."
+    },
+    {
+      "id": "7",
+      "dutch": "mooi",
+      "article": null,
+      "english": "beautiful",
+      "type": "adjective",
+      "example": "De bloemen zijn erg mooi.",
+      "exampleTranslation": "The flowers are very beautiful."
+    },
+    {
+      "id": "8",
+      "dutch": "groot",
+      "article": null,
+      "english": "big",
+      "type": "adjective",
+      "example": "Amsterdam is een grote stad.",
+      "exampleTranslation": "Amsterdam is a big city."
+    },
+    {
+      "id": "9",
+      "dutch": "water",
+      "article": "het",
+      "english": "water",
+      "type": "noun",
+      "example": "Wil je een glas water?",
+      "exampleTranslation": "Do you want a glass of water?"
+    },
+    {
+      "id": "10",
+      "dutch": "snel",
+      "article": null,
+      "english": "fast",
+      "type": "adverb",
+      "example": "De trein rijdt erg snel.",
+      "exampleTranslation": "The train goes very fast."
+    }
+  ]
+}

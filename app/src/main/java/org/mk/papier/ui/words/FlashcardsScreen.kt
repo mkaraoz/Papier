@@ -7,7 +7,6 @@ import androidx.compose.animation.expandVertically
 import androidx.compose.animation.fadeIn
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
-import androidx.compose.foundation.gestures.detectHorizontalDragGestures
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -19,6 +18,8 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.statusBarsPadding
+import androidx.compose.foundation.pager.HorizontalPager
+import androidx.compose.foundation.pager.rememberPagerState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
@@ -33,19 +34,19 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
-import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
+import kotlinx.coroutines.launch
 import org.mk.papier.model.Word
 
 @Composable
@@ -53,9 +54,8 @@ fun FlashcardsScreen(
     onBack: () -> Unit,
     viewModel: FlashcardsViewModel = viewModel()
 ) {
-    val currentWord by viewModel.currentWord.collectAsStateWithLifecycle()
-    val currentIndex by viewModel.currentIndex.collectAsStateWithLifecycle()
-    var expanded by remember(currentIndex) { mutableStateOf(false) }
+    val pagerState = rememberPagerState(pageCount = { viewModel.totalCount })
+    val scope = rememberCoroutineScope()
 
     Column(
         modifier = Modifier
@@ -80,31 +80,28 @@ fun FlashcardsScreen(
                 modifier = Modifier.weight(1f)
             )
             Text(
-                text = "${currentIndex + 1} / ${viewModel.totalCount}",
+                text = "${pagerState.currentPage + 1} / ${viewModel.totalCount}",
                 fontSize = 13.sp,
                 color = Color(0xFF888888)
             )
         }
 
-        Column(
+        HorizontalPager(
+            state = pagerState,
             modifier = Modifier
                 .weight(1f)
                 .fillMaxWidth()
-                .padding(horizontal = 24.dp)
-                .pointerInput(Unit) {
-                    var totalDrag = 0f
-                    detectHorizontalDragGestures(
-                        onDragStart = { totalDrag = 0f },
-                        onDragEnd = {
-                            if (totalDrag < -80) viewModel.next()
-                            else if (totalDrag > 80) viewModel.previous()
-                        }
-                    ) { _, dragAmount -> totalDrag += dragAmount }
-                }
-        ) {
-            Spacer(modifier = Modifier.height(20.dp))
+        ) { page ->
+            val word = viewModel.words[page]
+            var expanded by remember { mutableStateOf(false) }
 
-            currentWord?.let { word ->
+            Column(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .padding(horizontal = 24.dp)
+            ) {
+                Spacer(modifier = Modifier.height(20.dp))
+
                 DutchCard(
                     word = word,
                     expanded = expanded,
@@ -134,13 +131,13 @@ fun FlashcardsScreen(
         ) {
             NavButton(
                 icon = Icons.AutoMirrored.Filled.ArrowBack,
-                enabled = currentIndex > 0,
-                onClick = viewModel::previous
+                enabled = pagerState.currentPage > 0,
+                onClick = { scope.launch { pagerState.animateScrollToPage(pagerState.currentPage - 1) } }
             )
             NavButton(
                 icon = Icons.AutoMirrored.Filled.ArrowForward,
-                enabled = currentIndex < viewModel.totalCount - 1,
-                onClick = viewModel::next
+                enabled = pagerState.currentPage < viewModel.totalCount - 1,
+                onClick = { scope.launch { pagerState.animateScrollToPage(pagerState.currentPage + 1) } }
             )
         }
     }
@@ -171,6 +168,7 @@ private fun DutchCard(word: Word, expanded: Boolean, onClick: () -> Unit) {
                     fontWeight = FontWeight.SemiBold
                 )
             }
+
             Spacer(modifier = Modifier.height(12.dp))
 
             Text(
@@ -191,6 +189,7 @@ private fun DutchCard(word: Word, expanded: Boolean, onClick: () -> Unit) {
             )
 
             Spacer(modifier = Modifier.height(20.dp))
+
             Text(
                 text = if (expanded) "tap to close" else "tap to see translation",
                 fontSize = 12.sp,

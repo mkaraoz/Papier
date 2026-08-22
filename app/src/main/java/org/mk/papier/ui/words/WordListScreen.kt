@@ -17,6 +17,7 @@ import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
@@ -35,6 +36,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -47,6 +49,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
+import kotlinx.coroutines.launch
 import org.mk.papier.model.Word
 
 @Composable
@@ -57,6 +60,9 @@ fun WordListScreen(
     val searchQuery by viewModel.searchQuery.collectAsStateWithLifecycle()
     val sortMode by viewModel.sortMode.collectAsStateWithLifecycle()
     val words by viewModel.filteredWords.collectAsStateWithLifecycle()
+
+    val listState = rememberLazyListState()
+    val scope = rememberCoroutineScope()
 
     Column(
         modifier = Modifier
@@ -114,7 +120,10 @@ fun WordListScreen(
         ) {
             FilterChip(
                 selected = sortMode == SortMode.SORTED,
-                onClick = { viewModel.setSortMode(SortMode.SORTED) },
+                onClick = {
+                    viewModel.setSortMode(SortMode.SORTED)
+                    scope.launch { listState.scrollToItem(0) }
+                },
                 label = { Text("Sorted") },
                 colors = FilterChipDefaults.filterChipColors(
                     selectedContainerColor = Color(0xFF4A90D9),
@@ -123,7 +132,10 @@ fun WordListScreen(
             )
             FilterChip(
                 selected = sortMode == SortMode.RANDOM,
-                onClick = { viewModel.setSortMode(SortMode.RANDOM) },
+                onClick = {
+                    viewModel.setSortMode(SortMode.RANDOM)
+                    scope.launch { listState.scrollToItem(0) }
+                },
                 label = { Text("Random") },
                 colors = FilterChipDefaults.filterChipColors(
                     selectedContainerColor = Color(0xFF4A90D9),
@@ -133,6 +145,7 @@ fun WordListScreen(
         }
 
         LazyColumn(
+            state = listState,
             contentPadding = PaddingValues(start = 16.dp, end = 16.dp, top = 8.dp, bottom = 24.dp),
             verticalArrangement = Arrangement.spacedBy(8.dp)
         ) {

@@ -89,6 +89,96 @@
       "type": "adverb",
       "example": "De trein rijdt erg snel.",
       "exampleTranslation": "The train goes very fast."
+    },
+    {
+      "id": "11",
+      "dutch": "deur",
+      "article": "de",
+      "english": "door",
+      "type": "noun",
+      "example": "De deur is open.",
+      "exampleTranslation": "The door is open."
+    },
+    {
+      "id": "12",
+      "dutch": "schrijven",
+      "article": null,
+      "english": "to write",
+      "type": "verb",
+      "example": "Ik schrijf een brief.",
+      "exampleTranslation": "I write a letter."
+    },
+    {
+      "id": "13",
+      "dutch": "oud",
+      "article": null,
+      "english": "old",
+      "type": "adjective",
+      "example": "Dit huis is oud.",
+      "exampleTranslation": "This house is old."
+    },
+    {
+      "id": "14",
+      "dutch": "altijd",
+      "article": null,
+      "english": "always",
+      "type": "adverb",
+      "example": "Hij is altijd vroeg.",
+      "exampleTranslation": "He is always early."
+    },
+    {
+      "id": "15",
+      "dutch": "kind",
+      "article": "het",
+      "english": "child",
+      "type": "noun",
+      "example": "Het kind speelt buiten.",
+      "exampleTranslation": "The child plays outside."
+    },
+    {
+      "id": "16",
+      "dutch": "spreken",
+      "article": null,
+      "english": "to speak",
+      "type": "verb",
+      "example": "Ze spreekt goed Nederlands.",
+      "exampleTranslation": "She speaks Dutch well."
+    },
+    {
+      "id": "17",
+      "dutch": "klein",
+      "article": null,
+      "english": "small",
+      "type": "adjective",
+      "example": "De kat is klein.",
+      "exampleTranslation": "The cat is small."
+    },
+    {
+      "id": "18",
+      "dutch": "winkel",
+      "article": "de",
+      "english": "shop",
+      "type": "noun",
+      "example": "De winkel is dicht.",
+      "exampleTranslation": "The shop is closed."
+    },
+    {
+      "id": "19",
+      "dutch": "gaan",
+      "article": null,
+      "english": "to go",
+      "type": "verb",
+      "example": "Ik ga naar huis.",
+      "exampleTranslation": "I go home."
+    },
+    {
+      "id": "20",
+      "dutch": "straat",
+      "article": "de",
+      "english": "street",
+      "type": "noun",
+      "example": "Ik woon in een mooie straat.",
+      "exampleTranslation": "I live on a nice street."
     }
   ]
 }

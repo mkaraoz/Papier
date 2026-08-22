@@ -23,6 +23,8 @@ import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.FilterChip
+import androidx.compose.material3.FilterChipDefaults
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
@@ -53,6 +55,7 @@ fun WordListScreen(
     viewModel: WordListViewModel = viewModel()
 ) {
     val searchQuery by viewModel.searchQuery.collectAsStateWithLifecycle()
+    val sortMode by viewModel.sortMode.collectAsStateWithLifecycle()
     val words by viewModel.filteredWords.collectAsStateWithLifecycle()
 
     Column(
@@ -105,7 +108,29 @@ fun WordListScreen(
             )
         )
 
-        Spacer(modifier = Modifier.height(8.dp))
+        Row(
+            modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp),
+            horizontalArrangement = Arrangement.spacedBy(8.dp)
+        ) {
+            FilterChip(
+                selected = sortMode == SortMode.SORTED,
+                onClick = { viewModel.setSortMode(SortMode.SORTED) },
+                label = { Text("Sorted") },
+                colors = FilterChipDefaults.filterChipColors(
+                    selectedContainerColor = Color(0xFF4A90D9),
+                    selectedLabelColor = Color.White
+                )
+            )
+            FilterChip(
+                selected = sortMode == SortMode.RANDOM,
+                onClick = { viewModel.setSortMode(SortMode.RANDOM) },
+                label = { Text("Random") },
+                colors = FilterChipDefaults.filterChipColors(
+                    selectedContainerColor = Color(0xFF4A90D9),
+                    selectedLabelColor = Color.White
+                )
+            )
+        }
 
         LazyColumn(
             contentPadding = PaddingValues(start = 16.dp, end = 16.dp, top = 8.dp, bottom = 24.dp),

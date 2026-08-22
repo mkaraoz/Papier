@@ -15,7 +15,7 @@ class FlashcardsViewModel(
 
     val words: List<Word> = WordRepository(application).loadWords()
         .filter { typeFilter == null || it.type == typeFilter }
-        .shuffled()
+        .shuffled(kotlin.random.Random(System.currentTimeMillis()))
 
     val totalCount: Int = words.size
 }

@@ -1,16 +1,18 @@
 package org.mk.papier.ui.words
 
+import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.core.FastOutSlowInEasing
-import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.tween
+import androidx.compose.animation.expandVertically
+import androidx.compose.animation.fadeIn
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.gestures.detectHorizontalDragGestures
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.aspectRatio
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -36,10 +38,10 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.graphicsLayer
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -53,6 +55,7 @@ fun FlashcardsScreen(
 ) {
     val currentWord by viewModel.currentWord.collectAsStateWithLifecycle()
     val currentIndex by viewModel.currentIndex.collectAsStateWithLifecycle()
+    var expanded by remember(currentIndex) { mutableStateOf(false) }
 
     Column(
         modifier = Modifier
@@ -83,17 +86,42 @@ fun FlashcardsScreen(
             )
         }
 
-        Box(
+        Column(
             modifier = Modifier
                 .weight(1f)
                 .fillMaxWidth()
-                .padding(horizontal = 24.dp),
-            contentAlignment = Alignment.Center
+                .padding(horizontal = 24.dp)
+                .pointerInput(Unit) {
+                    var totalDrag = 0f
+                    detectHorizontalDragGestures(
+                        onDragStart = { totalDrag = 0f },
+                        onDragEnd = {
+                            if (totalDrag < -80) viewModel.next()
+                            else if (totalDrag > 80) viewModel.previous()
+                        }
+                    ) { _, dragAmount -> totalDrag += dragAmount }
+                }
         ) {
-            if (currentWord != null) {
-                FlipCard(word = currentWord!!)
-            } else {
-                Text("No words available.", color = Color(0xFF888888))
+            Spacer(modifier = Modifier.height(20.dp))
+
+            currentWord?.let { word ->
+                DutchCard(
+                    word = word,
+                    expanded = expanded,
+                    onClick = { expanded = !expanded }
+                )
+
+                AnimatedVisibility(
+                    visible = expanded,
+                    enter = expandVertically(
+                        animationSpec = tween(320, easing = FastOutSlowInEasing)
+                    ) + fadeIn(tween(320))
+                ) {
+                    Column {
+                        Spacer(modifier = Modifier.height(12.dp))
+                        RevealCard(word = word)
+                    }
+                }
             }
         }
 
@@ -119,78 +147,53 @@ fun FlashcardsScreen(
 }
 
 @Composable
-private fun FlipCard(word: Word) {
-    var flipped by remember(word.id) { mutableStateOf(false) }
-    val rotation by animateFloatAsState(
-        targetValue = if (flipped) 180f else 0f,
-        animationSpec = tween(durationMillis = 400, easing = FastOutSlowInEasing),
-        label = "flip"
-    )
-
-    Box(
+private fun DutchCard(word: Word, expanded: Boolean, onClick: () -> Unit) {
+    Card(
         modifier = Modifier
             .fillMaxWidth()
-            .aspectRatio(0.75f)
-            .graphicsLayer {
-                rotationY = rotation
-                cameraDistance = 8 * density
-            }
-            .clickable { flipped = !flipped },
-        contentAlignment = Alignment.Center
-    ) {
-        if (rotation <= 90f) {
-            CardFront(word = word)
-        } else {
-            Box(modifier = Modifier.graphicsLayer { rotationY = 180f }) {
-                CardBack(word = word)
-            }
-        }
-    }
-}
-
-@Composable
-private fun CardFront(word: Word) {
-    Card(
-        modifier = Modifier.fillMaxSize(),
+            .clickable { onClick() },
         shape = RoundedCornerShape(20.dp),
         colors = CardDefaults.cardColors(containerColor = Color.White),
         elevation = CardDefaults.cardElevation(defaultElevation = 0.dp)
     ) {
-        Column(
-            modifier = Modifier
-                .fillMaxSize()
-                .padding(28.dp),
-            verticalArrangement = Arrangement.Center,
-            horizontalAlignment = Alignment.CenterHorizontally
-        ) {
-            if (word.article != null) {
-                val badgeColor = if (word.article == "de") Color(0xFF4A90D9) else Color(0xFF4CAF50)
-                Box(
-                    modifier = Modifier
-                        .clip(RoundedCornerShape(6.dp))
-                        .background(badgeColor.copy(alpha = 0.15f))
-                        .padding(horizontal = 10.dp, vertical = 4.dp)
-                ) {
-                    Text(
-                        text = word.article,
-                        fontSize = 14.sp,
-                        color = badgeColor,
-                        fontWeight = FontWeight.SemiBold
-                    )
-                }
-                Spacer(modifier = Modifier.height(16.dp))
+        Column(modifier = Modifier.padding(28.dp)) {
+            val badgeColor = if (word.article == "de") Color(0xFF4A90D9) else Color(0xFF4CAF50)
+            Box(
+                modifier = Modifier
+                    .clip(RoundedCornerShape(6.dp))
+                    .background(if (word.article != null) badgeColor.copy(alpha = 0.15f) else Color.Transparent)
+                    .padding(horizontal = 10.dp, vertical = 4.dp)
+            ) {
+                Text(
+                    text = word.article ?: "",
+                    fontSize = 13.sp,
+                    color = if (word.article != null) badgeColor else Color.Transparent,
+                    fontWeight = FontWeight.SemiBold
+                )
             }
+            Spacer(modifier = Modifier.height(12.dp))
+
             Text(
                 text = word.dutch,
-                fontSize = 40.sp,
+                fontSize = 38.sp,
                 fontWeight = FontWeight.Bold,
-                color = Color(0xFF1A1A1A),
-                textAlign = TextAlign.Center
+                color = Color(0xFF1A1A1A)
             )
-            Spacer(modifier = Modifier.height(32.dp))
+
+            Spacer(modifier = Modifier.height(16.dp))
+
             Text(
-                text = "tap to reveal",
-                fontSize = 13.sp,
+                text = "\"${word.example}\"",
+                fontSize = 15.sp,
+                fontStyle = FontStyle.Italic,
+                color = Color(0xFF555555),
+                lineHeight = 22.sp
+            )
+
+            Spacer(modifier = Modifier.height(20.dp))
+            Text(
+                text = if (expanded) "tap to close" else "tap to see translation",
+                fontSize = 12.sp,
                 color = Color(0xFFCCCCCC)
             )
         }
@@ -198,41 +201,26 @@ private fun CardFront(word: Word) {
 }
 
 @Composable
-private fun CardBack(word: Word) {
+private fun RevealCard(word: Word) {
     Card(
-        modifier = Modifier.fillMaxSize(),
+        modifier = Modifier.fillMaxWidth(),
         shape = RoundedCornerShape(20.dp),
-        colors = CardDefaults.cardColors(containerColor = Color(0xFF4A90D9)),
+        colors = CardDefaults.cardColors(containerColor = Color(0xFF1565C0)),
         elevation = CardDefaults.cardElevation(defaultElevation = 0.dp)
     ) {
-        Column(
-            modifier = Modifier
-                .fillMaxSize()
-                .padding(28.dp),
-            verticalArrangement = Arrangement.Center,
-            horizontalAlignment = Alignment.CenterHorizontally
-        ) {
+        Column(modifier = Modifier.padding(28.dp)) {
             Text(
                 text = word.english,
-                fontSize = 36.sp,
+                fontSize = 34.sp,
                 fontWeight = FontWeight.Bold,
-                color = Color.White,
-                textAlign = TextAlign.Center
+                color = Color.White
             )
-            Spacer(modifier = Modifier.height(28.dp))
-            Text(
-                text = "\"${word.example}\"",
-                fontSize = 14.sp,
-                color = Color.White.copy(alpha = 0.85f),
-                fontStyle = FontStyle.Italic,
-                textAlign = TextAlign.Center
-            )
-            Spacer(modifier = Modifier.height(8.dp))
+            Spacer(modifier = Modifier.height(12.dp))
             Text(
                 text = word.exampleTranslation,
-                fontSize = 13.sp,
-                color = Color.White.copy(alpha = 0.6f),
-                textAlign = TextAlign.Center
+                fontSize = 15.sp,
+                color = Color.White.copy(alpha = 0.7f),
+                lineHeight = 22.sp
             )
         }
     }
@@ -240,7 +228,7 @@ private fun CardBack(word: Word) {
 
 @Composable
 private fun NavButton(
-    icon: androidx.compose.ui.graphics.vector.ImageVector,
+    icon: ImageVector,
     enabled: Boolean,
     onClick: () -> Unit
 ) {

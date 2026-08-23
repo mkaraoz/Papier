@@ -9,6 +9,7 @@ import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.stateIn
+import org.mk.papier.data.ThemeRepository
 import org.mk.papier.data.WordRepository
 import org.mk.papier.model.Word
 
@@ -20,7 +21,21 @@ class WordListViewModel(
 ) : AndroidViewModel(application) {
 
     private val typeFilter: String? = savedStateHandle["filter"]
-    private val sortedWords: List<Word> = WordRepository(application).loadWords()
+    private val themeFilter: String? = savedStateHandle["theme"]
+
+    /** Header title — the theme name when we arrived from the Themes screen. */
+    val title: String = themeFilter?.replaceFirstChar { it.uppercase() } ?: "Word List"
+
+    private val allWords: List<Word> = if (themeFilter != null) {
+        ThemeRepository(application).loadThemes()
+            .firstOrNull { it.name.equals(themeFilter, ignoreCase = true) }
+            ?.words
+            .orEmpty()
+    } else {
+        WordRepository(application).loadWords()
+    }
+
+    private val sortedWords: List<Word> = allWords
         .filter { typeFilter == null || it.type == typeFilter }
         .sortedBy { it.dutch.lowercase() }
 

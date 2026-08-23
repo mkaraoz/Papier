@@ -1007,6 +1007,1725 @@
       "type": "verb",
       "example": "Ik wil koffie.",
       "exampleTranslation": "I want coffee."
+    },
+    {
+      "id": "113",
+      "dutch": "ander",
+      "article": null,
+      "english": "other",
+      "type": "adjective",
+      "example": "Ik wil een andere banaan.",
+      "exampleTranslation": "I want a different banana."
+    },
+    {
+      "id": "114",
+      "dutch": "appel",
+      "article": "de",
+      "english": "apple",
+      "type": "noun",
+      "example": "Ik eet een appel.",
+      "exampleTranslation": "I eat an apple."
+    },
+    {
+      "id": "115",
+      "dutch": "banaan",
+      "article": "de",
+      "english": "banana",
+      "type": "noun",
+      "example": "De banaan is geel.",
+      "exampleTranslation": "The banana is yellow."
+    },
+    {
+      "id": "116",
+      "dutch": "bijna",
+      "article": null,
+      "english": "almost",
+      "type": "adverb",
+      "example": "Ik ben bijna klaar.",
+      "exampleTranslation": "I'm almost done."
+    },
+    {
+      "id": "117",
+      "dutch": "boodschappen",
+      "article": "de",
+      "english": "groceries",
+      "type": "noun",
+      "example": "Ik doe de boodschappen.",
+      "exampleTranslation": "I do the groceries."
+    },
+    {
+      "id": "118",
+      "dutch": "doen",
+      "article": null,
+      "english": "to do",
+      "type": "verb",
+      "example": "Wat ga je doen?",
+      "exampleTranslation": "What are you going to do?"
+    },
+    {
+      "id": "119",
+      "dutch": "dus",
+      "article": null,
+      "english": "so",
+      "type": "conjunction",
+      "example": "Ik heb geen brood, dus ik ga naar de bakker.",
+      "exampleTranslation": "I have no bread, so I'm going to the bakery."
+    },
+    {
+      "id": "120",
+      "dutch": "fruit",
+      "article": "het",
+      "english": "fruit",
+      "type": "noun",
+      "example": "Ik eet graag fruit.",
+      "exampleTranslation": "I like eating fruit."
+    },
+    {
+      "id": "121",
+      "dutch": "groente",
+      "article": "de",
+      "english": "vegetable",
+      "type": "noun",
+      "example": "Groente is gezond.",
+      "exampleTranslation": "Vegetables are healthy."
+    },
+    {
+      "id": "122",
+      "dutch": "kip",
+      "article": "de",
+      "english": "chicken",
+      "type": "noun",
+      "example": "We eten kip vanavond.",
+      "exampleTranslation": "We're eating chicken tonight."
+    },
+    {
+      "id": "123",
+      "dutch": "kopen",
+      "article": null,
+      "english": "to buy",
+      "type": "verb",
+      "example": "Ik koop brood bij de bakker.",
+      "exampleTranslation": "I buy bread at the bakery."
+    },
+    {
+      "id": "124",
+      "dutch": "lijst",
+      "article": "de",
+      "english": "list",
+      "type": "noun",
+      "example": "Ik maak een boodschappenlijst.",
+      "exampleTranslation": "I make a shopping list."
+    },
+    {
+      "id": "125",
+      "dutch": "maken",
+      "article": null,
+      "english": "to make",
+      "type": "verb",
+      "example": "Ik maak een lijst.",
+      "exampleTranslation": "I make a list."
+    },
+    {
+      "id": "126",
+      "dutch": "markt",
+      "article": "de",
+      "english": "market",
+      "type": "noun",
+      "example": "Op zaterdag ga ik naar de markt.",
+      "exampleTranslation": "On Saturday I go to the market."
+    },
+    {
+      "id": "127",
+      "dutch": "meer",
+      "article": null,
+      "english": "more",
+      "type": "adverb",
+      "example": "Ik wil meer fruit.",
+      "exampleTranslation": "I want more fruit."
+    },
+    {
+      "id": "128",
+      "dutch": "of",
+      "article": null,
+      "english": "or",
+      "type": "conjunction",
+      "example": "Wil je thee of koffie?",
+      "exampleTranslation": "Do you want tea or coffee?"
+    },
+    {
+      "id": "129",
+      "dutch": "praten",
+      "article": null,
+      "english": "to talk",
+      "type": "verb",
+      "example": "We praten over het weer.",
+      "exampleTranslation": "We talk about the weather."
+    },
+    {
+      "id": "130",
+      "dutch": "rijst",
+      "article": "de",
+      "english": "rice",
+      "type": "noun",
+      "example": "Ik kook rijst.",
+      "exampleTranslation": "I cook rice."
+    },
+    {
+      "id": "131",
+      "dutch": "supermarkt",
+      "article": "de",
+      "english": "supermarket",
+      "type": "noun",
+      "example": "De supermarkt is dichtbij.",
+      "exampleTranslation": "The supermarket is nearby."
+    },
+    {
+      "id": "132",
+      "dutch": "thuis",
+      "article": null,
+      "english": "at home",
+      "type": "adverb",
+      "example": "Ik ben vandaag thuis.",
+      "exampleTranslation": "I am at home today."
+    },
+    {
+      "id": "133",
+      "dutch": "tomaat",
+      "article": "de",
+      "english": "tomato",
+      "type": "noun",
+      "example": "De tomaat is rood.",
+      "exampleTranslation": "The tomato is red."
+    },
+    {
+      "id": "134",
+      "dutch": "vis",
+      "article": "de",
+      "english": "fish",
+      "type": "noun",
+      "example": "We eten vis op vrijdag.",
+      "exampleTranslation": "We eat fish on Friday."
+    },
+    {
+      "id": "135",
+      "dutch": "vlees",
+      "article": "het",
+      "english": "meat",
+      "type": "noun",
+      "example": "Hij eet geen vlees.",
+      "exampleTranslation": "He doesn't eat meat."
+    },
+    {
+      "id": "136",
+      "dutch": "we",
+      "article": null,
+      "english": "we",
+      "type": "pronoun",
+      "example": "We doen boodschappen.",
+      "exampleTranslation": "We do the groceries."
+    },
+    {
+      "id": "137",
+      "dutch": "wortel",
+      "article": "de",
+      "english": "carrot",
+      "type": "noun",
+      "example": "Konijnen houden van wortels.",
+      "exampleTranslation": "Rabbits love carrots."
+    },
+    {
+      "id": "138",
+      "dutch": "aardappel",
+      "article": "de",
+      "english": "potato",
+      "type": "noun",
+      "example": "Ik kook aardappelen.",
+      "exampleTranslation": "I cook potatoes."
+    },
+    {
+      "id": "139",
+      "dutch": "alsjeblieft",
+      "article": null,
+      "english": "please / here you are (informal)",
+      "type": "interjection",
+      "example": "Een appel, alsjeblieft.",
+      "exampleTranslation": "An apple, please."
+    },
+    {
+      "id": "140",
+      "dutch": "alstublieft",
+      "article": null,
+      "english": "please / here you are (formal)",
+      "type": "interjection",
+      "example": "Hier is uw wisselgeld, alstublieft.",
+      "exampleTranslation": "Here is your change, please."
+    },
+    {
+      "id": "141",
+      "dutch": "anders",
+      "article": null,
+      "english": "otherwise / different",
+      "type": "adverb",
+      "example": "Anders neem ik de trein.",
+      "exampleTranslation": "Otherwise I'll take the train."
+    },
+    {
+      "id": "142",
+      "dutch": "dag",
+      "article": null,
+      "english": "hi / bye",
+      "type": "interjection",
+      "example": "Dag, tot morgen!",
+      "exampleTranslation": "Bye, see you tomorrow!"
+    },
+    {
+      "id": "143",
+      "dutch": "dan",
+      "article": null,
+      "english": "then",
+      "type": "adverb",
+      "example": "Eerst koken, dan eten.",
+      "exampleTranslation": "First cook, then eat."
+    },
+    {
+      "id": "144",
+      "dutch": "ei",
+      "article": "het",
+      "english": "egg",
+      "type": "noun",
+      "example": "Ik eet een ei.",
+      "exampleTranslation": "I eat an egg."
+    },
+    {
+      "id": "145",
+      "dutch": "fijn",
+      "article": null,
+      "english": "nice / pleasant",
+      "type": "adjective",
+      "example": "Fijn dat je er bent.",
+      "exampleTranslation": "Nice that you're here."
+    },
+    {
+      "id": "146",
+      "dutch": "goed",
+      "article": null,
+      "english": "good",
+      "type": "adjective",
+      "example": "Dat is goed.",
+      "exampleTranslation": "That's good."
+    },
+    {
+      "id": "147",
+      "dutch": "gram",
+      "article": "de",
+      "english": "gram",
+      "type": "noun",
+      "example": "Ik wil tweehonderd gram kaas.",
+      "exampleTranslation": "I want two hundred grams of cheese."
+    },
+    {
+      "id": "148",
+      "dutch": "hoeveel",
+      "article": null,
+      "english": "how much / how many",
+      "type": "adverb",
+      "example": "Hoeveel kost dit?",
+      "exampleTranslation": "How much does this cost?"
+    },
+    {
+      "id": "149",
+      "dutch": "iets",
+      "article": null,
+      "english": "something",
+      "type": "pronoun",
+      "example": "Wilt u nog iets?",
+      "exampleTranslation": "Would you like anything else?"
+    },
+    {
+      "id": "150",
+      "dutch": "jammer",
+      "article": null,
+      "english": "a shame / pity",
+      "type": "interjection",
+      "example": "Wat jammer!",
+      "exampleTranslation": "What a shame!"
+    },
+    {
+      "id": "151",
+      "dutch": "kaas",
+      "article": "de",
+      "english": "cheese",
+      "type": "noun",
+      "example": "Ik hou van kaas.",
+      "exampleTranslation": "I love cheese."
+    },
+    {
+      "id": "152",
+      "dutch": "kijken",
+      "article": null,
+      "english": "to look / watch",
+      "type": "verb",
+      "example": "Kijk eens hier.",
+      "exampleTranslation": "Look here."
+    },
+    {
+      "id": "153",
+      "dutch": "kilo",
+      "article": "de",
+      "english": "kilogram",
+      "type": "noun",
+      "example": "Ik koop een kilo appels.",
+      "exampleTranslation": "I buy a kilo of apples."
+    },
+    {
+      "id": "154",
+      "dutch": "mevrouw",
+      "article": null,
+      "english": "madam / Mrs.",
+      "type": "noun",
+      "example": "Goedemorgen, mevrouw.",
+      "exampleTranslation": "Good morning, madam."
+    },
+    {
+      "id": "155",
+      "dutch": "mogen",
+      "article": null,
+      "english": "to be allowed to / may",
+      "type": "verb",
+      "example": "Mag ik pinnen?",
+      "exampleTranslation": "May I pay by card?"
+    },
+    {
+      "id": "156",
+      "dutch": "nee",
+      "article": null,
+      "english": "no",
+      "type": "interjection",
+      "example": "Nee, dank u.",
+      "exampleTranslation": "No, thank you."
+    },
+    {
+      "id": "157",
+      "dutch": "nemen",
+      "article": null,
+      "english": "to take",
+      "type": "verb",
+      "example": "Ik neem de appels.",
+      "exampleTranslation": "I'll take the apples."
+    },
+    {
+      "id": "158",
+      "dutch": "pinnen",
+      "article": null,
+      "english": "to pay by (debit) card",
+      "type": "verb",
+      "example": "Kan ik hier pinnen?",
+      "exampleTranslation": "Can I pay by card here?"
+    },
+    {
+      "id": "159",
+      "dutch": "verkoper",
+      "article": "de",
+      "english": "salesperson / vendor",
+      "type": "noun",
+      "example": "De verkoper helpt mij.",
+      "exampleTranslation": "The salesperson helps me."
+    },
+    {
+      "id": "160",
+      "dutch": "voor",
+      "article": null,
+      "english": "for / in front of",
+      "type": "preposition",
+      "example": "Dit is voor jou.",
+      "exampleTranslation": "This is for you."
+    },
+    {
+      "id": "161",
+      "dutch": "zeggen",
+      "article": null,
+      "english": "to say",
+      "type": "verb",
+      "example": "Wat zeg je?",
+      "exampleTranslation": "What are you saying?"
+    },
+    {
+      "id": "162",
+      "dutch": "bakker",
+      "article": "de",
+      "english": "baker / bakery",
+      "type": "noun",
+      "example": "Ik koop brood bij de bakker.",
+      "exampleTranslation": "I buy bread at the bakery."
+    },
+    {
+      "id": "163",
+      "dutch": "bij",
+      "article": null,
+      "english": "at / near",
+      "type": "preposition",
+      "example": "Ik ben bij de supermarkt.",
+      "exampleTranslation": "I am at the supermarket."
+    },
+    {
+      "id": "164",
+      "dutch": "brood",
+      "article": "het",
+      "english": "bread",
+      "type": "noun",
+      "example": "Ik eet brood met kaas.",
+      "exampleTranslation": "I eat bread with cheese."
+    },
+    {
+      "id": "165",
+      "dutch": "buurt",
+      "article": "de",
+      "english": "neighborhood",
+      "type": "noun",
+      "example": "Er is een supermarkt in de buurt.",
+      "exampleTranslation": "There is a supermarket in the neighborhood."
+    },
+    {
+      "id": "166",
+      "dutch": "dinsdag",
+      "article": null,
+      "english": "Tuesday",
+      "type": "noun",
+      "example": "Op dinsdag werk ik niet.",
+      "exampleTranslation": "On Tuesday I don't work."
+    },
+    {
+      "id": "167",
+      "dutch": "duur",
+      "article": null,
+      "english": "expensive",
+      "type": "adjective",
+      "example": "Deze winkel is duur.",
+      "exampleTranslation": "This shop is expensive."
+    },
+    {
+      "id": "168",
+      "dutch": "goedkoop",
+      "article": null,
+      "english": "cheap",
+      "type": "adjective",
+      "example": "De markt is goedkoop.",
+      "exampleTranslation": "The market is cheap."
+    },
+    {
+      "id": "169",
+      "dutch": "halen",
+      "article": null,
+      "english": "to fetch / get",
+      "type": "verb",
+      "example": "Ik haal brood bij de bakker.",
+      "exampleTranslation": "I get bread from the bakery."
+    },
+    {
+      "id": "170",
+      "dutch": "hier",
+      "article": null,
+      "english": "here",
+      "type": "adverb",
+      "example": "Ik woon hier.",
+      "exampleTranslation": "I live here."
+    },
+    {
+      "id": "171",
+      "dutch": "hoor",
+      "article": null,
+      "english": "you know (particle)",
+      "type": "interjection",
+      "example": "Dat is niet erg, hoor.",
+      "exampleTranslation": "That's not a problem, you know."
+    },
+    {
+      "id": "172",
+      "dutch": "kennen",
+      "article": null,
+      "english": "to know (be acquainted with)",
+      "type": "verb",
+      "example": "Ik ken die winkel.",
+      "exampleTranslation": "I know that shop."
+    },
+    {
+      "id": "173",
+      "dutch": "meestal",
+      "article": null,
+      "english": "usually",
+      "type": "adverb",
+      "example": "Ik ga meestal op zaterdag.",
+      "exampleTranslation": "I usually go on Saturday."
+    },
+    {
+      "id": "174",
+      "dutch": "middag",
+      "article": "de",
+      "english": "afternoon",
+      "type": "noun",
+      "example": "Ik werk 's middags.",
+      "exampleTranslation": "I work in the afternoon."
+    },
+    {
+      "id": "175",
+      "dutch": "natuurlijk",
+      "article": null,
+      "english": "of course / naturally",
+      "type": "adverb",
+      "example": "Natuurlijk help ik je.",
+      "exampleTranslation": "Of course I'll help you."
+    },
+    {
+      "id": "176",
+      "dutch": "ochtend",
+      "article": "de",
+      "english": "morning",
+      "type": "noun",
+      "example": "Ik doe boodschappen in de ochtend.",
+      "exampleTranslation": "I do groceries in the morning."
+    },
+    {
+      "id": "177",
+      "dutch": "soms",
+      "article": null,
+      "english": "sometimes",
+      "type": "adverb",
+      "example": "Soms ga ik naar de markt.",
+      "exampleTranslation": "Sometimes I go to the market."
+    },
+    {
+      "id": "178",
+      "dutch": "veel",
+      "article": null,
+      "english": "much / many",
+      "type": "adverb",
+      "example": "Ik heb veel boodschappen.",
+      "exampleTranslation": "I have a lot of groceries."
+    },
+    {
+      "id": "179",
+      "dutch": "ver",
+      "article": null,
+      "english": "far",
+      "type": "adjective",
+      "example": "De winkel is niet ver.",
+      "exampleTranslation": "The shop is not far."
+    },
+    {
+      "id": "180",
+      "dutch": "vers",
+      "article": null,
+      "english": "fresh",
+      "type": "adjective",
+      "example": "Het brood is vers.",
+      "exampleTranslation": "The bread is fresh."
+    },
+    {
+      "id": "181",
+      "dutch": "vragen",
+      "article": null,
+      "english": "to ask",
+      "type": "verb",
+      "example": "Ik vraag het aan de verkoper.",
+      "exampleTranslation": "I ask the salesperson."
+    },
+    {
+      "id": "182",
+      "dutch": "wanneer",
+      "article": null,
+      "english": "when",
+      "type": "adverb",
+      "example": "Wanneer ga je naar de markt?",
+      "exampleTranslation": "When are you going to the market?"
+    },
+    {
+      "id": "183",
+      "dutch": "wel",
+      "article": null,
+      "english": "indeed / certainly (particle)",
+      "type": "adverb",
+      "example": "Dat is wel duur.",
+      "exampleTranslation": "That is indeed expensive."
+    },
+    {
+      "id": "184",
+      "dutch": "welk",
+      "article": null,
+      "english": "which",
+      "type": "pronoun",
+      "example": "Welke winkel bedoel je?",
+      "exampleTranslation": "Which shop do you mean?"
+    },
+    {
+      "id": "185",
+      "dutch": "zaterdag",
+      "article": null,
+      "english": "Saturday",
+      "type": "noun",
+      "example": "Op zaterdag ga ik naar de markt.",
+      "exampleTranslation": "On Saturday I go to the market."
+    },
+    {
+      "id": "186",
+      "dutch": "zien",
+      "article": null,
+      "english": "to see",
+      "type": "verb",
+      "example": "Ik zie de bakker.",
+      "exampleTranslation": "I see the baker."
+    },
+    {
+      "id": "187",
+      "dutch": "chips",
+      "article": "de",
+      "english": "chips / crisps",
+      "type": "noun",
+      "example": "Ik eet graag chips.",
+      "exampleTranslation": "I like eating chips."
+    },
+    {
+      "id": "188",
+      "dutch": "denken",
+      "article": null,
+      "english": "to think",
+      "type": "verb",
+      "example": "Ik denk dat de winkel dicht is.",
+      "exampleTranslation": "I think the shop is closed."
+    },
+    {
+      "id": "189",
+      "dutch": "dicht",
+      "article": null,
+      "english": "closed / shut",
+      "type": "adjective",
+      "example": "De supermarkt is dicht.",
+      "exampleTranslation": "The supermarket is closed."
+    },
+    {
+      "id": "190",
+      "dutch": "fietsen",
+      "article": null,
+      "english": "to cycle",
+      "type": "verb",
+      "example": "Ik fiets naar de supermarkt.",
+      "exampleTranslation": "I cycle to the supermarket."
+    },
+    {
+      "id": "191",
+      "dutch": "half",
+      "article": null,
+      "english": "half",
+      "type": "adjective",
+      "example": "Het is half acht.",
+      "exampleTranslation": "It's half past seven."
+    },
+    {
+      "id": "192",
+      "dutch": "internet",
+      "article": "het",
+      "english": "internet",
+      "type": "noun",
+      "example": "Ik zoek de openingstijden op internet.",
+      "exampleTranslation": "I look up the opening hours on the internet."
+    },
+    {
+      "id": "193",
+      "dutch": "keuken",
+      "article": "de",
+      "english": "kitchen",
+      "type": "noun",
+      "example": "De keuken is klein.",
+      "exampleTranslation": "The kitchen is small."
+    },
+    {
+      "id": "194",
+      "dutch": "laat",
+      "article": null,
+      "english": "late",
+      "type": "adjective",
+      "example": "De winkel sluit laat.",
+      "exampleTranslation": "The shop closes late."
+    },
+    {
+      "id": "195",
+      "dutch": "leeg",
+      "article": null,
+      "english": "empty",
+      "type": "adjective",
+      "example": "De koelkast is leeg.",
+      "exampleTranslation": "The fridge is empty."
+    },
+    {
+      "id": "196",
+      "dutch": "liggen",
+      "article": null,
+      "english": "to lie / be located",
+      "type": "verb",
+      "example": "De supermarkt ligt om de hoek.",
+      "exampleTranslation": "The supermarket is around the corner."
+    },
+    {
+      "id": "197",
+      "dutch": "maandag",
+      "article": null,
+      "english": "Monday",
+      "type": "noun",
+      "example": "Op maandag is de winkel dicht.",
+      "exampleTranslation": "On Monday the shop is closed."
+    },
+    {
+      "id": "198",
+      "dutch": "open",
+      "article": null,
+      "english": "open",
+      "type": "adjective",
+      "example": "Is de Jumbo nog open?",
+      "exampleTranslation": "Is the Jumbo still open?"
+    },
+    {
+      "id": "199",
+      "dutch": "openingstijden",
+      "article": "de",
+      "english": "opening hours",
+      "type": "noun",
+      "example": "Wat zijn de openingstijden?",
+      "exampleTranslation": "What are the opening hours?"
+    },
+    {
+      "id": "200",
+      "dutch": "'s avonds",
+      "article": null,
+      "english": "in the evening",
+      "type": "adverb",
+      "example": "Ik kook 's avonds.",
+      "exampleTranslation": "I cook in the evening."
+    },
+    {
+      "id": "201",
+      "dutch": "'s middags",
+      "article": null,
+      "english": "in the afternoon",
+      "type": "adverb",
+      "example": "Ik werk 's middags.",
+      "exampleTranslation": "I work in the afternoon."
+    },
+    {
+      "id": "202",
+      "dutch": "'s morgens",
+      "article": null,
+      "english": "in the morning",
+      "type": "adverb",
+      "example": "Ik fiets 's morgens naar mijn werk.",
+      "exampleTranslation": "I cycle to work in the morning."
+    },
+    {
+      "id": "203",
+      "dutch": "'s nachts",
+      "article": null,
+      "english": "at night",
+      "type": "adverb",
+      "example": "De winkel is 's nachts dicht.",
+      "exampleTranslation": "The shop is closed at night."
+    },
+    {
+      "id": "204",
+      "dutch": "'s ochtends",
+      "article": null,
+      "english": "in the morning",
+      "type": "adverb",
+      "example": "Ik doe boodschappen 's ochtends.",
+      "exampleTranslation": "I do groceries in the morning."
+    },
+    {
+      "id": "205",
+      "dutch": "tot",
+      "article": null,
+      "english": "until",
+      "type": "preposition",
+      "example": "De winkel is open tot negen uur.",
+      "exampleTranslation": "The shop is open until nine o'clock."
+    },
+    {
+      "id": "206",
+      "dutch": "uur",
+      "article": "het",
+      "english": "hour / o'clock",
+      "type": "noun",
+      "example": "Het is drie uur.",
+      "exampleTranslation": "It's three o'clock."
+    },
+    {
+      "id": "207",
+      "dutch": "weten",
+      "article": null,
+      "english": "to know (a fact)",
+      "type": "verb",
+      "example": "Ik weet het niet.",
+      "exampleTranslation": "I don't know."
+    },
+    {
+      "id": "208",
+      "dutch": "zak",
+      "article": "de",
+      "english": "bag",
+      "type": "noun",
+      "example": "Een zak chips, alstublieft.",
+      "exampleTranslation": "A bag of chips, please."
+    },
+    {
+      "id": "209",
+      "dutch": "alles",
+      "article": null,
+      "english": "everything",
+      "type": "pronoun",
+      "example": "Alles is klaar.",
+      "exampleTranslation": "Everything is ready."
+    },
+    {
+      "id": "210",
+      "dutch": "beterschap",
+      "article": null,
+      "english": "get well soon",
+      "type": "interjection",
+      "example": "Beterschap!",
+      "exampleTranslation": "Get well soon!"
+    },
+    {
+      "id": "211",
+      "dutch": "bezig",
+      "article": null,
+      "english": "busy",
+      "type": "adjective",
+      "example": "Ik ben bezig met koken.",
+      "exampleTranslation": "I am busy cooking."
+    },
+    {
+      "id": "212",
+      "dutch": "broer",
+      "article": "de",
+      "english": "brother",
+      "type": "noun",
+      "example": "Mijn broer woont in Almere.",
+      "exampleTranslation": "My brother lives in Almere."
+    },
+    {
+      "id": "213",
+      "dutch": "daar",
+      "article": null,
+      "english": "there",
+      "type": "adverb",
+      "example": "De winkel is daar.",
+      "exampleTranslation": "The shop is there."
+    },
+    {
+      "id": "214",
+      "dutch": "druk",
+      "article": null,
+      "english": "busy / crowded",
+      "type": "adjective",
+      "example": "Het is druk in de winkel.",
+      "exampleTranslation": "It's busy in the shop."
+    },
+    {
+      "id": "215",
+      "dutch": "een beetje",
+      "article": null,
+      "english": "a little bit",
+      "type": "adverb",
+      "example": "Ik spreek een beetje Nederlands.",
+      "exampleTranslation": "I speak a little Dutch."
+    },
+    {
+      "id": "216",
+      "dutch": "eindelijk",
+      "article": null,
+      "english": "finally",
+      "type": "adverb",
+      "example": "Eindelijk is het weekend!",
+      "exampleTranslation": "Finally it's the weekend!"
+    },
+    {
+      "id": "217",
+      "dutch": "groet",
+      "article": "de",
+      "english": "greeting",
+      "type": "noun",
+      "example": "Met vriendelijke groet.",
+      "exampleTranslation": "Kind regards."
+    },
+    {
+      "id": "218",
+      "dutch": "lekker",
+      "article": null,
+      "english": "nice / tasty",
+      "type": "adjective",
+      "example": "Het eten is lekker.",
+      "exampleTranslation": "The food is tasty."
+    },
+    {
+      "id": "219",
+      "dutch": "moeder",
+      "article": "de",
+      "english": "mother",
+      "type": "noun",
+      "example": "Mijn moeder woont in Utrecht.",
+      "exampleTranslation": "My mother lives in Utrecht."
+    },
+    {
+      "id": "220",
+      "dutch": "morgen",
+      "article": null,
+      "english": "tomorrow",
+      "type": "adverb",
+      "example": "Tot morgen!",
+      "exampleTranslation": "See you tomorrow!"
+    },
+    {
+      "id": "221",
+      "dutch": "paracetamol",
+      "article": "de",
+      "english": "paracetamol",
+      "type": "noun",
+      "example": "Neem een paracetamol tegen de pijn.",
+      "exampleTranslation": "Take a paracetamol for the pain."
+    },
+    {
+      "id": "222",
+      "dutch": "prima",
+      "article": null,
+      "english": "fine / great",
+      "type": "adjective",
+      "example": "Dat is prima.",
+      "exampleTranslation": "That's fine."
+    },
+    {
+      "id": "223",
+      "dutch": "steeds",
+      "article": null,
+      "english": "constantly / increasingly",
+      "type": "adverb",
+      "example": "Het wordt steeds warmer.",
+      "exampleTranslation": "It's getting warmer and warmer."
+    },
+    {
+      "id": "224",
+      "dutch": "vervelend",
+      "article": null,
+      "english": "annoying",
+      "type": "adjective",
+      "example": "Dat is vervelend.",
+      "exampleTranslation": "That's annoying."
+    },
+    {
+      "id": "225",
+      "dutch": "vriend",
+      "article": "de",
+      "english": "friend (male)",
+      "type": "noun",
+      "example": "Hij is mijn beste vriend.",
+      "exampleTranslation": "He is my best friend."
+    },
+    {
+      "id": "226",
+      "dutch": "vriendin",
+      "article": "de",
+      "english": "friend (female) / girlfriend",
+      "type": "noun",
+      "example": "Zij is mijn vriendin.",
+      "exampleTranslation": "She is my friend/girlfriend."
+    },
+    {
+      "id": "227",
+      "dutch": "waarom",
+      "article": null,
+      "english": "why",
+      "type": "adverb",
+      "example": "Waarom kom je niet?",
+      "exampleTranslation": "Why aren't you coming?"
+    },
+    {
+      "id": "228",
+      "dutch": "warm",
+      "article": null,
+      "english": "warm",
+      "type": "adjective",
+      "example": "Het is warm vandaag.",
+      "exampleTranslation": "It's warm today."
+    },
+    {
+      "id": "229",
+      "dutch": "weer",
+      "article": "het",
+      "english": "weather",
+      "type": "noun",
+      "example": "Het weer is lekker.",
+      "exampleTranslation": "The weather is nice."
+    },
+    {
+      "id": "230",
+      "dutch": "worden",
+      "article": null,
+      "english": "to become",
+      "type": "verb",
+      "example": "Ik word beter.",
+      "exampleTranslation": "I am getting better."
+    },
+    {
+      "id": "231",
+      "dutch": "ziek",
+      "article": null,
+      "english": "sick",
+      "type": "adjective",
+      "example": "Ik ben ziek.",
+      "exampleTranslation": "I am sick."
+    },
+    {
+      "id": "232",
+      "dutch": "zo",
+      "article": null,
+      "english": "like this / so",
+      "type": "adverb",
+      "example": "Doe het zo.",
+      "exampleTranslation": "Do it like this."
+    },
+    {
+      "id": "233",
+      "dutch": "zon",
+      "article": "de",
+      "english": "sun",
+      "type": "noun",
+      "example": "De zon schijnt.",
+      "exampleTranslation": "The sun is shining."
+    },
+    {
+      "id": "234",
+      "dutch": "zus",
+      "article": "de",
+      "english": "sister",
+      "type": "noun",
+      "example": "Mijn zus is jarig.",
+      "exampleTranslation": "It's my sister's birthday."
+    },
+    {
+      "id": "235",
+      "dutch": "alweer",
+      "article": null,
+      "english": "already again",
+      "type": "adverb",
+      "example": "Is het alweer maandag?",
+      "exampleTranslation": "Is it Monday again already?"
+    },
+    {
+      "id": "236",
+      "dutch": "bezoek",
+      "article": "het",
+      "english": "visit",
+      "type": "noun",
+      "example": "We krijgen bezoek.",
+      "exampleTranslation": "We are getting visitors."
+    },
+    {
+      "id": "237",
+      "dutch": "binnenkomen",
+      "article": null,
+      "english": "to come in / enter",
+      "type": "verb",
+      "example": "Kom binnen!",
+      "exampleTranslation": "Come in!"
+    },
+    {
+      "id": "238",
+      "dutch": "drinken",
+      "article": null,
+      "english": "to drink",
+      "type": "verb",
+      "example": "Wil je iets drinken?",
+      "exampleTranslation": "Would you like something to drink?"
+    },
+    {
+      "id": "239",
+      "dutch": "eruitzien",
+      "article": null,
+      "english": "to look (appearance)",
+      "type": "verb",
+      "example": "Je ziet er goed uit.",
+      "exampleTranslation": "You look good."
+    },
+    {
+      "id": "240",
+      "dutch": "geven",
+      "article": null,
+      "english": "to give",
+      "type": "verb",
+      "example": "Ik geef je een kopje thee.",
+      "exampleTranslation": "I'll give you a cup of tea."
+    },
+    {
+      "id": "241",
+      "dutch": "heel",
+      "article": null,
+      "english": "very / whole",
+      "type": "adverb",
+      "example": "Het is heel lekker.",
+      "exampleTranslation": "It's very tasty."
+    },
+    {
+      "id": "242",
+      "dutch": "horen",
+      "article": null,
+      "english": "to hear",
+      "type": "verb",
+      "example": "Ik hoor je niet goed.",
+      "exampleTranslation": "I can't hear you well."
+    },
+    {
+      "id": "243",
+      "dutch": "huilen",
+      "article": null,
+      "english": "to cry",
+      "type": "verb",
+      "example": "Het kind huilt.",
+      "exampleTranslation": "The child is crying."
+    },
+    {
+      "id": "244",
+      "dutch": "jas",
+      "article": "de",
+      "english": "coat",
+      "type": "noun",
+      "example": "Doe je jas aan.",
+      "exampleTranslation": "Put on your coat."
+    },
+    {
+      "id": "245",
+      "dutch": "jongen",
+      "article": "de",
+      "english": "boy",
+      "type": "noun",
+      "example": "De jongen speelt buiten.",
+      "exampleTranslation": "The boy is playing outside."
+    },
+    {
+      "id": "246",
+      "dutch": "koffie",
+      "article": "de",
+      "english": "coffee",
+      "type": "noun",
+      "example": "Wil je koffie of thee?",
+      "exampleTranslation": "Would you like coffee or tea?"
+    },
+    {
+      "id": "247",
+      "dutch": "lachen",
+      "article": null,
+      "english": "to laugh",
+      "type": "verb",
+      "example": "We lachen veel.",
+      "exampleTranslation": "We laugh a lot."
+    },
+    {
+      "id": "248",
+      "dutch": "lief",
+      "article": null,
+      "english": "sweet / kind",
+      "type": "adjective",
+      "example": "Wat lief van je!",
+      "exampleTranslation": "How sweet of you!"
+    },
+    {
+      "id": "249",
+      "dutch": "melk",
+      "article": "de",
+      "english": "milk",
+      "type": "noun",
+      "example": "Ik drink melk in mijn koffie.",
+      "exampleTranslation": "I put milk in my coffee."
+    },
+    {
+      "id": "250",
+      "dutch": "moe",
+      "article": null,
+      "english": "tired",
+      "type": "adjective",
+      "example": "Ik ben moe.",
+      "exampleTranslation": "I am tired."
+    },
+    {
+      "id": "251",
+      "dutch": "slapen",
+      "article": null,
+      "english": "to sleep",
+      "type": "verb",
+      "example": "Ik ga slapen.",
+      "exampleTranslation": "I'm going to sleep."
+    },
+    {
+      "id": "252",
+      "dutch": "suiker",
+      "article": "de",
+      "english": "sugar",
+      "type": "noun",
+      "example": "Wil je suiker in je thee?",
+      "exampleTranslation": "Do you want sugar in your tea?"
+    },
+    {
+      "id": "253",
+      "dutch": "thee",
+      "article": "de",
+      "english": "tea",
+      "type": "noun",
+      "example": "Ik drink graag thee.",
+      "exampleTranslation": "I like drinking tea."
+    },
+    {
+      "id": "254",
+      "dutch": "zelf",
+      "article": null,
+      "english": "oneself / myself",
+      "type": "pronoun",
+      "example": "Ik doe het zelf.",
+      "exampleTranslation": "I'll do it myself."
+    },
+    {
+      "id": "255",
+      "dutch": "zitten",
+      "article": null,
+      "english": "to sit",
+      "type": "verb",
+      "example": "Ga zitten.",
+      "exampleTranslation": "Sit down."
+    },
+    {
+      "id": "256",
+      "dutch": "zonder",
+      "article": null,
+      "english": "without",
+      "type": "preposition",
+      "example": "Koffie zonder suiker, graag.",
+      "exampleTranslation": "Coffee without sugar, please."
+    },
+    {
+      "id": "257",
+      "dutch": "zwart",
+      "article": null,
+      "english": "black",
+      "type": "adjective",
+      "example": "Ik drink mijn koffie zwart.",
+      "exampleTranslation": "I drink my coffee black."
+    },
+    {
+      "id": "258",
+      "dutch": "avond",
+      "article": "de",
+      "english": "evening",
+      "type": "noun",
+      "example": "Vanavond kijk ik voetbal.",
+      "exampleTranslation": "Tonight I'm watching football."
+    },
+    {
+      "id": "259",
+      "dutch": "beginnen",
+      "article": null,
+      "english": "to begin",
+      "type": "verb",
+      "example": "De wedstrijd begint om acht uur.",
+      "exampleTranslation": "The match starts at eight o'clock."
+    },
+    {
+      "id": "260",
+      "dutch": "begrijpen",
+      "article": null,
+      "english": "to understand",
+      "type": "verb",
+      "example": "Ik begrijp het niet.",
+      "exampleTranslation": "I don't understand."
+    },
+    {
+      "id": "261",
+      "dutch": "bellen",
+      "article": null,
+      "english": "to call (phone)",
+      "type": "verb",
+      "example": "Ik bel je morgen.",
+      "exampleTranslation": "I'll call you tomorrow."
+    },
+    {
+      "id": "262",
+      "dutch": "bier",
+      "article": "het",
+      "english": "beer",
+      "type": "noun",
+      "example": "We drinken een biertje.",
+      "exampleTranslation": "We're having a beer."
+    },
+    {
+      "id": "263",
+      "dutch": "blijven",
+      "article": null,
+      "english": "to stay",
+      "type": "verb",
+      "example": "Blijf je eten?",
+      "exampleTranslation": "Are you staying for dinner?"
+    },
+    {
+      "id": "264",
+      "dutch": "deze",
+      "article": null,
+      "english": "this / these",
+      "type": "pronoun",
+      "example": "Deze winkel is nieuw.",
+      "exampleTranslation": "This shop is new."
+    },
+    {
+      "id": "265",
+      "dutch": "die",
+      "article": null,
+      "english": "that / those",
+      "type": "pronoun",
+      "example": "Die man is mijn buurman.",
+      "exampleTranslation": "That man is my neighbor."
+    },
+    {
+      "id": "266",
+      "dutch": "echt",
+      "article": null,
+      "english": "real / really",
+      "type": "adverb",
+      "example": "Dat is echt lekker.",
+      "exampleTranslation": "That's really tasty."
+    },
+    {
+      "id": "267",
+      "dutch": "genoeg",
+      "article": null,
+      "english": "enough",
+      "type": "adverb",
+      "example": "Ik heb genoeg gegeten.",
+      "exampleTranslation": "I've eaten enough."
+    },
+    {
+      "id": "268",
+      "dutch": "gezellig",
+      "article": null,
+      "english": "cozy / fun",
+      "type": "adjective",
+      "example": "Het is gezellig hier.",
+      "exampleTranslation": "It's cozy here."
+    },
+    {
+      "id": "269",
+      "dutch": "keer",
+      "article": "de",
+      "english": "time (occurrence)",
+      "type": "noun",
+      "example": "Dit is de eerste keer.",
+      "exampleTranslation": "This is the first time."
+    },
+    {
+      "id": "270",
+      "dutch": "later",
+      "article": null,
+      "english": "later",
+      "type": "adverb",
+      "example": "Ik bel je later.",
+      "exampleTranslation": "I'll call you later."
+    },
+    {
+      "id": "271",
+      "dutch": "lawaai",
+      "article": "het",
+      "english": "noise",
+      "type": "noun",
+      "example": "Wat een lawaai!",
+      "exampleTranslation": "What a noise!"
+    },
+    {
+      "id": "272",
+      "dutch": "luisteren",
+      "article": null,
+      "english": "to listen",
+      "type": "verb",
+      "example": "Ik luister naar muziek.",
+      "exampleTranslation": "I'm listening to music."
+    },
+    {
+      "id": "273",
+      "dutch": "rustig",
+      "article": null,
+      "english": "calm / quiet",
+      "type": "adjective",
+      "example": "Het is hier rustig.",
+      "exampleTranslation": "It's quiet here."
+    },
+    {
+      "id": "274",
+      "dutch": "uitnodigen",
+      "article": null,
+      "english": "to invite",
+      "type": "verb",
+      "example": "Ik nodig je uit voor het feest.",
+      "exampleTranslation": "I invite you to the party."
+    },
+    {
+      "id": "275",
+      "dutch": "vakantie",
+      "article": "de",
+      "english": "holiday / vacation",
+      "type": "noun",
+      "example": "Ik ga op vakantie.",
+      "exampleTranslation": "I'm going on vacation."
+    },
+    {
+      "id": "276",
+      "dutch": "voetbal",
+      "article": "het",
+      "english": "football / soccer",
+      "type": "noun",
+      "example": "Hij kijkt graag voetbal.",
+      "exampleTranslation": "He likes watching football."
+    },
+    {
+      "id": "277",
+      "dutch": "vrijdag",
+      "article": null,
+      "english": "Friday",
+      "type": "noun",
+      "example": "Op vrijdag ga ik naar de markt.",
+      "exampleTranslation": "On Friday I go to the market."
+    },
+    {
+      "id": "278",
+      "dutch": "weg",
+      "article": null,
+      "english": "away / gone",
+      "type": "adverb",
+      "example": "Hij is al weg.",
+      "exampleTranslation": "He's already gone."
+    },
+    {
+      "id": "279",
+      "dutch": "afgesproken",
+      "article": null,
+      "english": "agreed",
+      "type": "adjective",
+      "example": "Afgesproken, tot morgen!",
+      "exampleTranslation": "Agreed, see you tomorrow!"
+    },
+    {
+      "id": "280",
+      "dutch": "afspraak",
+      "article": "de",
+      "english": "appointment",
+      "type": "noun",
+      "example": "Ik heb een afspraak om drie uur.",
+      "exampleTranslation": "I have an appointment at three o'clock."
+    },
+    {
+      "id": "281",
+      "dutch": "baan",
+      "article": "de",
+      "english": "job",
+      "type": "noun",
+      "example": "Ik heb een nieuwe baan.",
+      "exampleTranslation": "I have a new job."
+    },
+    {
+      "id": "282",
+      "dutch": "bericht",
+      "article": "het",
+      "english": "message",
+      "type": "noun",
+      "example": "Ik stuur je een bericht.",
+      "exampleTranslation": "I'll send you a message."
+    },
+    {
+      "id": "283",
+      "dutch": "blij",
+      "article": null,
+      "english": "happy / glad",
+      "type": "adjective",
+      "example": "Ik ben heel blij.",
+      "exampleTranslation": "I am very happy."
+    },
+    {
+      "id": "284",
+      "dutch": "februari",
+      "article": null,
+      "english": "February",
+      "type": "noun",
+      "example": "Mijn verjaardag is in februari.",
+      "exampleTranslation": "My birthday is in February."
+    },
+    {
+      "id": "285",
+      "dutch": "feestje",
+      "article": "het",
+      "english": "party",
+      "type": "noun",
+      "example": "We geven een feestje.",
+      "exampleTranslation": "We're throwing a party."
+    },
+    {
+      "id": "286",
+      "dutch": "feliciteren",
+      "article": null,
+      "english": "to congratulate",
+      "type": "verb",
+      "example": "Ik feliciteer je met je verjaardag.",
+      "exampleTranslation": "I congratulate you on your birthday."
+    },
+    {
+      "id": "287",
+      "dutch": "gauw",
+      "article": null,
+      "english": "soon",
+      "type": "adverb",
+      "example": "Tot gauw!",
+      "exampleTranslation": "See you soon!"
+    },
+    {
+      "id": "288",
+      "dutch": "gefeliciteerd",
+      "article": null,
+      "english": "congratulations",
+      "type": "interjection",
+      "example": "Gefeliciteerd met je verjaardag!",
+      "exampleTranslation": "Congratulations on your birthday!"
+    },
+    {
+      "id": "289",
+      "dutch": "geleden",
+      "article": null,
+      "english": "ago",
+      "type": "adverb",
+      "example": "Twee jaar geleden woonde ik in Polen.",
+      "exampleTranslation": "Two years ago I lived in Poland."
+    },
+    {
+      "id": "290",
+      "dutch": "januari",
+      "article": null,
+      "english": "January",
+      "type": "noun",
+      "example": "Het is koud in januari.",
+      "exampleTranslation": "It's cold in January."
+    },
+    {
+      "id": "291",
+      "dutch": "jarig",
+      "article": null,
+      "english": "having a birthday",
+      "type": "adjective",
+      "example": "Ik ben morgen jarig.",
+      "exampleTranslation": "It's my birthday tomorrow."
+    },
+    {
+      "id": "292",
+      "dutch": "klinken",
+      "article": null,
+      "english": "to sound",
+      "type": "verb",
+      "example": "Dat klinkt goed.",
+      "exampleTranslation": "That sounds good."
+    },
+    {
+      "id": "293",
+      "dutch": "krijgen",
+      "article": null,
+      "english": "to get / receive",
+      "type": "verb",
+      "example": "Ik krijg een cadeau.",
+      "exampleTranslation": "I'm getting a present."
+    },
+    {
+      "id": "294",
+      "dutch": "misschien",
+      "article": null,
+      "english": "maybe",
+      "type": "adverb",
+      "example": "Misschien kom ik later.",
+      "exampleTranslation": "Maybe I'll come later."
+    },
+    {
+      "id": "295",
+      "dutch": "net",
+      "article": null,
+      "english": "just / exactly",
+      "type": "adverb",
+      "example": "Ik ben net thuis.",
+      "exampleTranslation": "I've just arrived home."
+    },
+    {
+      "id": "296",
+      "dutch": "nieuws",
+      "article": "het",
+      "english": "news",
+      "type": "noun",
+      "example": "Heb je het nieuws gehoord?",
+      "exampleTranslation": "Have you heard the news?"
+    },
+    {
+      "id": "297",
+      "dutch": "succes",
+      "article": "het",
+      "english": "success / good luck",
+      "type": "noun",
+      "example": "Succes met je examen!",
+      "exampleTranslation": "Good luck with your exam!"
+    },
+    {
+      "id": "298",
+      "dutch": "uitnodiging",
+      "article": "de",
+      "english": "invitation",
+      "type": "noun",
+      "example": "Bedankt voor de uitnodiging.",
+      "exampleTranslation": "Thanks for the invitation."
+    },
+    {
+      "id": "299",
+      "dutch": "vanavond",
+      "article": null,
+      "english": "tonight",
+      "type": "adverb",
+      "example": "Wat doe je vanavond?",
+      "exampleTranslation": "What are you doing tonight?"
+    },
+    {
+      "id": "300",
+      "dutch": "vandaag",
+      "article": null,
+      "english": "today",
+      "type": "adverb",
+      "example": "Vandaag is het mooi weer.",
+      "exampleTranslation": "Today the weather is nice."
+    },
+    {
+      "id": "301",
+      "dutch": "verjaardag",
+      "article": "de",
+      "english": "birthday",
+      "type": "noun",
+      "example": "Wanneer is je verjaardag?",
+      "exampleTranslation": "When is your birthday?"
+    },
+    {
+      "id": "302",
+      "dutch": "volgend",
+      "article": null,
+      "english": "next",
+      "type": "adjective",
+      "example": "Volgend jaar ga ik op vakantie.",
+      "exampleTranslation": "Next year I'm going on vacation."
+    },
+    {
+      "id": "303",
+      "dutch": "zeker",
+      "article": null,
+      "english": "certain / definitely",
+      "type": "adverb",
+      "example": "Ik kom zeker.",
+      "exampleTranslation": "I will definitely come."
     }
   ]
 }

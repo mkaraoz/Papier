@@ -27,6 +27,7 @@ import androidx.compose.material.icons.filled.Abc
 import androidx.compose.material.icons.filled.CalendarMonth
 import androidx.compose.material.icons.filled.ChevronRight
 import androidx.compose.material.icons.filled.Edit
+import androidx.compose.material.icons.filled.LocalOffer
 import androidx.compose.material.icons.filled.Schedule
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.filled.Tag
@@ -189,6 +190,7 @@ private fun TopicIcon.toImageVector(): ImageVector = when (this) {
     TopicIcon.CALENDAR -> Icons.Default.CalendarMonth
     TopicIcon.CLOCK -> Icons.Default.Schedule
     TopicIcon.CHAT -> Icons.AutoMirrored.Filled.Chat
+    TopicIcon.LABEL -> Icons.Default.LocalOffer
 }
 
 @Preview(showBackground = true, showSystemUi = true)

@@ -1,5 +1,6 @@
 package org.mk.papier
 
+import android.net.Uri
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -13,6 +14,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import org.mk.papier.ui.home.HomeScreen
+import org.mk.papier.ui.tags.TagsScreen
 import org.mk.papier.ui.theme.PapierTheme
 import org.mk.papier.ui.words.FlashcardsScreen
 import org.mk.papier.ui.words.WordListScreen
@@ -32,8 +34,18 @@ class MainActivity : ComponentActivity() {
                             HomeScreen(onTopicClick = { topic ->
                                 when (topic.id) {
                                     "words" -> navController.navigate("words_hub")
+                                    "tags" -> navController.navigate("tags")
                                 }
                             })
+                        }
+
+                        composable("tags") {
+                            TagsScreen(
+                                onBack = { navController.popBackStack() },
+                                onThemeClick = { theme ->
+                                    navController.navigate("word_list?theme=${Uri.encode(theme)}")
+                                }
+                            )
                         }
 
                         composable("words_hub") {
@@ -44,12 +56,19 @@ class MainActivity : ComponentActivity() {
                         }
 
                         composable(
-                            route = "word_list?filter={filter}",
-                            arguments = listOf(navArgument("filter") {
-                                type = NavType.StringType
-                                nullable = true
-                                defaultValue = null
-                            })
+                            route = "word_list?filter={filter}&theme={theme}",
+                            arguments = listOf(
+                                navArgument("filter") {
+                                    type = NavType.StringType
+                                    nullable = true
+                                    defaultValue = null
+                                },
+                                navArgument("theme") {
+                                    type = NavType.StringType
+                                    nullable = true
+                                    defaultValue = null
+                                }
+                            )
                         ) {
                             WordListScreen(onBack = { navController.popBackStack() })
                         }

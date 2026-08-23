@@ -35,8 +35,8 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -64,6 +64,9 @@ fun WordListScreen(
     val listState = rememberLazyListState()
     val scope = rememberCoroutineScope()
 
+    // Only one word can be expanded at a time
+    var expandedWordId by rememberSaveable { mutableStateOf<String?>(null) }
+
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -83,7 +86,7 @@ fun WordListScreen(
                 )
             }
             Text(
-                text = "Word List",
+                text = viewModel.title,
                 fontSize = 20.sp,
                 fontWeight = FontWeight.Bold,
                 color = Color(0xFF1A1A1A),
@@ -150,20 +153,28 @@ fun WordListScreen(
             verticalArrangement = Arrangement.spacedBy(8.dp)
         ) {
             items(words, key = { it.id }) { word ->
-                WordItem(word = word)
+                WordItem(
+                    word = word,
+                    expanded = word.id == expandedWordId,
+                    onClick = {
+                        expandedWordId = if (expandedWordId == word.id) null else word.id
+                    }
+                )
             }
         }
     }
 }
 
 @Composable
-private fun WordItem(word: Word) {
-    var expanded by remember { mutableStateOf(false) }
-
+private fun WordItem(
+    word: Word,
+    expanded: Boolean,
+    onClick: () -> Unit
+) {
     Card(
         modifier = Modifier
             .fillMaxWidth()
-            .clickable { expanded = !expanded }
+            .clickable(onClick = onClick)
             .animateContentSize(),
         shape = RoundedCornerShape(12.dp),
         colors = CardDefaults.cardColors(containerColor = Color.White),

@@ -14,6 +14,14 @@ val allTopics = listOf(
         colorHex = 0xFF4A90D9
     ),
     Topic(
+        id = "tags",
+        title = "Themes",
+        subtitle = "Words grouped by topic",
+        category = Category.WORDS,
+        icon = TopicIcon.LABEL,
+        colorHex = 0xFF9C27B0
+    ),
+    Topic(
         id = "grammar_word_order",
         title = "Word Order",
         subtitle = "Sentence structure",

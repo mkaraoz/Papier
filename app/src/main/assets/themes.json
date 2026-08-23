@@ -1,0 +1,97 @@
+{
+  "themes": {
+    "personal info": [
+      "voornaam",
+      "achternaam",
+      "adres",
+      "postcode",
+      "woonplaats",
+      "geboortedatum",
+      "geboren",
+      "nationaliteit",
+      "telefoonnummer",
+      "e-mailadres",
+      "formulier",
+      "invullen",
+      "heten",
+      "spellen"
+    ],
+    "people": [
+      "man",
+      "vrouw",
+      "kind",
+      "meneer",
+      "buren",
+      "buurvrouw",
+      "getrouwd",
+      "ontmoeten"
+    ],
+    "places": [
+      "huis",
+      "winkel",
+      "straat",
+      "dorp",
+      "stad",
+      "school",
+      "restaurant",
+      "gemeente",
+      "gemeentehuis",
+      "Nederland"
+    ],
+    "time": [
+      "jaar",
+      "maand",
+      "week",
+      "weekend",
+      "april",
+      "nu",
+      "altijd",
+      "al",
+      "nog",
+      "hoelang"
+    ],
+    "free time": [
+      "hobby",
+      "sporten",
+      "koken",
+      "eten",
+      "lopen",
+      "appen",
+      "ontmoeten",
+      "leuk",
+      "graag",
+      "houden van"
+    ],
+    "greetings": [
+      "hallo",
+      "goedemorgen",
+      "welkom",
+      "ja",
+      "oké",
+      "meneer"
+    ],
+    "describing": [
+      "mooi",
+      "groot",
+      "klein",
+      "oud",
+      "nieuw",
+      "leuk",
+      "snel"
+    ],
+    "everyday verbs": [
+      "zijn",
+      "hebben",
+      "gaan",
+      "komen",
+      "wonen",
+      "werken",
+      "kunnen",
+      "willen",
+      "helpen",
+      "leren",
+      "spreken",
+      "schrijven"
+    ]
+  }
+}

@@ -10,7 +10,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.statusBarsPadding
+import androidx.compose.foundation.layout.systemBarsPadding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
@@ -62,7 +62,7 @@ fun WordsHubScreen(
         modifier = Modifier
             .fillMaxSize()
             .background(Color(0xFFF0F4FF))
-            .statusBarsPadding()
+            .systemBarsPadding()
     ) {
         Row(
             modifier = Modifier

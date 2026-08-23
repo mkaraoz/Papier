@@ -5,8 +5,7 @@ enum class Category(val displayName: String) {
     WORDS("Words"),
     GRAMMAR("Grammar"),
     BASICS("Basics"),
-    TIME("Time"),
-    IDIOMS("Idioms")
+    TIME("Time")
 }
 
 enum class TopicIcon {

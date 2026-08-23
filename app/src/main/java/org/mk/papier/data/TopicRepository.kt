@@ -7,19 +7,11 @@ import org.mk.papier.model.TopicIcon
 val allTopics = listOf(
     Topic(
         id = "words",
-        title = "Word List",
-        subtitle = "All Dutch words you've learned",
+        title = "Words",
+        subtitle = "Lists, themes, idioms & flashcards",
         category = Category.WORDS,
         icon = TopicIcon.BOOK,
         colorHex = 0xFF4A90D9
-    ),
-    Topic(
-        id = "tags",
-        title = "Themes",
-        subtitle = "Words grouped by topic",
-        category = Category.WORDS,
-        icon = TopicIcon.LABEL,
-        colorHex = 0xFF9C27B0
     ),
     Topic(
         id = "grammar_word_order",
@@ -77,12 +69,4 @@ val allTopics = listOf(
         icon = TopicIcon.CLOCK,
         colorHex = 0xFFE91E63
     ),
-    Topic(
-        id = "idioms",
-        title = "Idioms",
-        subtitle = "Common Dutch expressions",
-        category = Category.IDIOMS,
-        icon = TopicIcon.CHAT,
-        colorHex = 0xFF9C27B0
-    )
 )

@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "language_from": "nl",
+    "language_to": "tr",
+    "version": 2,
+    "updated_at": "2026-08-23"
+  },
+  "phrases": [
+    {
+      "id": 1,
+      "phrase": "anders nog iets?",
+      "translation": "başka bir şey var mı?",
+      "en": "anything else?",
+      "explanation": "Dükkânda, kasada veya sipariş alırken 'başka bir şey ister misiniz?' anlamında kullanılır.",
+      "examples": [
+        {
+          "nl": "Dat was het? Anders nog iets?",
+          "tr": "Bu kadar mıydı? Başka bir şey var mı?"
+        }
+      ],
+      "tags": ["günlük", "alışveriş", "kalıp"]
+    },
+    {
+      "id": 2,
+      "phrase": "nog maar",
+      "translation": "sadece / yalnızca / ancak (azlık vurgusu)",
+      "en": "only … left",
+      "explanation": "Bir şeyin az kaldığını veya tükenmek üzere olduğunu vurgulayan çok yaygın bir kalıptır. 'nog' (hâlâ) + 'maar' (sadece) birleşiminden gelir. İngilizce 'only … left' yapısıyla neredeyse birebir örtüşür.",
+      "examples": [
+        {
+          "nl": "Wat jammer. Ik heb nog maar vier bananen, mevrouw.",
+          "tr": "Ne yazık. Sadece dört tane muzum kaldı, hanımefendi."
+        },
+        {
+          "nl": "Er zijn nog maar twee stoelen vrij.",
+          "tr": "Sadece iki sandalye boş kaldı."
+        }
+      ],
+      "tags": ["günlük", "kalıp", "miktar"]
+    },
+    {
+      "id": 3,
+      "phrase": "kijk eens",
+      "translation": "al bakalım / buyur",
+      "en": "here you go / look",
+      "explanation": "Bir şeyi birine uzatırken veya verirken kullanılır. Ayrıca birinin dikkatini çekmek için de söylenir. Türkçe 'buyur' ile ton olarak çok yakın — İngilizce 'look' daha sert kalır.",
+      "examples": [
+        {
+          "nl": "Kijk eens, een kilo aardappels voor u.",
+          "tr": "Buyrun, sizin için bir kilo patates."
+        }
+      ],
+      "tags": ["günlük", "alışveriş", "kalıp"]
+    },
+    {
+      "id": 4,
+      "phrase": "zeg het maar",
+      "translation": "buyrun söyleyin / nasıl yardımcı olabilirim?",
+      "en": "go ahead / what can I get you?",
+      "explanation": "Birinden ne istediğini söylemesini beklerken kullanılır. Dükkânda, restoranda veya herhangi bir hizmet ortamında çok yaygındır.",
+      "examples": [
+        {
+          "nl": "Wie kan ik helpen? Mevrouw? Ja, zeg het maar.",
+          "tr": "Kime yardımcı olabilirim? Hanımefendi? Evet, buyrun söyleyin."
+        }
+      ],
+      "tags": ["günlük", "alışveriş", "kalıp"]
+    },
+    {
+      "id": 5,
+      "phrase": "ik heb zin in / om te",
+      "translation": "canım ... istiyor / ...esim var",
+      "en": "to feel like (+ noun / + -ing)",
+      "explanation": "'Zin hebben in' bir isimle, 'zin hebben om te' bir fiille kullanılır. Türkçe'de iki ayrı yapıya ('canım istiyor' / '-esim var') dönüşür ama Hollandaca'da tek bir kalıptır — İngilizce 'feel like' da bu birliği koruyor. This is one Dutch pattern with two complement types: 'zin in' + noun, 'zin om te' + verb. Turkish renders it as two unrelated constructions, which hides the unity. English holds it together: 'feel like + noun' / 'feel like + -ing.' The pattern stays visible. Dikkat: 'zin hebben' isteği, 'willen' kararlılığı ifade eder; Türkçe 'istemek' ikisini de kapsar, karıştırma riski var.",
+      "examples": [
+        {
+          "nl": "Ik heb zin in chips.",
+          "tr": "Canım cips istiyor."
+        },
+        {
+          "nl": "Ik heb zin om te slapen.",
+          "tr": "Uyuyasım var."
+        },
+        {
+          "nl": "Ik heb zin om te fietsen.",
+          "tr": "Bisiklet süresim var."
+        }
+      ],
+      "tags": ["günlük", "kalıp", "dilbilgisi"]
+    },
+    {
+      "id": 6,
+      "phrase": "doe ... de groeten",
+      "translation": "...ya/ye selamımı söyle",
+      "en": "give my regards to …",
+      "explanation": "Birine, bir başkasına selam iletmesini rica ederken kullanılan kalıptır. 'Doe' ile başlar, ortaya kişi gelir. Türkçe 'selam söyle' ile ton ve yapı olarak neredeyse birebir; İngilizce 'give my regards' daha resmi kalır. Hollandaca versiyonu günlük ve samimi.",
+      "examples": [
+        {
+          "nl": "Doe je moeder de groeten!",
+          "tr": "Annene selamımı söyle!"
+        },
+        {
+          "nl": "Doe Peter de groeten van mij.",
+          "tr": "Peter'a benden selam söyle."
+        }
+      ],
+      "tags": ["günlük", "kalıp", "selamlaşma"]
+    },
+    {
+      "id": 7,
+      "phrase": "leuk je te zien!",
+      "translation": "seni görmek güzel!",
+      "en": "nice to see you!",
+      "explanation": "Birini gördüğünde memnuniyetini ifade etmek için kullanılır. Resmi hali: 'leuk u te zien'. İngilizce yapıyla ('nice to see you') birebir paralel.",
+      "examples": [
+        {
+          "nl": "Hé, Anna! Leuk je te zien! Hoe gaat het?",
+          "tr": "Hey, Anna! Seni görmek ne güzel! Nasılsın?"
+        }
+      ],
+      "tags": ["günlük", "kalıp", "selamlaşma"]
+    },
+    {
+      "id": 8,
+      "phrase": "het maakt me niet uit",
+      "translation": "benim için fark etmez",
+      "en": "I don't mind / it doesn't matter to me",
+      "explanation": "Bir konuda tercih belirtmek istemediğinde veya bir şeyin önemli olmadığını söylerken kullanılır. Olumsuz değil, nötr bir ifadedir. Dikkat: Türkçe 'umurumda değil' küçümseyici/ilgisiz bir ton taşır, ama Hollandaca versiyonu öyle değil — daha çok 'ikisi de olur, sen seç' anlamında. 'Fark etmez' daha doğru bir karşılık.",
+      "examples": [
+        {
+          "nl": "Wil je thee of koffie? — Het maakt me niet uit.",
+          "tr": "Çay mı kahve mi istersin? — Fark etmez."
+        }
+      ],
+      "tags": ["günlük", "kalıp"]
+    }
+  ]
+}

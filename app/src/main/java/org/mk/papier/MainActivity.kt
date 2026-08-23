@@ -14,6 +14,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import org.mk.papier.ui.home.HomeScreen
+import org.mk.papier.ui.phrases.PhrasesScreen
 import org.mk.papier.ui.tags.TagsScreen
 import org.mk.papier.ui.theme.PapierTheme
 import org.mk.papier.ui.words.FlashcardsScreen
@@ -34,7 +35,6 @@ class MainActivity : ComponentActivity() {
                             HomeScreen(onTopicClick = { topic ->
                                 when (topic.id) {
                                     "words" -> navController.navigate("words_hub")
-                                    "tags" -> navController.navigate("tags")
                                 }
                             })
                         }
@@ -46,6 +46,10 @@ class MainActivity : ComponentActivity() {
                                     navController.navigate("word_list?theme=${Uri.encode(theme)}")
                                 }
                             )
+                        }
+
+                        composable("phrases") {
+                            PhrasesScreen(onBack = { navController.popBackStack() })
                         }
 
                         composable("words_hub") {

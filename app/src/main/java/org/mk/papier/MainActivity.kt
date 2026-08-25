@@ -15,6 +15,7 @@ import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import org.mk.papier.ui.home.HomeScreen
 import org.mk.papier.ui.phrases.PhrasesScreen
+import org.mk.papier.ui.sentences.SentencesScreen
 import org.mk.papier.ui.tags.TagsScreen
 import org.mk.papier.ui.theme.PapierTheme
 import org.mk.papier.ui.words.FlashcardsScreen
@@ -24,7 +25,7 @@ import org.mk.papier.ui.words.WordsHubScreen
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
+         enableEdgeToEdge()
         setContent {
             PapierTheme {
                 val navController = rememberNavController()
@@ -50,6 +51,10 @@ class MainActivity : ComponentActivity() {
 
                         composable("phrases") {
                             PhrasesScreen(onBack = { navController.popBackStack() })
+                        }
+
+                        composable("sentences") {
+                            SentencesScreen(onBack = { navController.popBackStack() })
                         }
 
                         composable("words_hub") {

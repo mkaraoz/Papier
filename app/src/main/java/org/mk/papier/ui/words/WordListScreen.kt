@@ -1,5 +1,6 @@
 package org.mk.papier.ui.words
 
+import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.animateContentSize
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -13,14 +14,18 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.systemBarsPadding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.rememberLazyListState
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material.icons.automirrored.filled.VolumeOff
+import androidx.compose.material.icons.automirrored.filled.VolumeUp
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
@@ -44,13 +49,14 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
 import kotlinx.coroutines.launch
 import org.mk.papier.model.Word
+import org.mk.papier.ui.speech.DutchTts
+import org.mk.papier.ui.speech.rememberDutchTts
 
 @Composable
 fun WordListScreen(
@@ -63,6 +69,7 @@ fun WordListScreen(
 
     val listState = rememberLazyListState()
     val scope = rememberCoroutineScope()
+    val tts = rememberDutchTts()
 
     // Only one word can be expanded at a time
     var expandedWordId by rememberSaveable { mutableStateOf<String?>(null) }
@@ -156,6 +163,7 @@ fun WordListScreen(
                 WordItem(
                     word = word,
                     expanded = word.id == expandedWordId,
+                    tts = tts,
                     onClick = {
                         expandedWordId = if (expandedWordId == word.id) null else word.id
                     }
@@ -169,6 +177,7 @@ fun WordListScreen(
 private fun WordItem(
     word: Word,
     expanded: Boolean,
+    tts: DutchTts,
     onClick: () -> Unit
 ) {
     Card(
@@ -185,27 +194,33 @@ private fun WordItem(
                 modifier = Modifier.fillMaxWidth(),
                 verticalAlignment = Alignment.CenterVertically
             ) {
-                Row(
-                    modifier = Modifier.weight(1f),
-                    verticalAlignment = Alignment.CenterVertically,
-                    horizontalArrangement = Arrangement.spacedBy(6.dp)
-                ) {
-                    if (word.article != null) {
-                        ArticleBadge(article = word.article)
+                Column(modifier = Modifier.weight(1f)) {
+                    Row(
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.spacedBy(6.dp)
+                    ) {
+                        if (word.article != null) {
+                            ArticleBadge(article = word.article)
+                        }
+                        Text(
+                            text = word.dutch,
+                            fontSize = 17.sp,
+                            fontWeight = FontWeight.Bold,
+                            color = Color(0xFF1A1A1A)
+                        )
                     }
+                    Spacer(modifier = Modifier.height(2.dp))
                     Text(
-                        text = word.dutch,
-                        fontSize = 17.sp,
-                        fontWeight = FontWeight.Bold,
-                        color = Color(0xFF1A1A1A)
+                        text = word.english,
+                        fontSize = 15.sp,
+                        color = Color(0xFF555555)
                     )
                 }
                 Spacer(modifier = Modifier.width(12.dp))
-                Text(
-                    text = word.english,
-                    fontSize = 15.sp,
-                    color = Color(0xFF555555),
-                    textAlign = TextAlign.End
+                SpeakButton(
+                    enabled = tts.ready,
+                    speaking = tts.speakingId == word.id,
+                    onClick = { tts.speak(word.id, word.dutch) }
                 )
             }
 
@@ -226,6 +241,57 @@ private fun WordItem(
                     color = Color(0xFF888888)
                 )
             }
+        }
+    }
+}
+
+/**
+ * Experimental on-device pronunciation. Fixed 48dp footprint in every state so the
+ * card never resizes, whether or not the device has a Dutch voice.
+ */
+@Composable
+private fun SpeakButton(
+    enabled: Boolean,
+    speaking: Boolean,
+    onClick: () -> Unit
+) {
+    val accent = Color(0xFF4A90D9)
+    val container by animateColorAsState(
+        targetValue = when {
+            !enabled -> Color(0xFFF4F4F4)
+            speaking -> accent
+            else -> accent.copy(alpha = 0.12f)
+        },
+        label = "speakContainer"
+    )
+    val tint by animateColorAsState(
+        targetValue = when {
+            !enabled -> Color(0xFFCFCFCF)
+            speaking -> Color.White
+            else -> accent
+        },
+        label = "speakTint"
+    )
+    IconButton(
+        onClick = onClick,
+        enabled = enabled,
+        modifier = Modifier.size(48.dp)
+    ) {
+        Box(
+            modifier = Modifier
+                .size(44.dp)
+                .clip(CircleShape)
+                .background(container),
+            contentAlignment = Alignment.Center
+        ) {
+            Icon(
+                imageVector = if (enabled) Icons.AutoMirrored.Filled.VolumeUp
+                else Icons.AutoMirrored.Filled.VolumeOff,
+                contentDescription = if (enabled) "Play pronunciation"
+                else "Dutch voice not installed",
+                tint = tint,
+                modifier = Modifier.size(22.dp)
+            )
         }
     }
 }

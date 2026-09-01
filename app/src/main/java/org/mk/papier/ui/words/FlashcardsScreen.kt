@@ -155,18 +155,32 @@ private fun DutchCard(word: Word, expanded: Boolean, onClick: () -> Unit) {
     ) {
         Column(modifier = Modifier.padding(28.dp)) {
             val badgeColor = if (word.article == "de") Color(0xFF4A90D9) else Color(0xFF4CAF50)
-            Box(
-                modifier = Modifier
-                    .clip(RoundedCornerShape(6.dp))
-                    .background(if (word.article != null) badgeColor.copy(alpha = 0.15f) else Color.Transparent)
-                    .padding(horizontal = 10.dp, vertical = 4.dp)
+            // The sense indicator rides in the badge row, which is always rendered — that keeps
+            // every card the same height whether or not the word has an article or a sense.
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.spacedBy(10.dp)
             ) {
-                Text(
-                    text = word.article ?: "",
-                    fontSize = 13.sp,
-                    color = if (word.article != null) badgeColor else Color.Transparent,
-                    fontWeight = FontWeight.SemiBold
-                )
+                Box(
+                    modifier = Modifier
+                        .clip(RoundedCornerShape(6.dp))
+                        .background(if (word.article != null) badgeColor.copy(alpha = 0.15f) else Color.Transparent)
+                        .padding(horizontal = 10.dp, vertical = 4.dp)
+                ) {
+                    Text(
+                        text = word.article ?: "",
+                        fontSize = 13.sp,
+                        color = if (word.article != null) badgeColor else Color.Transparent,
+                        fontWeight = FontWeight.SemiBold
+                    )
+                }
+                if (word.sense != null) {
+                    Text(
+                        text = "(${word.sense})",
+                        fontSize = 13.sp,
+                        color = Color(0xFF999999)
+                    )
+                }
             }
 
             Spacer(modifier = Modifier.height(12.dp))

@@ -1272,6 +1272,7 @@
     {
       "id": "142",
       "dutch": "dag",
+      "sense": "greeting",
       "article": null,
       "english": "hi / bye",
       "type": "interjection",
@@ -2726,6 +2727,331 @@
       "type": "adverb",
       "example": "Ik kom zeker.",
       "exampleTranslation": "I will definitely come."
+    },
+    {
+      "id": "304",
+      "dutch": "woensdag",
+      "article": null,
+      "english": "Wednesday",
+      "type": "noun",
+      "example": "Op woensdag heb ik les.",
+      "exampleTranslation": "On Wednesday I have class."
+    },
+    {
+      "id": "305",
+      "dutch": "donderdag",
+      "article": null,
+      "english": "Thursday",
+      "type": "noun",
+      "example": "Donderdag ga ik naar de markt.",
+      "exampleTranslation": "On Thursday I go to the market."
+    },
+    {
+      "id": "306",
+      "dutch": "zondag",
+      "article": null,
+      "english": "Sunday",
+      "type": "noun",
+      "example": "Op zondag ben ik vrij.",
+      "exampleTranslation": "On Sunday I am off."
+    },
+    {
+      "id": "307",
+      "dutch": "maart",
+      "article": null,
+      "english": "March",
+      "type": "noun",
+      "example": "In maart begint de lente.",
+      "exampleTranslation": "Spring begins in March."
+    },
+    {
+      "id": "308",
+      "dutch": "mei",
+      "article": null,
+      "english": "May",
+      "type": "noun",
+      "example": "Mijn verjaardag is in mei.",
+      "exampleTranslation": "My birthday is in May."
+    },
+    {
+      "id": "309",
+      "dutch": "juni",
+      "article": null,
+      "english": "June",
+      "type": "noun",
+      "example": "In juni is het al warm.",
+      "exampleTranslation": "It's already warm in June."
+    },
+    {
+      "id": "310",
+      "dutch": "juli",
+      "article": null,
+      "english": "July",
+      "type": "noun",
+      "example": "In juli ga ik op vakantie.",
+      "exampleTranslation": "In July I go on vacation."
+    },
+    {
+      "id": "311",
+      "dutch": "augustus",
+      "article": null,
+      "english": "August",
+      "type": "noun",
+      "example": "Augustus is de warmste maand.",
+      "exampleTranslation": "August is the warmest month."
+    },
+    {
+      "id": "312",
+      "dutch": "september",
+      "article": null,
+      "english": "September",
+      "type": "noun",
+      "example": "De school begint in september.",
+      "exampleTranslation": "School starts in September."
+    },
+    {
+      "id": "313",
+      "dutch": "oktober",
+      "article": null,
+      "english": "October",
+      "type": "noun",
+      "example": "In oktober worden de dagen korter.",
+      "exampleTranslation": "In October the days get shorter."
+    },
+    {
+      "id": "314",
+      "dutch": "november",
+      "article": null,
+      "english": "November",
+      "type": "noun",
+      "example": "In november regent het vaak.",
+      "exampleTranslation": "It often rains in November."
+    },
+    {
+      "id": "315",
+      "dutch": "december",
+      "article": null,
+      "english": "December",
+      "type": "noun",
+      "example": "In december vieren we kerst.",
+      "exampleTranslation": "In December we celebrate Christmas."
+    },
+    {
+      "id": "316",
+      "dutch": "lente",
+      "article": "de",
+      "english": "spring",
+      "type": "noun",
+      "example": "In de lente bloeien de bloemen.",
+      "exampleTranslation": "The flowers bloom in spring."
+    },
+    {
+      "id": "317",
+      "dutch": "zomer",
+      "article": "de",
+      "english": "summer",
+      "type": "noun",
+      "example": "In de zomer is het warm.",
+      "exampleTranslation": "It's warm in summer."
+    },
+    {
+      "id": "318",
+      "dutch": "herfst",
+      "article": "de",
+      "english": "autumn / fall",
+      "type": "noun",
+      "example": "In de herfst vallen de bladeren.",
+      "exampleTranslation": "The leaves fall in autumn."
+    },
+    {
+      "id": "319",
+      "dutch": "winter",
+      "article": "de",
+      "english": "winter",
+      "type": "noun",
+      "example": "In de winter is het koud.",
+      "exampleTranslation": "It's cold in winter."
+    },
+    {
+      "id": "320",
+      "dutch": "nacht",
+      "article": "de",
+      "english": "night",
+      "type": "noun",
+      "example": "Ik slaap 's nachts.",
+      "exampleTranslation": "I sleep at night."
+    },
+    {
+      "id": "321",
+      "dutch": "tijd",
+      "article": "de",
+      "english": "time",
+      "type": "noun",
+      "example": "Ik heb geen tijd.",
+      "exampleTranslation": "I don't have time."
+    },
+    {
+      "id": "322",
+      "dutch": "klok",
+      "article": "de",
+      "english": "clock",
+      "type": "noun",
+      "example": "De klok hangt aan de muur.",
+      "exampleTranslation": "The clock hangs on the wall."
+    },
+    {
+      "id": "323",
+      "dutch": "minuut",
+      "article": "de",
+      "english": "minute",
+      "type": "noun",
+      "example": "Wacht een minuutje.",
+      "exampleTranslation": "Wait a minute."
+    },
+    {
+      "id": "324",
+      "dutch": "seconde",
+      "article": "de",
+      "english": "second",
+      "type": "noun",
+      "example": "Het duurt maar een seconde.",
+      "exampleTranslation": "It only takes a second."
+    },
+    {
+      "id": "325",
+      "dutch": "kwart",
+      "article": "het",
+      "english": "quarter",
+      "type": "noun",
+      "example": "Het is kwart voor drie.",
+      "exampleTranslation": "It's a quarter to three."
+    },
+    {
+      "id": "326",
+      "dutch": "vaak",
+      "article": null,
+      "english": "often",
+      "type": "adverb",
+      "example": "Ik ga vaak naar de markt.",
+      "exampleTranslation": "I often go to the market."
+    },
+    {
+      "id": "327",
+      "dutch": "nooit",
+      "article": null,
+      "english": "never",
+      "type": "adverb",
+      "example": "Ik kom nooit te laat.",
+      "exampleTranslation": "I am never late."
+    },
+    {
+      "id": "328",
+      "dutch": "weleens",
+      "article": null,
+      "english": "sometimes / ever",
+      "type": "adverb",
+      "example": "Ga je weleens naar de bioscoop?",
+      "exampleTranslation": "Do you ever go to the cinema?"
+    },
+    {
+      "id": "329",
+      "dutch": "regelmatig",
+      "article": null,
+      "english": "regularly",
+      "type": "adverb",
+      "example": "Ik sport regelmatig.",
+      "exampleTranslation": "I exercise regularly."
+    },
+    {
+      "id": "330",
+      "dutch": "gisteren",
+      "article": null,
+      "english": "yesterday",
+      "type": "adverb",
+      "example": "Gisteren was ik ziek.",
+      "exampleTranslation": "Yesterday I was sick."
+    },
+    {
+      "id": "331",
+      "dutch": "eergisteren",
+      "article": null,
+      "english": "the day before yesterday",
+      "type": "adverb",
+      "example": "Eergisteren was het zonnig.",
+      "exampleTranslation": "The day before yesterday it was sunny."
+    },
+    {
+      "id": "332",
+      "dutch": "overmorgen",
+      "article": null,
+      "english": "the day after tomorrow",
+      "type": "adverb",
+      "example": "Overmorgen ga ik op vakantie.",
+      "exampleTranslation": "The day after tomorrow I'm going on vacation."
+    },
+    {
+      "id": "333",
+      "dutch": "straks",
+      "article": null,
+      "english": "in a bit / later",
+      "type": "adverb",
+      "example": "Ik bel je straks.",
+      "exampleTranslation": "I'll call you in a bit."
+    },
+    {
+      "id": "334",
+      "dutch": "meteen",
+      "article": null,
+      "english": "immediately",
+      "type": "adverb",
+      "example": "Ik kom meteen.",
+      "exampleTranslation": "I'm coming right away."
+    },
+    {
+      "id": "335",
+      "dutch": "binnenkort",
+      "article": null,
+      "english": "soon",
+      "type": "adverb",
+      "example": "We zien elkaar binnenkort.",
+      "exampleTranslation": "We'll see each other soon."
+    },
+    {
+      "id": "336",
+      "dutch": "tegenwoordig",
+      "article": null,
+      "english": "nowadays",
+      "type": "adverb",
+      "example": "Tegenwoordig werk ik thuis.",
+      "exampleTranslation": "Nowadays I work from home."
+    },
+    {
+      "id": "337",
+      "dutch": "vroeger",
+      "article": null,
+      "english": "in the past / formerly",
+      "type": "adverb",
+      "example": "Vroeger woonde ik in Polen.",
+      "exampleTranslation": "In the past I lived in Poland."
+    },
+    {
+      "id": "338",
+      "dutch": "vroeg",
+      "article": null,
+      "english": "early",
+      "type": "adjective",
+      "example": "Ik sta vroeg op.",
+      "exampleTranslation": "I get up early."
+    },
+    {
+      "id": "339",
+      "dutch": "dag",
+      "sense": "day",
+      "article": null,
+      "english": "day",
+      "type": "noun",
+      "example": "Elke dag ga ik naar mijn werk.",
+      "exampleTranslation": "Every day I go to work."
     }
   ]
 }

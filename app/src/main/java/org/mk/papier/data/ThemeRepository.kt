@@ -16,7 +16,19 @@ class ThemeRepository(private val context: Context) {
         val json = context.assets.open(THEMES_FILE).bufferedReader().use { it.readText() }
         val themes = Gson().fromJson(json, ThemeFile::class.java).themes
 
-        val wordsByDutch = WordRepository(context).loadWords().associateBy { it.dutch.lowercase() }
+        val allWords = WordRepository(context).loadWords()
+
+        // A word is normally reachable by its plain Dutch spelling. Homonyms carry a sense
+        // indicator, and each sense is reachable as "dag (day)". The bare spelling is then
+        // ambiguous, so it is left out of the map on purpose — a theme listing plain "dag"
+        // gets the missing-word warning below instead of an arbitrary one of the two.
+        val bySense = allWords.associateBy { it.themeKey.lowercase() }
+        val ambiguous = allWords.groupBy { it.dutch.lowercase() }
+            .filterValues { it.size > 1 }
+            .keys
+        val wordsByDutch = bySense + allWords
+            .filter { it.dutch.lowercase() !in ambiguous }
+            .associateBy { it.dutch.lowercase() }
 
         return themes.mapNotNull { (name, dutchWords) ->
             val missing = dutchWords.filterNot { wordsByDutch.containsKey(it.lowercase()) }

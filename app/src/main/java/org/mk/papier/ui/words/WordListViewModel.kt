@@ -51,7 +51,8 @@ class WordListViewModel(
         if (query.isBlank()) words
         else words.filter { word ->
             word.dutch.contains(query, ignoreCase = true) ||
-            word.english.contains(query, ignoreCase = true)
+            word.english.contains(query, ignoreCase = true) ||
+            word.sense?.contains(query, ignoreCase = true) == true
         }
     }.stateIn(
         scope = viewModelScope,

@@ -208,6 +208,13 @@ private fun WordItem(
                             fontWeight = FontWeight.Bold,
                             color = Color(0xFF1A1A1A)
                         )
+                        if (word.sense != null) {
+                            Text(
+                                text = "(${word.sense})",
+                                fontSize = 13.sp,
+                                color = Color(0xFF999999)
+                            )
+                        }
                     }
                     Spacer(modifier = Modifier.height(2.dp))
                     Text(

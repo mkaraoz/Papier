@@ -14,7 +14,7 @@ class WordRepository(private val context: Context) {
 
     companion object {
         // Release word list — the full vocabulary. This keeps growing.
-        // For quick feature testing, swap to the small "words.json" test set.
+        // For quick feature testing, swap to the small "test_words.json" test set.
         private const val WORDS_FILE = "vocabulary.json"
     }
 }

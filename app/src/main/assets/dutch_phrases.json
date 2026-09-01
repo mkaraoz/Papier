@@ -2,8 +2,8 @@
   "meta": {
     "language_from": "nl",
     "language_to": "tr",
-    "version": 2,
-    "updated_at": "2026-08-23"
+    "version": 3,
+    "updated_at": "2026-09-01"
   },
   "phrases": [
     {
@@ -18,7 +18,11 @@
           "tr": "Bu kadar mıydı? Başka bir şey var mı?"
         }
       ],
-      "tags": ["günlük", "alışveriş", "kalıp"]
+      "tags": [
+        "günlük",
+        "alışveriş",
+        "kalıp"
+      ]
     },
     {
       "id": 2,
@@ -36,7 +40,11 @@
           "tr": "Sadece iki sandalye boş kaldı."
         }
       ],
-      "tags": ["günlük", "kalıp", "miktar"]
+      "tags": [
+        "günlük",
+        "kalıp",
+        "miktar"
+      ]
     },
     {
       "id": 3,
@@ -50,7 +58,11 @@
           "tr": "Buyrun, sizin için bir kilo patates."
         }
       ],
-      "tags": ["günlük", "alışveriş", "kalıp"]
+      "tags": [
+        "günlük",
+        "alışveriş",
+        "kalıp"
+      ]
     },
     {
       "id": 4,
@@ -64,7 +76,11 @@
           "tr": "Kime yardımcı olabilirim? Hanımefendi? Evet, buyrun söyleyin."
         }
       ],
-      "tags": ["günlük", "alışveriş", "kalıp"]
+      "tags": [
+        "günlük",
+        "alışveriş",
+        "kalıp"
+      ]
     },
     {
       "id": 5,
@@ -86,7 +102,11 @@
           "tr": "Bisiklet süresim var."
         }
       ],
-      "tags": ["günlük", "kalıp", "dilbilgisi"]
+      "tags": [
+        "günlük",
+        "kalıp",
+        "dilbilgisi"
+      ]
     },
     {
       "id": 6,
@@ -104,7 +124,11 @@
           "tr": "Peter'a benden selam söyle."
         }
       ],
-      "tags": ["günlük", "kalıp", "selamlaşma"]
+      "tags": [
+        "günlük",
+        "kalıp",
+        "selamlaşma"
+      ]
     },
     {
       "id": 7,
@@ -118,7 +142,11 @@
           "tr": "Hey, Anna! Seni görmek ne güzel! Nasılsın?"
         }
       ],
-      "tags": ["günlük", "kalıp", "selamlaşma"]
+      "tags": [
+        "günlük",
+        "kalıp",
+        "selamlaşma"
+      ]
     },
     {
       "id": 8,
@@ -132,7 +160,104 @@
           "tr": "Çay mı kahve mi istersin? — Fark etmez."
         }
       ],
-      "tags": ["günlük", "kalıp"]
+      "tags": [
+        "günlük",
+        "kalıp"
+      ]
+    },
+    {
+      "id": 9,
+      "phrase": "ga maar gauw",
+      "translation": "hadi çabuk git / koş bakalım",
+      "en": "off you go / go quickly",
+      "explanation": "'gauw' çabuk demek. Buradaki 'maar' emri yumuşatan parçacıktır — cümleyi 'çabuk git!' sertliğinden çıkarıp 'hadi git bakalım' tonuna getirir. Türkçe'de bu yumuşatmayı 'hadi' ve 'bakalım' yapıyor; 'maar'ı çevirmeye çalışma, tonun kendisi o.",
+      "examples": [
+        {
+          "nl": "Ga maar gauw, anders kom je te laat.",
+          "tr": "Hadi çabuk git, yoksa geç kalırsın."
+        },
+        {
+          "nl": "Het regent. Ga maar gauw naar binnen.",
+          "tr": "Yağmur yağıyor. Hadi çabuk içeri gir."
+        }
+      ],
+      "tags": [
+        "günlük",
+        "kalıp"
+      ]
+    },
+    {
+      "id": 10,
+      "phrase": "veel succes met ...",
+      "translation": "... konusunda başarılar / kolay gelsin",
+      "en": "good luck with ...",
+      "explanation": "Emek isteyen bir şeye başlayan birine söylenir: yeni iş, sınav, taşınma. Türkçe 'başarılar' ile birebir örtüşür. Dikkat: şansa bağlı şeylerde (piyango, kura) 'veel succes' değil 'veel geluk' denir — Türkçe'de bu ayrım yok, ikisine de 'şans/başarı' diyoruz. Tek başına 'Succes!' de yeterlidir.",
+      "examples": [
+        {
+          "nl": "Veel succes met je nieuwe baan.",
+          "tr": "Yeni işinde başarılar."
+        },
+        {
+          "nl": "Veel succes met je examen!",
+          "tr": "Sınavında başarılar!"
+        },
+        {
+          "nl": "Ik ga nu beginnen. — Succes!",
+          "tr": "Şimdi başlıyorum. — Başarılar!"
+        }
+      ],
+      "tags": [
+        "günlük",
+        "kalıp"
+      ]
+    },
+    {
+      "id": 11,
+      "phrase": "dat is lang geleden!",
+      "translation": "uzun zaman oldu!",
+      "en": "long time no see!",
+      "explanation": "Uzun süredir görüşmediğin biriyle karşılaşınca söylenir. 'geleden' = önce, yani sözlük anlamı 'bu uzun zaman önceydi'. Türkçe 'uzun zaman oldu' ile birebir örtüşüyor, İngilizce karşılığı ise bozuk bir kalıp olduğu için yapıyı göstermez.",
+      "examples": [
+        {
+          "nl": "Hé Marieke! Dat is lang geleden!",
+          "tr": "Hey Marieke! Uzun zaman oldu!"
+        },
+        {
+          "nl": "Wat leuk je te zien. Dat is echt lang geleden.",
+          "tr": "Seni görmek ne güzel. Gerçekten uzun zaman oldu."
+        }
+      ],
+      "tags": [
+        "günlük",
+        "kalıp",
+        "selamlaşma"
+      ]
+    },
+    {
+      "id": 12,
+      "phrase": "ik zie je morgen",
+      "translation": "yarın görüşürüz",
+      "en": "see you tomorrow",
+      "explanation": "Vedalaşma kalıbı. 'morgen' yerine başka bir zaman koyabilirsin: 'Ik zie je later / zaterdag / volgende week'. Karşılık olarak 'Leuk, afgesproken.' denir — 'afgesproken' sözleşmeyi onaylar, Türkçe 'anlaştık / sözleştik' gibi. Dikkat: Dutch bunu 'ik zie je' yani 'seni görürüm' diye kurar, Türkçe'deki karşılıklı 'görüşürüz' değil.",
+      "examples": [
+        {
+          "nl": "Ik zie je morgen.",
+          "tr": "Yarın görüşürüz."
+        },
+        {
+          "nl": "Leuk, afgesproken!",
+          "tr": "Güzel, sözleştik!"
+        },
+        {
+          "nl": "Ik zie je zaterdag bij het feestje.",
+          "tr": "Cumartesi partide görüşürüz."
+        }
+      ],
+      "tags": [
+        "günlük",
+        "kalıp",
+        "selamlaşma"
+      ]
     }
   ]
 }

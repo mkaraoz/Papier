@@ -14,6 +14,14 @@ val allTopics = listOf(
         colorHex = 0xFF4A90D9
     ),
     Topic(
+        id = "pronouns",
+        title = "Pronouns",
+        subtitle = "ik, mij, mijn, deze...",
+        category = Category.GRAMMAR,
+        icon = TopicIcon.LABEL,
+        colorHex = 0xFF4CAF50
+    ),
+    Topic(
         id = "grammar_word_order",
         title = "Word Order",
         subtitle = "Sentence structure",

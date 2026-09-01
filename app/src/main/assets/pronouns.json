@@ -1,0 +1,346 @@
+{
+  "groups": [
+    {
+      "id": "subject",
+      "title": "Subject",
+      "pronouns": [
+        {
+          "id": "sub-ik",
+          "dutch": "ik",
+          "unstressed": null,
+          "english": "I",
+          "example": "Ik woon in Nederland.",
+          "exampleTranslation": "I live in the Netherlands."
+        },
+        {
+          "id": "sub-jij",
+          "dutch": "jij",
+          "unstressed": "je",
+          "english": "you (informal)",
+          "example": "Jij spreekt goed Nederlands.",
+          "exampleTranslation": "You speak Dutch well."
+        },
+        {
+          "id": "sub-u",
+          "dutch": "u",
+          "unstressed": null,
+          "english": "you (formal)",
+          "example": "Wilt u koffie?",
+          "exampleTranslation": "Would you like coffee?"
+        },
+        {
+          "id": "sub-hij",
+          "dutch": "hij",
+          "unstressed": null,
+          "english": "he",
+          "example": "Hij werkt in een winkel.",
+          "exampleTranslation": "He works in a shop."
+        },
+        {
+          "id": "sub-zij-ev",
+          "dutch": "zij",
+          "unstressed": "ze",
+          "english": "she",
+          "example": "Zij is mijn zus.",
+          "exampleTranslation": "She is my sister."
+        },
+        {
+          "id": "sub-het",
+          "dutch": "het",
+          "unstressed": "'t",
+          "english": "it",
+          "example": "Het regent vandaag.",
+          "exampleTranslation": "It is raining today."
+        },
+        {
+          "id": "sub-wij",
+          "dutch": "wij",
+          "unstressed": "we",
+          "english": "we",
+          "example": "Wij gaan naar huis.",
+          "exampleTranslation": "We are going home."
+        },
+        {
+          "id": "sub-jullie",
+          "dutch": "jullie",
+          "unstressed": null,
+          "english": "you (plural)",
+          "example": "Jullie zijn te laat.",
+          "exampleTranslation": "You are late."
+        },
+        {
+          "id": "sub-zij-mv",
+          "dutch": "zij",
+          "unstressed": "ze",
+          "english": "they",
+          "example": "Zij wonen in Utrecht.",
+          "exampleTranslation": "They live in Utrecht."
+        }
+      ]
+    },
+    {
+      "id": "object",
+      "title": "Object",
+      "pronouns": [
+        {
+          "id": "obj-mij",
+          "dutch": "mij",
+          "unstressed": "me",
+          "english": "me",
+          "example": "Hij helpt mij.",
+          "exampleTranslation": "He helps me."
+        },
+        {
+          "id": "obj-jou",
+          "dutch": "jou",
+          "unstressed": "je",
+          "english": "you (informal)",
+          "example": "Ik zie jou morgen.",
+          "exampleTranslation": "I will see you tomorrow."
+        },
+        {
+          "id": "obj-u",
+          "dutch": "u",
+          "unstressed": null,
+          "english": "you (formal)",
+          "example": "Ik bel u later.",
+          "exampleTranslation": "I will call you later."
+        },
+        {
+          "id": "obj-hem",
+          "dutch": "hem",
+          "unstressed": "'m",
+          "english": "him",
+          "example": "Ik ken hem goed.",
+          "exampleTranslation": "I know him well."
+        },
+        {
+          "id": "obj-haar",
+          "dutch": "haar",
+          "unstressed": null,
+          "english": "her",
+          "example": "Ik geef haar een boek.",
+          "exampleTranslation": "I give her a book."
+        },
+        {
+          "id": "obj-het",
+          "dutch": "het",
+          "unstressed": "'t",
+          "english": "it",
+          "example": "Ik vind het leuk.",
+          "exampleTranslation": "I like it."
+        },
+        {
+          "id": "obj-ons",
+          "dutch": "ons",
+          "unstressed": null,
+          "english": "us",
+          "example": "Zij helpen ons.",
+          "exampleTranslation": "They help us."
+        },
+        {
+          "id": "obj-jullie",
+          "dutch": "jullie",
+          "unstressed": null,
+          "english": "you (plural)",
+          "example": "Ik zie jullie zaterdag.",
+          "exampleTranslation": "I will see you on Saturday."
+        },
+        {
+          "id": "obj-hen",
+          "dutch": "hen",
+          "unstressed": "ze",
+          "english": "them",
+          "example": "Ik ken hen niet.",
+          "exampleTranslation": "I do not know them."
+        }
+      ]
+    },
+    {
+      "id": "possessive",
+      "title": "Possessive",
+      "pronouns": [
+        {
+          "id": "pos-mijn",
+          "dutch": "mijn",
+          "unstressed": "m'n",
+          "english": "my",
+          "example": "Dit is mijn fiets.",
+          "exampleTranslation": "This is my bicycle."
+        },
+        {
+          "id": "pos-jouw",
+          "dutch": "jouw",
+          "unstressed": "je",
+          "english": "your (informal)",
+          "example": "Is dit jouw jas?",
+          "exampleTranslation": "Is this your coat?"
+        },
+        {
+          "id": "pos-uw",
+          "dutch": "uw",
+          "unstressed": null,
+          "english": "your (formal)",
+          "example": "Wat is uw naam?",
+          "exampleTranslation": "What is your name?"
+        },
+        {
+          "id": "pos-zijn",
+          "dutch": "zijn",
+          "unstressed": "z'n",
+          "english": "his / its",
+          "example": "Zijn broer woont hier.",
+          "exampleTranslation": "His brother lives here."
+        },
+        {
+          "id": "pos-haar",
+          "dutch": "haar",
+          "unstressed": "d'r",
+          "english": "her",
+          "example": "Haar moeder is ziek.",
+          "exampleTranslation": "Her mother is sick."
+        },
+        {
+          "id": "pos-ons",
+          "dutch": "ons",
+          "unstressed": null,
+          "english": "our (het-words)",
+          "example": "Ons huis is klein.",
+          "exampleTranslation": "Our house is small."
+        },
+        {
+          "id": "pos-onze",
+          "dutch": "onze",
+          "unstressed": null,
+          "english": "our (de-words)",
+          "example": "Onze buren zijn aardig.",
+          "exampleTranslation": "Our neighbours are nice."
+        },
+        {
+          "id": "pos-jullie",
+          "dutch": "jullie",
+          "unstressed": null,
+          "english": "your (plural)",
+          "example": "Jullie kinderen spelen buiten.",
+          "exampleTranslation": "Your children are playing outside."
+        },
+        {
+          "id": "pos-hun",
+          "dutch": "hun",
+          "unstressed": null,
+          "english": "their",
+          "example": "Hun auto is nieuw.",
+          "exampleTranslation": "Their car is new."
+        }
+      ]
+    },
+    {
+      "id": "independent",
+      "title": "Independent possessive",
+      "pronouns": [
+        {
+          "id": "ind-mij",
+          "dutch": "van mij",
+          "unstressed": null,
+          "english": "mine",
+          "example": "Die tas is van mij.",
+          "exampleTranslation": "That bag is mine."
+        },
+        {
+          "id": "ind-jou",
+          "dutch": "van jou",
+          "unstressed": null,
+          "english": "yours (informal)",
+          "example": "Is deze pen van jou?",
+          "exampleTranslation": "Is this pen yours?"
+        },
+        {
+          "id": "ind-u",
+          "dutch": "van u",
+          "unstressed": null,
+          "english": "yours (formal)",
+          "example": "Is deze plaats van u?",
+          "exampleTranslation": "Is this seat yours?"
+        },
+        {
+          "id": "ind-hem",
+          "dutch": "van hem",
+          "unstressed": null,
+          "english": "his",
+          "example": "De fiets is van hem.",
+          "exampleTranslation": "The bicycle is his."
+        },
+        {
+          "id": "ind-haar",
+          "dutch": "van haar",
+          "unstressed": null,
+          "english": "hers",
+          "example": "Dat boek is van haar.",
+          "exampleTranslation": "That book is hers."
+        },
+        {
+          "id": "ind-ons",
+          "dutch": "van ons",
+          "unstressed": null,
+          "english": "ours",
+          "example": "De tuin is van ons.",
+          "exampleTranslation": "The garden is ours."
+        },
+        {
+          "id": "ind-jullie",
+          "dutch": "van jullie",
+          "unstressed": null,
+          "english": "yours (plural)",
+          "example": "Zijn deze jassen van jullie?",
+          "exampleTranslation": "Are these coats yours?"
+        },
+        {
+          "id": "ind-hen",
+          "dutch": "van hen",
+          "unstressed": null,
+          "english": "theirs",
+          "example": "Het huis is van hen.",
+          "exampleTranslation": "The house is theirs."
+        }
+      ]
+    },
+    {
+      "id": "demonstrative",
+      "title": "Demonstrative",
+      "pronouns": [
+        {
+          "id": "dem-deze",
+          "dutch": "deze",
+          "unstressed": null,
+          "english": "this / these (de-words)",
+          "example": "Deze fiets is nieuw.",
+          "exampleTranslation": "This bicycle is new."
+        },
+        {
+          "id": "dem-dit",
+          "dutch": "dit",
+          "unstressed": null,
+          "english": "this (het-words)",
+          "example": "Dit huis is groot.",
+          "exampleTranslation": "This house is big."
+        },
+        {
+          "id": "dem-die",
+          "dutch": "die",
+          "unstressed": null,
+          "english": "that / those (de-words)",
+          "example": "Die man werkt hier.",
+          "exampleTranslation": "That man works here."
+        },
+        {
+          "id": "dem-dat",
+          "dutch": "dat",
+          "unstressed": null,
+          "english": "that (het-words)",
+          "example": "Dat boek is duur.",
+          "exampleTranslation": "That book is expensive."
+        }
+      ]
+    }
+  ]
+}

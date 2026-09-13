@@ -2,14 +2,14 @@
   "meta": {
     "language_from": "nl",
     "language_to": "tr",
-    "version": 3,
-    "updated_at": "2026-09-01"
+    "version": 4,
+    "updated_at": "2026-09-13"
   },
   "phrases": [
     {
       "id": 1,
       "phrase": "anders nog iets?",
-      "translation": "başka bir şey var mı?",
+      "translation": "başka bir şey var mı? / başka bir arzunuz?",
       "en": "anything else?",
       "explanation": "Dükkânda, kasada veya sipariş alırken 'başka bir şey ister misiniz?' anlamında kullanılır.",
       "examples": [
@@ -87,11 +87,15 @@
       "phrase": "ik heb zin in / om te",
       "translation": "canım ... istiyor / ...esim var",
       "en": "to feel like (+ noun / + -ing)",
-      "explanation": "'Zin hebben in' bir isimle, 'zin hebben om te' bir fiille kullanılır. Türkçe'de iki ayrı yapıya ('canım istiyor' / '-esim var') dönüşür ama Hollandaca'da tek bir kalıptır — İngilizce 'feel like' da bu birliği koruyor. This is one Dutch pattern with two complement types: 'zin in' + noun, 'zin om te' + verb. Turkish renders it as two unrelated constructions, which hides the unity. English holds it together: 'feel like + noun' / 'feel like + -ing.' The pattern stays visible. Dikkat: 'zin hebben' isteği, 'willen' kararlılığı ifade eder; Türkçe 'istemek' ikisini de kapsar, karıştırma riski var.",
+      "explanation": "'Zin hebben in' bir isimle, 'zin hebben om te' bir fiille kullanılır. Türkçe'de iki ayrı yapıya ('canım istiyor' / '-esim var') dönüşür ama Hollandaca'da tek bir kalıptır — İngilizce 'feel like' da bu birliği koruyor ('feel like + noun' / 'feel like + -ing'). Dikkat: 'zin hebben' isteği, 'willen' kararlılığı ifade eder; Türkçe 'istemek' ikisini de kapsadığı için karıştırma riski var.",
       "examples": [
         {
           "nl": "Ik heb zin in chips.",
           "tr": "Canım cips istiyor."
+        },
+        {
+          "nl": "Ik heb zin in koffie.",
+          "tr": "Canım kahve istiyor."
         },
         {
           "nl": "Ik heb zin om te slapen.",
@@ -113,7 +117,7 @@
       "phrase": "doe ... de groeten",
       "translation": "...ya/ye selamımı söyle",
       "en": "give my regards to …",
-      "explanation": "Birine, bir başkasına selam iletmesini rica ederken kullanılan kalıptır. 'Doe' ile başlar, ortaya kişi gelir. Türkçe 'selam söyle' ile ton ve yapı olarak neredeyse birebir; İngilizce 'give my regards' daha resmi kalır. Hollandaca versiyonu günlük ve samimi.",
+      "explanation": "Birine, bir başkasına selam iletmesini rica ederken kullanılan kalıptır. 'Doe' ile başlar, ortaya kişi gelir. Türkçe 'selam söyle' ile ton ve yapı olarak neredeyse birebir; İngilizce 'give my regards' daha resmi kalır. Hollandaca versiyonu günlük ve samimi. Cevaben 'Zal ik doen.' denir — 'söylerim, tamam'.",
       "examples": [
         {
           "nl": "Doe je moeder de groeten!",
@@ -202,6 +206,10 @@
           "tr": "Sınavında başarılar!"
         },
         {
+          "nl": "Veel succes met de verhuizing!",
+          "tr": "Taşınmada kolay gelsin!"
+        },
+        {
           "nl": "Ik ga nu beginnen. — Succes!",
           "tr": "Şimdi başlıyorum. — Başarılar!"
         }
@@ -257,6 +265,646 @@
         "günlük",
         "kalıp",
         "selamlaşma"
+      ]
+    },
+    {
+      "id": 13,
+      "phrase": "hoe heet jij?",
+      "translation": "adın ne?",
+      "en": "what's your name?",
+      "explanation": "Tanışma kalıbı. 'heten' fiili 'adı ... olmak' demek, yani Hollandaca 'ismin ne?' diye sormaz, 'nasıl adlanıyorsun?' diye kurar. Cevap da aynı fiille verilir: 'Ik heet Murat.' 'Mijn naam is ...' doğrudur ama daha resmi durur. Resmi hali: 'Hoe heet u?'",
+      "examples": [
+        {
+          "nl": "Hoe heet jij? — Ik heet Murat.",
+          "tr": "Senin adın ne? — Benim adım Murat."
+        },
+        {
+          "nl": "En hoe heet je zoon?",
+          "tr": "Peki oğlunun adı ne?"
+        }
+      ],
+      "tags": [
+        "günlük",
+        "kalıp",
+        "selamlaşma"
+      ]
+    },
+    {
+      "id": 14,
+      "phrase": "dat is leuk",
+      "translation": "ne güzel / güzelmiş",
+      "en": "that's nice",
+      "explanation": "'Leuk' Hollandaca'nın en geniş onay kelimesi: hoş, eğlenceli, tatlı, güzel — hepsi. Bir habere olumlu tepki vermenin en kolay yolu. Daha coşkulusu 'Wat leuk!'. Dikkat: 'leuk' güzelliği değil keyif vermeyi anlatır; fiziksel güzellik için 'mooi' denir.",
+      "examples": [
+        {
+          "nl": "Ik ga volgende week naar Parijs. — Dat is leuk!",
+          "tr": "Haftaya Paris'e gidiyorum. — Ne güzel!"
+        },
+        {
+          "nl": "Wat leuk dat je er bent!",
+          "tr": "Burada olman ne güzel!"
+        }
+      ],
+      "tags": [
+        "günlük",
+        "kalıp"
+      ]
+    },
+    {
+      "id": 15,
+      "phrase": "dat klopt",
+      "translation": "doğru / evet, öyle",
+      "en": "that's right / that's correct",
+      "explanation": "'Kloppen' sözlükte 'kapıyı tıklatmak' demek, ama günlük dilde asıl anlamı 'tutmak, uymak' — hesap tutar gibi. Bir bilgiyi onaylarken 'Ja, dat klopt' denir. Olumsuzu çok işine yarar: 'Dat klopt niet' = bir şey tutmuyor, yanlış.",
+      "examples": [
+        {
+          "nl": "Woon je in Utrecht? — Dat klopt.",
+          "tr": "Utrecht'te mi oturuyorsun? — Doğru."
+        },
+        {
+          "nl": "De rekening klopt niet.",
+          "tr": "Hesap tutmuyor."
+        }
+      ],
+      "tags": [
+        "günlük",
+        "kalıp"
+      ]
+    },
+    {
+      "id": 16,
+      "phrase": "kan ik u helpen?",
+      "translation": "buyurun / nasıl yardımcı olabilirim?",
+      "en": "can I help you?",
+      "explanation": "Dükkânda, tezgâhta veya bir hizmet noktasında çalışanın klasik açılışı. Resmi 'u' ile; tanıdık biriyle 'Kan ik je helpen?' olur. Cevabı ya 'Ja, graag' ya da 'Nee, dank u, ik kijk even' — yani 'sağ olun, sadece bakıyorum'.",
+      "examples": [
+        {
+          "nl": "Goedemiddag, kan ik u helpen? — Ja, graag.",
+          "tr": "İyi günler, yardımcı olabilir miyim? — Evet, lütfen."
+        },
+        {
+          "nl": "Kan ik u helpen? — Nee, dank u, ik kijk even.",
+          "tr": "Buyurun? — Yok, sağ olun, sadece bakıyorum."
+        }
+      ],
+      "tags": [
+        "günlük",
+        "alışveriş",
+        "kalıp"
+      ]
+    },
+    {
+      "id": 17,
+      "phrase": "op nummer ...",
+      "translation": "... numarada",
+      "en": "at number ...",
+      "explanation": "Adres verirken kapı numarasının başına 'in' veya 'bij' değil 'op' gelir. Ezberlenecek küçük bir edat tercihi ama her adres cümlesinde karşına çıkar.",
+      "examples": [
+        {
+          "nl": "Ik woon op nummer 38.",
+          "tr": "38 numarada oturuyorum."
+        },
+        {
+          "nl": "De bakker zit op nummer 12.",
+          "tr": "Fırın 12 numarada."
+        }
+      ],
+      "tags": [
+        "günlük",
+        "kalıp",
+        "dilbilgisi"
+      ]
+    },
+    {
+      "id": 18,
+      "phrase": "ik ga wel",
+      "translation": "ben giderim canım / boş ver, ben hallederim",
+      "en": "I'll go (don't worry about it)",
+      "explanation": "Buradaki 'wel' çeviriye girmez ama cümlenin ruhu odur: gönüllü olma ve konuyu kapatma tonu verir. 'Ik ga' kuru bir bilgidir, 'ik ga wel' ise 'sen uğraşma, ben hallederim' demektir. Türkçe'de bunu 'canım', 'ben hallederim', 'o zaman' gibi kelimelerle yaparız.",
+      "examples": [
+        {
+          "nl": "Ik ga wel.",
+          "tr": "Ben giderim canım."
+        },
+        {
+          "nl": "Ik wil wel kip.",
+          "tr": "Tavuk olur bence."
+        },
+        {
+          "nl": "Ik maak wel een lijstje.",
+          "tr": "Ben bir liste yapayım o zaman."
+        }
+      ],
+      "tags": [
+        "günlük",
+        "kalıp",
+        "dilbilgisi"
+      ]
+    },
+    {
+      "id": 19,
+      "phrase": "doe maar ...",
+      "translation": "... olsun / ...dan al",
+      "en": "I'll have ... / just make it ...",
+      "explanation": "Sipariş verirken veya bir şey isterken en çok kullanılan kalıp. Kelimesi kelimesine 'yap bakalım' ama işlevi 'şundan alayım'. 'Maar' isteği emirden çıkarıp rahat bir ricaya çevirir; onsuz 'Doe tomaten' kaba durur.",
+      "examples": [
+        {
+          "nl": "Doe maar tomaten.",
+          "tr": "Domates olsun."
+        },
+        {
+          "nl": "Doe maar een koffie.",
+          "tr": "Bir kahve alayım."
+        },
+        {
+          "nl": "Doe maar twee kilo, alstublieft.",
+          "tr": "İki kilo olsun lütfen."
+        }
+      ],
+      "tags": [
+        "günlük",
+        "alışveriş",
+        "kalıp"
+      ]
+    },
+    {
+      "id": 20,
+      "phrase": "... is op",
+      "translation": "... bitti / kalmadı",
+      "en": "... is finished / has run out",
+      "explanation": "Bir şeyin tükendiğini söylemenin en yaygın yolu. Buradaki 'op' edat değil sıfat gibi çalışır: 'bitmiş, tükenmiş'. Kişi için kullanılınca da aynı mantık sürer — 'Ik ben op' = enerjim bitti, çok yorgunum.",
+      "examples": [
+        {
+          "nl": "De melk is op.",
+          "tr": "Süt bitti."
+        },
+        {
+          "nl": "Het eten is op.",
+          "tr": "Yemek bitti."
+        },
+        {
+          "nl": "Mijn batterij is op.",
+          "tr": "Şarjım bitti."
+        },
+        {
+          "nl": "Ik ben op.",
+          "tr": "Bittim, çok yorgunum."
+        }
+      ],
+      "tags": [
+        "günlük",
+        "kalıp",
+        "miktar"
+      ]
+    },
+    {
+      "id": 21,
+      "phrase": "ja, graag",
+      "translation": "evet, lütfen / olur, memnuniyetle",
+      "en": "yes, please",
+      "explanation": "Biri sana bir şey teklif ettiğinde (kahve, yardım, ikram) nazikçe kabul etme kalıbı. 'Graag' = seve seve. Reddi 'Nee, dank je' (samimi) veya 'Nee, dank u' (resmi). Dikkat: Türkçe'de teklifi kabul ederken 'evet lütfen' demeyiz, 'olur, memnuniyetle' deriz — kalıbın tonu o.",
+      "examples": [
+        {
+          "nl": "Wil je koffie? — Ja, graag.",
+          "tr": "Kahve ister misin? — Olur, memnuniyetle."
+        },
+        {
+          "nl": "Zal ik je helpen? — Ja, graag.",
+          "tr": "Yardım edeyim mi? — Evet, lütfen."
+        },
+        {
+          "nl": "Nog een stukje? — Nee, dank je.",
+          "tr": "Bir dilim daha? — Yok, sağ ol."
+        }
+      ],
+      "tags": [
+        "günlük",
+        "kalıp"
+      ]
+    },
+    {
+      "id": 22,
+      "phrase": "ja hoor",
+      "translation": "tabii ki / elbette / hiç sorun değil",
+      "en": "sure / of course",
+      "explanation": "Karşı taraf senden bir şey istediğinde veya bir şeyi onaylatmak istediğinde kullanılır. 'Hoor' parçacığı 'rahat ol, mesele değil' tonu katar; kuru bir 'ja'ya göre çok daha sıcak. Çeviriye girmez, Türkçe'de bunu 'tabii', 'canım', 'ya' yapar.",
+      "examples": [
+        {
+          "nl": "Kun je me helpen? — Ja hoor.",
+          "tr": "Bana yardım eder misin? — Tabii ki."
+        },
+        {
+          "nl": "Is dat goed? — Ja hoor.",
+          "tr": "Böyle olur mu? — Olur tabii."
+        },
+        {
+          "nl": "Heb je tijd? — Ja hoor.",
+          "tr": "Vaktin var mı? — Var tabii."
+        }
+      ],
+      "tags": [
+        "günlük",
+        "kalıp",
+        "dilbilgisi"
+      ]
+    },
+    {
+      "id": 23,
+      "phrase": "wat jammer",
+      "translation": "ne yazık / yazık olmuş",
+      "en": "what a shame / that's a pity",
+      "explanation": "Küçük bir aksiliğe veya hayal kırıklığına verilen standart tepki. Tek başına 'Jammer' da denir. Başına gelen 'Hè' ünlemi Türkçe'deki 'tüh' duygusunu katar.",
+      "examples": [
+        {
+          "nl": "Ik kan morgen niet komen. — Wat jammer!",
+          "tr": "Yarın gelemiyorum. — Ne yazık!"
+        },
+        {
+          "nl": "Hè, jammer. De winkel is dicht.",
+          "tr": "Tüh, yazık. Dükkân kapalı."
+        }
+      ],
+      "tags": [
+        "günlük",
+        "kalıp"
+      ]
+    },
+    {
+      "id": 24,
+      "phrase": "zeg maar 'je' hoor",
+      "translation": "bana 'siz' demene gerek yok, 'sen' diyebilirsin",
+      "en": "you can call me 'je'",
+      "explanation": "Hollandaca'da 'u' (siz) ile başlanır ama samimiyete çok hızlı geçilir; bu cümle o geçişi açan kalıptır. Türkçe'deki 'sen diyelim' ile aynı işi görür. Karşı taraf söylemeden 'je'ye geçmek yaş veya konum farkı varsa kaba durabilir.",
+      "examples": [
+        {
+          "nl": "Wilt u koffie? — Zeg maar 'je' hoor.",
+          "tr": "Kahve ister misiniz? — Sen diyebilirsin canım."
+        },
+        {
+          "nl": "Mag ik 'je' zeggen? — Ja hoor.",
+          "tr": "Sen desem olur mu? — Tabii ki."
+        }
+      ],
+      "tags": [
+        "günlük",
+        "kalıp",
+        "dilbilgisi"
+      ]
+    },
+    {
+      "id": 25,
+      "phrase": "even",
+      "translation": "bir / -ıver / -sana (cümleyi yumuşatan parçacık)",
+      "en": "just / for a second",
+      "explanation": "Sözlükte 'bir an, kısaca' yazar ama asıl işlevi emri isteğe çevirmektir. 'Kijk in de keuken' bir emirdir; 'Kijk even in de keuken' ricadır. Türkçe'de bunu '-sana' eki ve 'bir' kelimesi yapar. Neredeyse her günlük cümleye girer, atlanınca ton sertleşir.",
+      "examples": [
+        {
+          "nl": "Kijk even.",
+          "tr": "Bir bakıver."
+        },
+        {
+          "nl": "Wacht even.",
+          "tr": "Bir saniye. / Beklesene."
+        },
+        {
+          "nl": "Kijk even in de keuken.",
+          "tr": "Bi mutfağa baksana."
+        },
+        {
+          "nl": "Ik ga even naar de supermarkt.",
+          "tr": "Markete gidip geleyim."
+        }
+      ],
+      "tags": [
+        "günlük",
+        "kalıp",
+        "dilbilgisi"
+      ]
+    },
+    {
+      "id": 26,
+      "phrase": "even kijken",
+      "translation": "bi bakayım / dur bakayım",
+      "en": "let me see / let's have a look",
+      "explanation": "Bir şeyi kontrol ederken veya düşünmek için birkaç saniye isterken kullanılır. Türkçe'deki 'dur bakayım' gibi, cümlenin başında zaman kazandırır.",
+      "examples": [
+        {
+          "nl": "Even kijken... vrijdag kan ik niet.",
+          "tr": "Bakayım... cuma yapamam."
+        },
+        {
+          "nl": "Even kijken of we nog melk hebben.",
+          "tr": "Bi bakayım süt kalmış mı."
+        }
+      ],
+      "tags": [
+        "günlük",
+        "kalıp"
+      ]
+    },
+    {
+      "id": 27,
+      "phrase": "wat vervelend!",
+      "translation": "çok kötü ya! / ne tatsız bir durum!",
+      "en": "how annoying / that's awful",
+      "explanation": "'Jammer'dan daha ağır bir tepki: 'jammer' yazık olan şeylere, 'vervelend' can sıkan, uğraştıran, tatsız durumlara. Hastalık, aksilik veya haksızlık haberine bununla tepki verilir; arkasından çoğu zaman 'Beterschap!' veya 'Sterkte!' gelir.",
+      "examples": [
+        {
+          "nl": "Mijn fiets is gestolen. — Wat vervelend!",
+          "tr": "Bisikletimi çalmışlar. — Çok kötü ya!"
+        },
+        {
+          "nl": "Ik ben ziek. — Wat vervelend. Beterschap!",
+          "tr": "Hastayım. — Geçmiş olsun, ne tatsız."
+        }
+      ],
+      "tags": [
+        "günlük",
+        "kalıp"
+      ]
+    },
+    {
+      "id": 28,
+      "phrase": "beterschap!",
+      "translation": "geçmiş olsun!",
+      "en": "get well soon!",
+      "explanation": "Sadece hasta birine söylenir. Dikkat: Türkçe 'geçmiş olsun' çok geniştir (kaza, zor bir gün, sınav sonrası), Hollandaca 'beterschap' ise yalnızca sağlık içindir — 'beter' (daha iyi) kökünden gelir. Sağlık dışındaki zor durumlarda 'Sterkte!' denir.",
+      "examples": [
+        {
+          "nl": "Ik heb griep. — Beterschap!",
+          "tr": "Gribim. — Geçmiş olsun!"
+        },
+        {
+          "nl": "Beterschap, en rust lekker uit.",
+          "tr": "Geçmiş olsun, iyi dinlen."
+        }
+      ],
+      "tags": [
+        "günlük",
+        "kalıp",
+        "sağlık"
+      ]
+    },
+    {
+      "id": 29,
+      "phrase": "doe maar niet",
+      "translation": "yok, almayayım / hiç gerek yok, sağ ol",
+      "en": "never mind / don't bother",
+      "explanation": "Bir teklifi kırmadan, gayet doğal reddetme kalıbı. 'Doe maar ...' kalıbının olumsuzu; 'zahmet etme' tonu taşır, soğuk durmaz.",
+      "examples": [
+        {
+          "nl": "Zal ik nog koffie zetten? — Doe maar niet, ik ga zo.",
+          "tr": "Kahve daha yapayım mı? — Yok gerek, birazdan çıkıyorum."
+        },
+        {
+          "nl": "Wil je een toetje? — Doe maar niet, dank je.",
+          "tr": "Tatlı ister misin? — Yok, almayayım, sağ ol."
+        }
+      ],
+      "tags": [
+        "günlük",
+        "kalıp"
+      ]
+    },
+    {
+      "id": 30,
+      "phrase": "dat gaat snel!",
+      "translation": "ne çabuk! / zaman ne çabuk geçiyor!",
+      "en": "that's fast! / time flies!",
+      "explanation": "Bir işin veya zamanın şaşırtıcı hızda ilerlemesine verilen tepki. Özellikle çocukların büyümesi için kalıplaşmıştır.",
+      "examples": [
+        {
+          "nl": "Is je zoon al drie? Dat gaat snel!",
+          "tr": "Oğlun üç yaşına mı geldi? Zaman ne çabuk geçiyor!"
+        },
+        {
+          "nl": "Ben je al klaar? Dat gaat snel!",
+          "tr": "Bitirdin mi bile? Ne çabuk!"
+        }
+      ],
+      "tags": [
+        "günlük",
+        "kalıp"
+      ]
+    },
+    {
+      "id": 31,
+      "phrase": "ik ben jarig",
+      "translation": "bugün benim doğum günüm",
+      "en": "it's my birthday",
+      "explanation": "'Jarig' bir sıfattır ve 'zijn' fiiliyle kurulur: kişi 'doğum günlü olur'. Türkçe ve İngilizce bunu 'doğum günüm var / it is my birthday' diye kurduğu için karıştırılır — 'ik heb jarig' yanlıştır. Soru hali: 'Wanneer ben je jarig?'",
+      "examples": [
+        {
+          "nl": "Ik ben vandaag jarig.",
+          "tr": "Bugün benim doğum günüm."
+        },
+        {
+          "nl": "Wanneer ben je jarig? — In mei.",
+          "tr": "Doğum günün ne zaman? — Mayısta."
+        }
+      ],
+      "tags": [
+        "günlük",
+        "kalıp",
+        "kutlama"
+      ]
+    },
+    {
+      "id": 32,
+      "phrase": "gefeliciteerd!",
+      "translation": "tebrikler! / kutlarım!",
+      "en": "congratulations!",
+      "explanation": "Hem başarılar (yeni iş, ehliyet, diploma) hem özel günler (doğum günü, evlilik) için istisnasız kullanılan temel tebrik. 'met' ile neye tebrik ettiğin eklenir. Hollanda âdeti: doğum gününde sadece kişi değil, ailesi de tebrik edilir.",
+      "examples": [
+        {
+          "nl": "Gefeliciteerd met je verjaardag!",
+          "tr": "Doğum günün kutlu olsun!"
+        },
+        {
+          "nl": "Gefeliciteerd met je nieuwe baan!",
+          "tr": "Yeni işin hayırlı olsun!"
+        }
+      ],
+      "tags": [
+        "günlük",
+        "kalıp",
+        "kutlama"
+      ]
+    },
+    {
+      "id": 33,
+      "phrase": "afgesproken",
+      "translation": "söz! / anlaştık! / sözleştik o zaman",
+      "en": "it's a deal / agreed",
+      "explanation": "Bir plan veya buluşma kesinleşince söylenir — el sıkışma anının kelimesi. 'Afspreken' (sözleşmek) fiilinden gelir; ismi 'afspraak' hem randevu hem sözleşilen şey demektir.",
+      "examples": [
+        {
+          "nl": "Zaterdag om acht uur? — Afgesproken!",
+          "tr": "Cumartesi sekizde? — Anlaştık!"
+        },
+        {
+          "nl": "We bellen morgen. — Afgesproken.",
+          "tr": "Yarın konuşuruz. — Söz."
+        }
+      ],
+      "tags": [
+        "günlük",
+        "kalıp"
+      ]
+    },
+    {
+      "id": 34,
+      "phrase": "langs ... gaan",
+      "translation": "...a uğramak / yol üstü uğrayıp geçmek",
+      "en": "to drop by / stop by",
+      "explanation": "Bir yere tam teşekküllü gitmeyi değil, yol üstünde hızlıca uğrayıp çıkmayı anlatır. 'Wel' ve 'even' ile birleşince 'giderken oraya da bi uğrayayım' rahatlığı verir.",
+      "examples": [
+        {
+          "nl": "Ik ga wel even langs de supermarkt.",
+          "tr": "Giderken markete de bi uğrayayım ben."
+        },
+        {
+          "nl": "Ik ga morgen even langs mijn moeder.",
+          "tr": "Yarın anneme bir uğrayacağım."
+        }
+      ],
+      "tags": [
+        "günlük",
+        "kalıp"
+      ]
+    },
+    {
+      "id": 35,
+      "phrase": "dat is snel klaar",
+      "translation": "çabuk hazırlanır / hemen hazır olur",
+      "en": "that's quick to make",
+      "explanation": "Genelde yemek için: 'uğraştırmaz, hemen olur'. 'Klaar' hem 'hazır' hem 'bitmiş' demektir — 'Ik ben klaar' = işim bitti.",
+      "examples": [
+        {
+          "nl": "Pasta? Dat is snel klaar.",
+          "tr": "Makarna mı? Çabuk hazırlanır."
+        },
+        {
+          "nl": "Ik ben zo klaar.",
+          "tr": "Birazdan bitiyorum."
+        }
+      ],
+      "tags": [
+        "günlük",
+        "kalıp",
+        "yemek"
+      ]
+    },
+    {
+      "id": 36,
+      "phrase": "eet smakelijk!",
+      "translation": "afiyet olsun!",
+      "en": "enjoy your meal!",
+      "explanation": "Yemeğe başlarken söylenir. Dikkat: Türkçe 'afiyet olsun' yemekten sonra da söylenir, Hollandaca'da ise sadece başlangıçtadır; yemekten sonra 'Heb je lekker gegeten?' diye sorulur. 'Smakelijk eten!' de aynı anlamda.",
+      "examples": [
+        {
+          "nl": "Eet smakelijk! — Dank je, jij ook.",
+          "tr": "Afiyet olsun! — Sağ ol, sana da."
+        },
+        {
+          "nl": "Smakelijk eten, allemaal!",
+          "tr": "Herkese afiyet olsun!"
+        }
+      ],
+      "tags": [
+        "günlük",
+        "kalıp",
+        "yemek"
+      ]
+    },
+    {
+      "id": 37,
+      "phrase": "echt waar?",
+      "translation": "harbi mi? / ciddi misin? / gerçekten mi?",
+      "en": "really? / seriously?",
+      "explanation": "Şaşırınca verilen tepki; kelimesi kelimesine 'gerçekten doğru mu?'. Tek başına 'Echt?' de yeter. Aynı sözcükler cevap olarak da kullanılır: 'Echt waar!' = gerçekten öyle. Olumsuzu 'Echt niet!' = yok artık / asla.",
+      "examples": [
+        {
+          "nl": "Ik ga naar Japan. — Echt waar?",
+          "tr": "Japonya'ya gidiyorum. — Harbi mi?"
+        },
+        {
+          "nl": "Echt niet!",
+          "tr": "Yok artık! / Asla!"
+        }
+      ],
+      "tags": [
+        "günlük",
+        "kalıp"
+      ]
+    },
+    {
+      "id": 38,
+      "phrase": "ik ben gek op ...",
+      "translation": "...a bayılırım / ...nın delisiyim",
+      "en": "I'm crazy about ... / I love ...",
+      "explanation": "Bir şeyi çok sevdiğini söylemenin en canlı yolu; 'gek' = deli. Dikkat: edat anlamı tamamen değiştirir — 'gek op' bayılmak, 'gek van' ise deli etmek demektir.",
+      "examples": [
+        {
+          "nl": "Ik ben gek op chocolade.",
+          "tr": "Çikolataya bayılıyorum."
+        },
+        {
+          "nl": "Ik ben gek op pasta.",
+          "tr": "Makarnanın delisiyim."
+        },
+        {
+          "nl": "Ik word gek van dat geluid.",
+          "tr": "O ses beni deli ediyor."
+        }
+      ],
+      "tags": [
+        "günlük",
+        "kalıp",
+        "yemek"
+      ]
+    },
+    {
+      "id": 39,
+      "phrase": "tussen de middag",
+      "translation": "öğle arası / öğlen",
+      "en": "at lunchtime / during the midday break",
+      "explanation": "Tam olarak öğle yemeği molasını (kabaca 12:00-13:30) gösterir. Dikkat: \"'s middags\" çok daha geniştir, bütün öğleden sonrayı kapsar — Türkçe 'öğlen' ikisini de karşıladığı için karışır.",
+      "examples": [
+        {
+          "nl": "Wat eet je tussen de middag?",
+          "tr": "Öğlen ne yiyorsun?"
+        },
+        {
+          "nl": "Tussen de middag ga ik even naar buiten.",
+          "tr": "Öğle arasında biraz dışarı çıkıyorum."
+        }
+      ],
+      "tags": [
+        "günlük",
+        "kalıp",
+        "zaman"
+      ]
+    },
+    {
+      "id": 40,
+      "phrase": "dat lijkt me gezellig",
+      "translation": "iyi olur, güzel olur / bence süper",
+      "en": "that sounds nice",
+      "explanation": "Bir davete veya plana verilen içten onay. 'Lijkt me' = bana öyle geliyor, bence. 'Gezellig' Hollandaca'nın çevrilemeyen kelimesidir: birlikte vakit geçirmenin sıcaklığı — Türkçe'de en yakını 'keyifli, muhabbetli'. Aynı kalıp başka sıfatlarla da kurulur: 'Dat lijkt me leuk / lekker / moeilijk'.",
+      "examples": [
+        {
+          "nl": "Zullen we samen eten? — Dat lijkt me gezellig.",
+          "tr": "Beraber yemek yiyelim mi? — Çok iyi olur."
+        },
+        {
+          "nl": "Dat lijkt me leuk.",
+          "tr": "Bence güzel olur."
+        }
+      ],
+      "tags": [
+        "günlük",
+        "kalıp"
       ]
     }
   ]

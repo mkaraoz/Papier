@@ -3052,6 +3052,816 @@
       "type": "noun",
       "example": "Elke dag ga ik naar mijn werk.",
       "exampleTranslation": "Every day I go to work."
+    },
+    {
+      "id": "340",
+      "dutch": "allerlei",
+      "article": null,
+      "english": "all sorts of",
+      "type": "pronoun",
+      "example": "Ik heb allerlei groente gekocht.",
+      "exampleTranslation": "I bought all sorts of vegetables."
+    },
+    {
+      "id": "341",
+      "dutch": "boter",
+      "article": "de",
+      "english": "butter",
+      "type": "noun",
+      "example": "Doe wat boter op je brood.",
+      "exampleTranslation": "Put some butter on your bread."
+    },
+    {
+      "id": "342",
+      "dutch": "fles",
+      "article": "de",
+      "english": "bottle",
+      "type": "noun",
+      "example": "Ik koop een fles wijn.",
+      "exampleTranslation": "I'm buying a bottle of wine."
+    },
+    {
+      "id": "343",
+      "dutch": "gezond",
+      "article": null,
+      "english": "healthy",
+      "type": "adjective",
+      "example": "Groente is gezond.",
+      "exampleTranslation": "Vegetables are healthy."
+    },
+    {
+      "id": "344",
+      "dutch": "klaar",
+      "article": null,
+      "english": "ready / finished",
+      "type": "adjective",
+      "example": "Het eten is klaar.",
+      "exampleTranslation": "The food is ready."
+    },
+    {
+      "id": "345",
+      "dutch": "koelkast",
+      "article": "de",
+      "english": "fridge",
+      "type": "noun",
+      "example": "De melk staat in de koelkast.",
+      "exampleTranslation": "The milk is in the fridge."
+    },
+    {
+      "id": "346",
+      "dutch": "langs",
+      "article": null,
+      "english": "along / past",
+      "type": "preposition",
+      "example": "Ik loop langs de rivier.",
+      "exampleTranslation": "I walk along the river."
+    },
+    {
+      "id": "347",
+      "dutch": "meenemen",
+      "article": null,
+      "english": "to take along / bring",
+      "type": "verb",
+      "example": "Neem je paraplu mee.",
+      "exampleTranslation": "Bring your umbrella along."
+    },
+    {
+      "id": "348",
+      "dutch": "moeten",
+      "article": null,
+      "english": "to have to / must",
+      "type": "verb",
+      "example": "Ik moet boodschappen doen.",
+      "exampleTranslation": "I have to do groceries."
+    },
+    {
+      "id": "349",
+      "dutch": "niks",
+      "article": null,
+      "english": "nothing",
+      "type": "pronoun",
+      "example": "Er is niks in de koelkast.",
+      "exampleTranslation": "There's nothing in the fridge."
+    },
+    {
+      "id": "350",
+      "dutch": "nodig",
+      "article": null,
+      "english": "necessary / needed",
+      "type": "adjective",
+      "example": "Ik heb boter nodig.",
+      "exampleTranslation": "I need butter."
+    },
+    {
+      "id": "351",
+      "dutch": "over",
+      "article": null,
+      "english": "about / over",
+      "type": "preposition",
+      "example": "We praten over het eten.",
+      "exampleTranslation": "We're talking about the food."
+    },
+    {
+      "id": "352",
+      "dutch": "pak",
+      "article": "het",
+      "english": "carton / pack",
+      "type": "noun",
+      "example": "Een pak melk, alstublieft.",
+      "exampleTranslation": "A carton of milk, please."
+    },
+    {
+      "id": "353",
+      "dutch": "soep",
+      "article": "de",
+      "english": "soup",
+      "type": "noun",
+      "example": "Ik maak tomatensoep.",
+      "exampleTranslation": "I'm making tomato soup."
+    },
+    {
+      "id": "354",
+      "dutch": "staan",
+      "article": null,
+      "english": "to stand",
+      "type": "verb",
+      "example": "De fles staat op tafel.",
+      "exampleTranslation": "The bottle is standing on the table."
+    },
+    {
+      "id": "355",
+      "dutch": "toetje",
+      "article": "het",
+      "english": "dessert",
+      "type": "noun",
+      "example": "Wat is het toetje vanavond?",
+      "exampleTranslation": "What's the dessert tonight?"
+    },
+    {
+      "id": "356",
+      "dutch": "ui",
+      "article": "de",
+      "english": "onion",
+      "type": "noun",
+      "example": "Snijd de ui fijn.",
+      "exampleTranslation": "Chop the onion finely."
+    },
+    {
+      "id": "357",
+      "dutch": "vinden",
+      "article": null,
+      "english": "to find / think (opinion)",
+      "type": "verb",
+      "example": "Ik vind deze soep lekker.",
+      "exampleTranslation": "I think this soup is tasty."
+    },
+    {
+      "id": "358",
+      "dutch": "wijn",
+      "article": "de",
+      "english": "wine",
+      "type": "noun",
+      "example": "We drinken een glas wijn.",
+      "exampleTranslation": "We're drinking a glass of wine."
+    },
+    {
+      "id": "359",
+      "dutch": "yoghurt",
+      "article": "de",
+      "english": "yogurt",
+      "type": "noun",
+      "example": "Ik eet yoghurt bij het ontbijt.",
+      "exampleTranslation": "I eat yogurt for breakfast."
+    },
+    {
+      "id": "360",
+      "dutch": "zout",
+      "article": "het",
+      "english": "salt",
+      "type": "noun",
+      "example": "Doe een beetje zout in de soep.",
+      "exampleTranslation": "Put a bit of salt in the soup."
+    },
+    {
+      "id": "361",
+      "dutch": "avondeten",
+      "article": "het",
+      "english": "dinner / evening meal",
+      "type": "noun",
+      "example": "Het avondeten is klaar.",
+      "exampleTranslation": "Dinner is ready."
+    },
+    {
+      "id": "362",
+      "dutch": "boterham",
+      "article": "de",
+      "english": "sandwich (slice of bread)",
+      "type": "noun",
+      "example": "Ik eet een boterham met kaas.",
+      "exampleTranslation": "I eat a sandwich with cheese."
+    },
+    {
+      "id": "363",
+      "dutch": "broodje",
+      "article": "het",
+      "english": "roll / sandwich",
+      "type": "noun",
+      "example": "Ik koop een broodje bij de bakker.",
+      "exampleTranslation": "I buy a roll at the bakery."
+    },
+    {
+      "id": "364",
+      "dutch": "ding",
+      "article": "het",
+      "english": "thing",
+      "type": "noun",
+      "example": "Wat is dat voor een ding?",
+      "exampleTranslation": "What kind of thing is that?"
+    },
+    {
+      "id": "365",
+      "dutch": "doordeweeks",
+      "article": null,
+      "english": "on weekdays",
+      "type": "adjective",
+      "example": "Doordeweeks werk ik.",
+      "exampleTranslation": "On weekdays I work."
+    },
+    {
+      "id": "366",
+      "dutch": "gek",
+      "article": null,
+      "english": "crazy",
+      "type": "adjective",
+      "example": "Dat is een beetje gek.",
+      "exampleTranslation": "That's a bit crazy."
+    },
+    {
+      "id": "367",
+      "dutch": "havermout",
+      "article": "de",
+      "english": "oatmeal",
+      "type": "noun",
+      "example": "Ik eet havermout bij het ontbijt.",
+      "exampleTranslation": "I eat oatmeal for breakfast."
+    },
+    {
+      "id": "368",
+      "dutch": "jam",
+      "article": "de",
+      "english": "jam",
+      "type": "noun",
+      "example": "Ik doe jam op mijn brood.",
+      "exampleTranslation": "I put jam on my bread."
+    },
+    {
+      "id": "369",
+      "dutch": "koud",
+      "article": null,
+      "english": "cold",
+      "type": "adjective",
+      "example": "De soep is koud.",
+      "exampleTranslation": "The soup is cold."
+    },
+    {
+      "id": "370",
+      "dutch": "lijken",
+      "article": null,
+      "english": "to seem / resemble",
+      "type": "verb",
+      "example": "Dat lijkt me lekker.",
+      "exampleTranslation": "That seems tasty to me."
+    },
+    {
+      "id": "371",
+      "dutch": "lunchen",
+      "article": null,
+      "english": "to have lunch",
+      "type": "verb",
+      "example": "We lunchen om twaalf uur.",
+      "exampleTranslation": "We have lunch at twelve o'clock."
+    },
+    {
+      "id": "372",
+      "dutch": "Nederlander",
+      "article": "de",
+      "english": "Dutch person",
+      "type": "noun",
+      "example": "Hij is een Nederlander.",
+      "exampleTranslation": "He is a Dutch person."
+    },
+    {
+      "id": "373",
+      "dutch": "noedels",
+      "article": "de",
+      "english": "noodles",
+      "type": "noun",
+      "example": "Ik kook noedels.",
+      "exampleTranslation": "I'm cooking noodles."
+    },
+    {
+      "id": "374",
+      "dutch": "ontbijt",
+      "article": "het",
+      "english": "breakfast",
+      "type": "noun",
+      "example": "Wat eet je bij het ontbijt?",
+      "exampleTranslation": "What do you eat for breakfast?"
+    },
+    {
+      "id": "375",
+      "dutch": "pasta",
+      "article": "de",
+      "english": "pasta",
+      "type": "noun",
+      "example": "We eten pasta vanavond.",
+      "exampleTranslation": "We're eating pasta tonight."
+    },
+    {
+      "id": "376",
+      "dutch": "salade",
+      "article": "de",
+      "english": "salad",
+      "type": "noun",
+      "example": "Ik maak een salade.",
+      "exampleTranslation": "I'm making a salad."
+    },
+    {
+      "id": "377",
+      "dutch": "sinaasappelsap",
+      "article": "het",
+      "english": "orange juice",
+      "type": "noun",
+      "example": "Ik drink sinaasappelsap bij het ontbijt.",
+      "exampleTranslation": "I drink orange juice at breakfast."
+    },
+    {
+      "id": "378",
+      "dutch": "trein",
+      "article": "de",
+      "english": "train",
+      "type": "noun",
+      "example": "Ik neem de trein naar Amsterdam.",
+      "exampleTranslation": "I take the train to Amsterdam."
+    },
+    {
+      "id": "379",
+      "dutch": "tussen",
+      "article": null,
+      "english": "between",
+      "type": "preposition",
+      "example": "De keuken is tussen de kamer en de badkamer.",
+      "exampleTranslation": "The kitchen is between the room and the bathroom."
+    },
+    {
+      "id": "380",
+      "dutch": "vanmiddag",
+      "article": null,
+      "english": "this afternoon",
+      "type": "adverb",
+      "example": "Wat eten we vanmiddag?",
+      "exampleTranslation": "What are we eating this afternoon?"
+    },
+    {
+      "id": "381",
+      "dutch": "vegetariër",
+      "article": "de",
+      "english": "vegetarian",
+      "type": "noun",
+      "example": "Zij is een vegetariër.",
+      "exampleTranslation": "She is a vegetarian."
+    },
+    {
+      "id": "382",
+      "dutch": "zoet",
+      "article": null,
+      "english": "sweet",
+      "type": "adjective",
+      "example": "Dit toetje is erg zoet.",
+      "exampleTranslation": "This dessert is very sweet."
+    },
+    {
+      "id": "383",
+      "dutch": "advies",
+      "article": "het",
+      "english": "advice",
+      "type": "noun",
+      "example": "De dokter geeft advies.",
+      "exampleTranslation": "The doctor gives advice."
+    },
+    {
+      "id": "384",
+      "dutch": "afvallen",
+      "article": null,
+      "english": "to lose weight",
+      "type": "verb",
+      "example": "Ik wil graag afvallen.",
+      "exampleTranslation": "I would like to lose weight."
+    },
+    {
+      "id": "385",
+      "dutch": "bank",
+      "article": "de",
+      "english": "couch / bench",
+      "type": "noun",
+      "example": "Ik zit op de bank.",
+      "exampleTranslation": "I'm sitting on the couch."
+    },
+    {
+      "id": "386",
+      "dutch": "bewegen",
+      "article": null,
+      "english": "to move / exercise",
+      "type": "verb",
+      "example": "Het is gezond om te bewegen.",
+      "exampleTranslation": "It's healthy to exercise."
+    },
+    {
+      "id": "387",
+      "dutch": "buik",
+      "article": "de",
+      "english": "belly / stomach",
+      "type": "noun",
+      "example": "Mijn buik doet pijn.",
+      "exampleTranslation": "My stomach hurts."
+    },
+    {
+      "id": "388",
+      "dutch": "cola",
+      "article": "de",
+      "english": "cola",
+      "type": "noun",
+      "example": "Ik drink geen cola.",
+      "exampleTranslation": "I don't drink cola."
+    },
+    {
+      "id": "389",
+      "dutch": "dik",
+      "article": null,
+      "english": "fat / thick",
+      "type": "adjective",
+      "example": "Patat is niet gezond, het is dik eten.",
+      "exampleTranslation": "Fries aren't healthy, it's fatty food."
+    },
+    {
+      "id": "390",
+      "dutch": "frisdrank",
+      "article": "de",
+      "english": "soft drink",
+      "type": "noun",
+      "example": "Frisdrank heeft veel suiker.",
+      "exampleTranslation": "Soft drinks have a lot of sugar."
+    },
+    {
+      "id": "391",
+      "dutch": "gelijk hebben",
+      "article": null,
+      "english": "to be right",
+      "type": "verb",
+      "example": "Je hebt gelijk.",
+      "exampleTranslation": "You are right."
+    },
+    {
+      "id": "392",
+      "dutch": "hamburger",
+      "article": "de",
+      "english": "hamburger",
+      "type": "noun",
+      "example": "Ik eet een hamburger.",
+      "exampleTranslation": "I'm eating a hamburger."
+    },
+    {
+      "id": "393",
+      "dutch": "ieder",
+      "article": null,
+      "english": "each / every",
+      "type": "pronoun",
+      "example": "Ieder mens is anders.",
+      "exampleTranslation": "Every person is different."
+    },
+    {
+      "id": "394",
+      "dutch": "leven",
+      "article": null,
+      "english": "to live / life",
+      "type": "verb",
+      "example": "Ik leef gezond.",
+      "exampleTranslation": "I live healthily."
+    },
+    {
+      "id": "395",
+      "dutch": "minder",
+      "article": null,
+      "english": "less",
+      "type": "adverb",
+      "example": "Ik eet minder suiker.",
+      "exampleTranslation": "I eat less sugar."
+    },
+    {
+      "id": "396",
+      "dutch": "ongezond",
+      "article": null,
+      "english": "unhealthy",
+      "type": "adjective",
+      "example": "Patat is ongezond.",
+      "exampleTranslation": "Fries are unhealthy."
+    },
+    {
+      "id": "397",
+      "dutch": "pakken",
+      "article": null,
+      "english": "to grab / take",
+      "type": "verb",
+      "example": "Pak een appel uit de kast.",
+      "exampleTranslation": "Grab an apple from the cupboard."
+    },
+    {
+      "id": "398",
+      "dutch": "patat",
+      "article": "de",
+      "english": "fries",
+      "type": "noun",
+      "example": "Hij eet patat met mayonaise.",
+      "exampleTranslation": "He eats fries with mayonnaise."
+    },
+    {
+      "id": "399",
+      "dutch": "probleem",
+      "article": "het",
+      "english": "problem",
+      "type": "noun",
+      "example": "Dat is geen probleem.",
+      "exampleTranslation": "That's not a problem."
+    },
+    {
+      "id": "400",
+      "dutch": "snappen",
+      "article": null,
+      "english": "to get / understand",
+      "type": "verb",
+      "example": "Ik snap het niet.",
+      "exampleTranslation": "I don't get it."
+    },
+    {
+      "id": "401",
+      "dutch": "toch",
+      "article": null,
+      "english": "anyway / still",
+      "type": "adverb",
+      "example": "Ik eet toch een koekje.",
+      "exampleTranslation": "I'll have a cookie anyway."
+    },
+    {
+      "id": "402",
+      "dutch": "tussendoor",
+      "article": null,
+      "english": "in between (as a snack)",
+      "type": "adverb",
+      "example": "Ik eet tussendoor een appel.",
+      "exampleTranslation": "I eat an apple as a snack in between."
+    },
+    {
+      "id": "403",
+      "dutch": "vet",
+      "article": null,
+      "english": "fat / greasy",
+      "type": "adjective",
+      "example": "Patat is erg vet.",
+      "exampleTranslation": "Fries are very greasy."
+    },
+    {
+      "id": "404",
+      "dutch": "wegen",
+      "article": null,
+      "english": "to weigh",
+      "type": "verb",
+      "example": "Ik weeg mezelf elke week.",
+      "exampleTranslation": "I weigh myself every week."
+    },
+    {
+      "id": "405",
+      "dutch": "weinig",
+      "article": null,
+      "english": "little / few",
+      "type": "adverb",
+      "example": "Ik heb weinig tijd.",
+      "exampleTranslation": "I have little time."
+    },
+    {
+      "id": "406",
+      "dutch": "afhalen",
+      "article": null,
+      "english": "to pick up / take away",
+      "type": "verb",
+      "example": "Ik haal het eten af.",
+      "exampleTranslation": "I'll pick up the food."
+    },
+    {
+      "id": "407",
+      "dutch": "alle",
+      "article": null,
+      "english": "all",
+      "type": "pronoun",
+      "example": "Alle gasten zijn er.",
+      "exampleTranslation": "All the guests are here."
+    },
+    {
+      "id": "408",
+      "dutch": "bestellen",
+      "article": null,
+      "english": "to order",
+      "type": "verb",
+      "example": "Ik bestel een pizza.",
+      "exampleTranslation": "I order a pizza."
+    },
+    {
+      "id": "409",
+      "dutch": "bezorgen",
+      "article": null,
+      "english": "to deliver",
+      "type": "verb",
+      "example": "Ze bezorgen het eten thuis.",
+      "exampleTranslation": "They deliver the food at home."
+    },
+    {
+      "id": "410",
+      "dutch": "bijvoorbeeld",
+      "article": null,
+      "english": "for example",
+      "type": "adverb",
+      "example": "Ik hou van fruit, bijvoorbeeld appels.",
+      "exampleTranslation": "I like fruit, for example apples."
+    },
+    {
+      "id": "411",
+      "dutch": "buiten",
+      "article": null,
+      "english": "outside",
+      "type": "preposition",
+      "example": "We eten buiten op het terras.",
+      "exampleTranslation": "We eat outside on the terrace."
+    },
+    {
+      "id": "412",
+      "dutch": "daarom",
+      "article": null,
+      "english": "therefore",
+      "type": "adverb",
+      "example": "Het regent, daarom blijf ik thuis.",
+      "exampleTranslation": "It's raining, therefore I'm staying home."
+    },
+    {
+      "id": "413",
+      "dutch": "haring",
+      "article": "de",
+      "english": "herring",
+      "type": "noun",
+      "example": "Nederlanders eten graag haring.",
+      "exampleTranslation": "Dutch people like to eat herring."
+    },
+    {
+      "id": "414",
+      "dutch": "internationaal",
+      "article": null,
+      "english": "international",
+      "type": "adjective",
+      "example": "Dit is een internationaal restaurant.",
+      "exampleTranslation": "This is an international restaurant."
+    },
+    {
+      "id": "415",
+      "dutch": "land",
+      "article": "het",
+      "english": "country",
+      "type": "noun",
+      "example": "Nederland is een klein land.",
+      "exampleTranslation": "The Netherlands is a small country."
+    },
+    {
+      "id": "416",
+      "dutch": "manier",
+      "article": "de",
+      "english": "way / manner",
+      "type": "noun",
+      "example": "Dit is een goede manier om te koken.",
+      "exampleTranslation": "This is a good way to cook."
+    },
+    {
+      "id": "417",
+      "dutch": "mayonaise",
+      "article": "de",
+      "english": "mayonnaise",
+      "type": "noun",
+      "example": "Patat met mayonaise, graag.",
+      "exampleTranslation": "Fries with mayonnaise, please."
+    },
+    {
+      "id": "418",
+      "dutch": "mens",
+      "article": "de",
+      "english": "person / human",
+      "type": "noun",
+      "example": "Elk mens is anders.",
+      "exampleTranslation": "Every person is different."
+    },
+    {
+      "id": "419",
+      "dutch": "overal",
+      "article": null,
+      "english": "everywhere",
+      "type": "adverb",
+      "example": "Je kunt overal patat kopen.",
+      "exampleTranslation": "You can buy fries everywhere."
+    },
+    {
+      "id": "420",
+      "dutch": "plaats",
+      "article": "de",
+      "english": "place / seat",
+      "type": "noun",
+      "example": "Is deze plaats vrij?",
+      "exampleTranslation": "Is this seat free?"
+    },
+    {
+      "id": "421",
+      "dutch": "proeven",
+      "article": null,
+      "english": "to taste",
+      "type": "verb",
+      "example": "Wil je proeven?",
+      "exampleTranslation": "Would you like to taste?"
+    },
+    {
+      "id": "422",
+      "dutch": "reserveren",
+      "article": null,
+      "english": "to reserve / book",
+      "type": "verb",
+      "example": "Ik wil een tafel reserveren.",
+      "exampleTranslation": "I would like to reserve a table."
+    },
+    {
+      "id": "423",
+      "dutch": "smaken",
+      "article": null,
+      "english": "to taste (of food)",
+      "type": "verb",
+      "example": "Dit smaakt heel lekker.",
+      "exampleTranslation": "This tastes very good."
+    },
+    {
+      "id": "424",
+      "dutch": "stamppot",
+      "article": "de",
+      "english": "stamppot (Dutch mashed dish)",
+      "type": "noun",
+      "example": "Stamppot is typisch Nederlands.",
+      "exampleTranslation": "Stamppot is typically Dutch."
+    },
+    {
+      "id": "425",
+      "dutch": "tafel",
+      "article": "de",
+      "english": "table",
+      "type": "noun",
+      "example": "We zitten aan tafel.",
+      "exampleTranslation": "We're sitting at the table."
+    },
+    {
+      "id": "426",
+      "dutch": "terras",
+      "article": "het",
+      "english": "terrace / patio",
+      "type": "noun",
+      "example": "We zitten op het terras.",
+      "exampleTranslation": "We're sitting on the terrace."
+    },
+    {
+      "id": "427",
+      "dutch": "typisch",
+      "article": null,
+      "english": "typical",
+      "type": "adjective",
+      "example": "Dat is typisch Nederlands.",
+      "exampleTranslation": "That's typically Dutch."
+    },
+    {
+      "id": "428",
+      "dutch": "verschillend",
+      "article": null,
+      "english": "different / various",
+      "type": "adjective",
+      "example": "Er zijn verschillende soorten kaas.",
+      "exampleTranslation": "There are various kinds of cheese."
+    },
+    {
+      "id": "429",
+      "dutch": "zoals",
+      "article": null,
+      "english": "such as / like",
+      "type": "conjunction",
+      "example": "Ik hou van groente, zoals wortels.",
+      "exampleTranslation": "I like vegetables, such as carrots."
     }
   ]
 }

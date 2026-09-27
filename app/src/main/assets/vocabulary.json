@@ -3862,6 +3862,881 @@
       "type": "conjunction",
       "example": "Ik hou van groente, zoals wortels.",
       "exampleTranslation": "I like vegetables, such as carrots."
+    },
+    {
+      "id": "430",
+      "dutch": "appartement",
+      "article": "het",
+      "english": "apartment",
+      "type": "noun",
+      "example": "Ik woon in een klein appartement.",
+      "exampleTranslation": "I live in a small apartment."
+    },
+    {
+      "id": "431",
+      "dutch": "badkamer",
+      "article": "de",
+      "english": "bathroom",
+      "type": "noun",
+      "example": "De badkamer is naast de slaapkamer.",
+      "exampleTranslation": "The bathroom is next to the bedroom."
+    },
+    {
+      "id": "432",
+      "dutch": "balkon",
+      "article": "het",
+      "english": "balcony",
+      "type": "noun",
+      "example": "We zitten op het balkon.",
+      "exampleTranslation": "We are sitting on the balcony."
+    },
+    {
+      "id": "433",
+      "dutch": "betalen",
+      "article": null,
+      "english": "to pay",
+      "type": "verb",
+      "example": "Ik betaal de huur elke maand.",
+      "exampleTranslation": "I pay the rent every month."
+    },
+    {
+      "id": "434",
+      "dutch": "centrum",
+      "article": "het",
+      "english": "centre",
+      "type": "noun",
+      "example": "De winkel is in het centrum.",
+      "exampleTranslation": "The shop is in the centre."
+    },
+    {
+      "id": "435",
+      "dutch": "delen",
+      "article": null,
+      "english": "to share",
+      "type": "verb",
+      "example": "Ik deel de keuken met mijn huisgenoot.",
+      "exampleTranslation": "I share the kitchen with my housemate."
+    },
+    {
+      "id": "436",
+      "dutch": "eigen",
+      "article": null,
+      "english": "own",
+      "type": "adjective",
+      "example": "Ik heb een eigen kamer.",
+      "exampleTranslation": "I have my own room."
+    },
+    {
+      "id": "437",
+      "dutch": "familie",
+      "article": "de",
+      "english": "family",
+      "type": "noun",
+      "example": "Mijn familie woont in Turkije.",
+      "exampleTranslation": "My family lives in Turkey."
+    },
+    {
+      "id": "438",
+      "dutch": "gebruiken",
+      "article": null,
+      "english": "to use",
+      "type": "verb",
+      "example": "Mag ik jouw fiets gebruiken?",
+      "exampleTranslation": "May I use your bicycle?"
+    },
+    {
+      "id": "439",
+      "dutch": "gezin",
+      "article": "het",
+      "english": "family (parents and children)",
+      "type": "noun",
+      "example": "Ons gezin heeft vier mensen.",
+      "exampleTranslation": "There are four people in our family."
+    },
+    {
+      "id": "440",
+      "dutch": "hoog",
+      "article": null,
+      "english": "high / tall",
+      "type": "adjective",
+      "example": "Dat gebouw is heel hoog.",
+      "exampleTranslation": "That building is very tall."
+    },
+    {
+      "id": "441",
+      "dutch": "huisgenoot",
+      "article": "de",
+      "english": "housemate",
+      "type": "noun",
+      "example": "Mijn huisgenoot kookt vandaag.",
+      "exampleTranslation": "My housemate is cooking today."
+    },
+    {
+      "id": "442",
+      "dutch": "huur",
+      "article": "de",
+      "english": "rent",
+      "type": "noun",
+      "example": "De huur is achthonderd euro per maand.",
+      "exampleTranslation": "The rent is eight hundred euros per month."
+    },
+    {
+      "id": "443",
+      "dutch": "informatie",
+      "article": "de",
+      "english": "information",
+      "type": "noun",
+      "example": "Ik zoek informatie over deze woning.",
+      "exampleTranslation": "I am looking for information about this home."
+    },
+    {
+      "id": "444",
+      "dutch": "kamer",
+      "article": "de",
+      "english": "room",
+      "type": "noun",
+      "example": "Mijn kamer is niet groot.",
+      "exampleTranslation": "My room is not big."
+    },
+    {
+      "id": "445",
+      "dutch": "maar",
+      "article": null,
+      "english": "but",
+      "type": "conjunction",
+      "example": "Het huis is klein, maar de tuin is groot.",
+      "exampleTranslation": "The house is small, but the garden is big."
+    },
+    {
+      "id": "446",
+      "dutch": "plek",
+      "article": "de",
+      "english": "place / spot",
+      "type": "noun",
+      "example": "Is hier nog een plek vrij?",
+      "exampleTranslation": "Is there still a free spot here?"
+    },
+    {
+      "id": "447",
+      "dutch": "rijtjeshuis",
+      "article": "het",
+      "english": "terraced house",
+      "type": "noun",
+      "example": "Wij wonen in een rijtjeshuis.",
+      "exampleTranslation": "We live in a terraced house."
+    },
+    {
+      "id": "448",
+      "dutch": "slaapkamer",
+      "article": "de",
+      "english": "bedroom",
+      "type": "noun",
+      "example": "Het bed staat in de slaapkamer.",
+      "exampleTranslation": "The bed is in the bedroom."
+    },
+    {
+      "id": "449",
+      "dutch": "tuin",
+      "article": "de",
+      "english": "garden",
+      "type": "noun",
+      "example": "De kinderen spelen in de tuin.",
+      "exampleTranslation": "The children are playing in the garden."
+    },
+    {
+      "id": "450",
+      "dutch": "verdieping",
+      "article": "de",
+      "english": "floor / storey",
+      "type": "noun",
+      "example": "Ik woon op de tweede verdieping.",
+      "exampleTranslation": "I live on the second floor."
+    },
+    {
+      "id": "451",
+      "dutch": "vierkante meter",
+      "article": "de",
+      "english": "square metre",
+      "type": "noun",
+      "example": "De kamer is twintig vierkante meter.",
+      "exampleTranslation": "The room is twenty square metres."
+    },
+    {
+      "id": "452",
+      "dutch": "vlakbij",
+      "article": null,
+      "english": "nearby / very close",
+      "type": "adverb",
+      "example": "Het station is vlakbij.",
+      "exampleTranslation": "The station is very close."
+    },
+    {
+      "id": "453",
+      "dutch": "vrijstaand",
+      "article": null,
+      "english": "detached",
+      "type": "adjective",
+      "example": "Zij wonen in een vrijstaand huis.",
+      "exampleTranslation": "They live in a detached house."
+    },
+    {
+      "id": "454",
+      "dutch": "wc",
+      "article": "de",
+      "english": "toilet",
+      "type": "noun",
+      "example": "De wc is aan het einde van de gang.",
+      "exampleTranslation": "The toilet is at the end of the hallway."
+    },
+    {
+      "id": "455",
+      "dutch": "bed",
+      "article": "het",
+      "english": "bed",
+      "type": "noun",
+      "example": "Ik ga om tien uur naar bed.",
+      "exampleTranslation": "I go to bed at ten o'clock."
+    },
+    {
+      "id": "456",
+      "dutch": "ervaring",
+      "article": "de",
+      "english": "experience",
+      "type": "noun",
+      "example": "Heb je ervaring met kinderen?",
+      "exampleTranslation": "Do you have experience with children?"
+    },
+    {
+      "id": "457",
+      "dutch": "flat",
+      "article": "de",
+      "english": "flat / block of flats",
+      "type": "noun",
+      "example": "Mijn oma woont in een flat.",
+      "exampleTranslation": "My grandmother lives in a flat."
+    },
+    {
+      "id": "458",
+      "dutch": "hulp",
+      "article": "de",
+      "english": "help",
+      "type": "noun",
+      "example": "Bedankt voor je hulp.",
+      "exampleTranslation": "Thank you for your help."
+    },
+    {
+      "id": "459",
+      "dutch": "klussen",
+      "article": null,
+      "english": "to do DIY / odd jobs",
+      "type": "verb",
+      "example": "We klussen dit weekend in ons huis.",
+      "exampleTranslation": "We are doing DIY in our house this weekend."
+    },
+    {
+      "id": "460",
+      "dutch": "kwijt",
+      "article": null,
+      "english": "lost / unable to find",
+      "type": "adjective",
+      "example": "Ik ben mijn sleutel kwijt.",
+      "exampleTranslation": "I can't find my key."
+    },
+    {
+      "id": "461",
+      "dutch": "laag",
+      "article": null,
+      "english": "low",
+      "type": "adjective",
+      "example": "Deze tafel is te laag.",
+      "exampleTranslation": "This table is too low."
+    },
+    {
+      "id": "462",
+      "dutch": "langskomen",
+      "article": null,
+      "english": "to come by / visit",
+      "type": "verb",
+      "example": "Kom je morgen even langs?",
+      "exampleTranslation": "Will you come by tomorrow?"
+    },
+    {
+      "id": "463",
+      "dutch": "meisje",
+      "article": "het",
+      "english": "girl",
+      "type": "noun",
+      "example": "Het meisje speelt in de tuin.",
+      "exampleTranslation": "The girl is playing in the garden."
+    },
+    {
+      "id": "464",
+      "dutch": "ongeveer",
+      "article": null,
+      "english": "approximately / about",
+      "type": "adverb",
+      "example": "De tas kost ongeveer twintig euro.",
+      "exampleTranslation": "The bag costs about twenty euros."
+    },
+    {
+      "id": "465",
+      "dutch": "ophalen",
+      "article": null,
+      "english": "to pick up / collect",
+      "type": "verb",
+      "example": "Ik haal mijn dochter op van school.",
+      "exampleTranslation": "I pick up my daughter from school."
+    },
+    {
+      "id": "466",
+      "dutch": "oppas",
+      "article": "de",
+      "english": "babysitter",
+      "type": "noun",
+      "example": "De oppas komt om zeven uur.",
+      "exampleTranslation": "The babysitter is coming at seven o'clock."
+    },
+    {
+      "id": "467",
+      "dutch": "opruimen",
+      "article": null,
+      "english": "to tidy up",
+      "type": "verb",
+      "example": "Ik ruim mijn kamer op.",
+      "exampleTranslation": "I am tidying up my room."
+    },
+    {
+      "id": "468",
+      "dutch": "prijs",
+      "article": "de",
+      "english": "price",
+      "type": "noun",
+      "example": "Wat is de prijs van deze stoel?",
+      "exampleTranslation": "What is the price of this chair?"
+    },
+    {
+      "id": "469",
+      "dutch": "schoonmaken",
+      "article": null,
+      "english": "to clean",
+      "type": "verb",
+      "example": "We maken de keuken schoon.",
+      "exampleTranslation": "We are cleaning the kitchen."
+    },
+    {
+      "id": "470",
+      "dutch": "sleutel",
+      "article": "de",
+      "english": "key",
+      "type": "noun",
+      "example": "De sleutel ligt op tafel.",
+      "exampleTranslation": "The key is on the table."
+    },
+    {
+      "id": "471",
+      "dutch": "spullen",
+      "article": "de",
+      "english": "things / belongings",
+      "type": "noun",
+      "example": "Mijn spullen zitten in deze doos.",
+      "exampleTranslation": "My belongings are in this box."
+    },
+    {
+      "id": "472",
+      "dutch": "stoel",
+      "article": "de",
+      "english": "chair",
+      "type": "noun",
+      "example": "Er staan vier stoelen bij de tafel.",
+      "exampleTranslation": "There are four chairs by the table."
+    },
+    {
+      "id": "473",
+      "dutch": "student",
+      "article": "de",
+      "english": "student",
+      "type": "noun",
+      "example": "Mijn broer is student.",
+      "exampleTranslation": "My brother is a student."
+    },
+    {
+      "id": "474",
+      "dutch": "tweedehands",
+      "article": null,
+      "english": "second-hand",
+      "type": "adjective",
+      "example": "Ik koop een tweedehands fiets.",
+      "exampleTranslation": "I am buying a second-hand bicycle."
+    },
+    {
+      "id": "475",
+      "dutch": "verhuizen",
+      "article": null,
+      "english": "to move house",
+      "type": "verb",
+      "example": "Wij verhuizen volgende maand naar Utrecht.",
+      "exampleTranslation": "We are moving to Utrecht next month."
+    },
+    {
+      "id": "476",
+      "dutch": "verkopen",
+      "article": null,
+      "english": "to sell",
+      "type": "verb",
+      "example": "Zij verkoopt haar oude fiets.",
+      "exampleTranslation": "She is selling her old bicycle."
+    },
+    {
+      "id": "477",
+      "dutch": "zoeken",
+      "article": null,
+      "english": "to look for / search",
+      "type": "verb",
+      "example": "Ik zoek een kamer in Amsterdam.",
+      "exampleTranslation": "I am looking for a room in Amsterdam."
+    },
+    {
+      "id": "478",
+      "dutch": "belangrijk",
+      "article": null,
+      "english": "important",
+      "type": "adjective",
+      "example": "Deze informatie is belangrijk.",
+      "exampleTranslation": "This information is important."
+    },
+    {
+      "id": "479",
+      "dutch": "blauw",
+      "article": null,
+      "english": "blue",
+      "type": "adjective",
+      "example": "De deur is blauw.",
+      "exampleTranslation": "The door is blue."
+    },
+    {
+      "id": "480",
+      "dutch": "donker",
+      "article": null,
+      "english": "dark",
+      "type": "adjective",
+      "example": "Het is donker in de kamer.",
+      "exampleTranslation": "It is dark in the room."
+    },
+    {
+      "id": "481",
+      "dutch": "iedereen",
+      "article": null,
+      "english": "everyone",
+      "type": "pronoun",
+      "example": "Iedereen is thuis.",
+      "exampleTranslation": "Everyone is at home."
+    },
+    {
+      "id": "482",
+      "dutch": "kast",
+      "article": "de",
+      "english": "cupboard / wardrobe",
+      "type": "noun",
+      "example": "Mijn kleding ligt in de kast.",
+      "exampleTranslation": "My clothes are in the wardrobe."
+    },
+    {
+      "id": "483",
+      "dutch": "kiezen",
+      "article": null,
+      "english": "to choose",
+      "type": "verb",
+      "example": "Welke kleur kies je?",
+      "exampleTranslation": "Which colour do you choose?"
+    },
+    {
+      "id": "484",
+      "dutch": "kleding",
+      "article": "de",
+      "english": "clothes / clothing",
+      "type": "noun",
+      "example": "Ik koop nieuwe kleding.",
+      "exampleTranslation": "I am buying new clothes."
+    },
+    {
+      "id": "485",
+      "dutch": "kleur",
+      "article": "de",
+      "english": "colour",
+      "type": "noun",
+      "example": "Welke kleur heeft jouw fiets?",
+      "exampleTranslation": "What colour is your bicycle?"
+    },
+    {
+      "id": "486",
+      "dutch": "la",
+      "article": "de",
+      "english": "drawer",
+      "type": "noun",
+      "example": "De sleutel ligt in de la.",
+      "exampleTranslation": "The key is in the drawer."
+    },
+    {
+      "id": "487",
+      "dutch": "lamp",
+      "article": "de",
+      "english": "lamp",
+      "type": "noun",
+      "example": "Er staat een lamp naast het bed.",
+      "exampleTranslation": "There is a lamp next to the bed."
+    },
+    {
+      "id": "488",
+      "dutch": "licht",
+      "sense": "bright",
+      "article": null,
+      "english": "light / bright",
+      "type": "adjective",
+      "example": "De woonkamer is groot en licht.",
+      "exampleTranslation": "The living room is large and bright."
+    },
+    {
+      "id": "489",
+      "dutch": "licht",
+      "sense": "brightness",
+      "article": "het",
+      "english": "light",
+      "type": "noun",
+      "example": "Doe je het licht aan?",
+      "exampleTranslation": "Will you turn on the light?"
+    },
+    {
+      "id": "490",
+      "dutch": "meubel",
+      "article": "het",
+      "english": "piece of furniture",
+      "type": "noun",
+      "example": "Dit meubel is van hout.",
+      "exampleTranslation": "This piece of furniture is made of wood."
+    },
+    {
+      "id": "491",
+      "dutch": "muur",
+      "article": "de",
+      "english": "wall",
+      "type": "noun",
+      "example": "Er hangt een foto aan de muur.",
+      "exampleTranslation": "There is a photo hanging on the wall."
+    },
+    {
+      "id": "492",
+      "dutch": "onder",
+      "article": null,
+      "english": "under",
+      "type": "preposition",
+      "example": "De kat ligt onder de tafel.",
+      "exampleTranslation": "The cat is lying under the table."
+    },
+    {
+      "id": "493",
+      "dutch": "raam",
+      "article": "het",
+      "english": "window",
+      "type": "noun",
+      "example": "Mag het raam open?",
+      "exampleTranslation": "Can we open the window?"
+    },
+    {
+      "id": "494",
+      "dutch": "ruimte",
+      "article": "de",
+      "english": "space / room",
+      "type": "noun",
+      "example": "Er is genoeg ruimte voor een tafel.",
+      "exampleTranslation": "There is enough space for a table."
+    },
+    {
+      "id": "495",
+      "dutch": "tegen",
+      "article": null,
+      "english": "against",
+      "type": "preposition",
+      "example": "De kast staat tegen de muur.",
+      "exampleTranslation": "The cupboard is against the wall."
+    },
+    {
+      "id": "496",
+      "dutch": "tip",
+      "article": "de",
+      "english": "tip / piece of advice",
+      "type": "noun",
+      "example": "Heb je een tip voor mij?",
+      "exampleTranslation": "Do you have a tip for me?"
+    },
+    {
+      "id": "497",
+      "dutch": "vloer",
+      "article": "de",
+      "english": "floor",
+      "type": "noun",
+      "example": "De tas staat op de vloer.",
+      "exampleTranslation": "The bag is on the floor."
+    },
+    {
+      "id": "498",
+      "dutch": "vol",
+      "article": null,
+      "english": "full",
+      "type": "adjective",
+      "example": "De kast is vol.",
+      "exampleTranslation": "The cupboard is full."
+    },
+    {
+      "id": "499",
+      "dutch": "vooral",
+      "article": null,
+      "english": "especially / mainly",
+      "type": "adverb",
+      "example": "Ik eet graag fruit, vooral appels.",
+      "exampleTranslation": "I like eating fruit, especially apples."
+    },
+    {
+      "id": "500",
+      "dutch": "wit",
+      "article": null,
+      "english": "white",
+      "type": "adjective",
+      "example": "De muur is wit.",
+      "exampleTranslation": "The wall is white."
+    },
+    {
+      "id": "501",
+      "dutch": "woning",
+      "article": "de",
+      "english": "home / dwelling",
+      "type": "noun",
+      "example": "Wij zoeken een woning met een tuin.",
+      "exampleTranslation": "We are looking for a home with a garden."
+    },
+    {
+      "id": "502",
+      "dutch": "woonkamer",
+      "article": "de",
+      "english": "living room",
+      "type": "noun",
+      "example": "We kijken tv in de woonkamer.",
+      "exampleTranslation": "We watch TV in the living room."
+    },
+    {
+      "id": "503",
+      "dutch": "zetten",
+      "article": null,
+      "english": "to put / place",
+      "type": "verb",
+      "example": "Ik zet de tas op de stoel.",
+      "exampleTranslation": "I put the bag on the chair."
+    },
+    {
+      "id": "504",
+      "dutch": "zorgen voor",
+      "article": null,
+      "english": "to take care of",
+      "type": "verb",
+      "example": "Ik zorg voor mijn kleine broer.",
+      "exampleTranslation": "I take care of my little brother."
+    },
+    {
+      "id": "505",
+      "dutch": "allebei",
+      "article": null,
+      "english": "both",
+      "type": "pronoun",
+      "example": "Mijn ouders werken allebei.",
+      "exampleTranslation": "Both my parents work."
+    },
+    {
+      "id": "506",
+      "dutch": "allemaal",
+      "article": null,
+      "english": "all / everyone",
+      "type": "pronoun",
+      "example": "We wonen allemaal in dezelfde straat.",
+      "exampleTranslation": "We all live on the same street."
+    },
+    {
+      "id": "507",
+      "dutch": "elkaar",
+      "article": null,
+      "english": "each other",
+      "type": "pronoun",
+      "example": "Wij helpen elkaar.",
+      "exampleTranslation": "We help each other."
+    },
+    {
+      "id": "508",
+      "dutch": "geld",
+      "article": "het",
+      "english": "money",
+      "type": "noun",
+      "example": "Ik heb geen geld bij me.",
+      "exampleTranslation": "I have no money with me."
+    },
+    {
+      "id": "509",
+      "dutch": "gratis",
+      "article": null,
+      "english": "free of charge",
+      "type": "adjective",
+      "example": "De koffie is gratis.",
+      "exampleTranslation": "The coffee is free."
+    },
+    {
+      "id": "510",
+      "dutch": "huren",
+      "article": null,
+      "english": "to rent",
+      "type": "verb",
+      "example": "Ik huur een kamer in Leiden.",
+      "exampleTranslation": "I rent a room in Leiden."
+    },
+    {
+      "id": "511",
+      "dutch": "lang",
+      "article": null,
+      "english": "long / tall",
+      "type": "adjective",
+      "example": "Mijn broer is erg lang.",
+      "exampleTranslation": "My brother is very tall."
+    },
+    {
+      "id": "512",
+      "dutch": "makkelijk",
+      "article": null,
+      "english": "easy",
+      "type": "adjective",
+      "example": "Deze vraag is makkelijk.",
+      "exampleTranslation": "This question is easy."
+    },
+    {
+      "id": "513",
+      "dutch": "meeste",
+      "article": null,
+      "english": "most",
+      "type": "numeral",
+      "example": "De meeste studenten wonen op kamers.",
+      "exampleTranslation": "Most students live in rented rooms."
+    },
+    {
+      "id": "514",
+      "dutch": "moeilijk",
+      "article": null,
+      "english": "difficult",
+      "type": "adjective",
+      "example": "Deze oefening is moeilijk.",
+      "exampleTranslation": "This exercise is difficult."
+    },
+    {
+      "id": "515",
+      "dutch": "ouder",
+      "article": "de",
+      "english": "parent",
+      "type": "noun",
+      "example": "Elke ouder krijgt een brief van school.",
+      "exampleTranslation": "Every parent receives a letter from school."
+    },
+    {
+      "id": "516",
+      "dutch": "procent",
+      "article": "het",
+      "english": "percent",
+      "type": "noun",
+      "example": "Je krijgt tien procent korting.",
+      "exampleTranslation": "You get a ten percent discount."
+    },
+    {
+      "id": "517",
+      "dutch": "sparen",
+      "article": null,
+      "english": "to save (money)",
+      "type": "verb",
+      "example": "Ik spaar voor een nieuwe fiets.",
+      "exampleTranslation": "I am saving for a new bicycle."
+    },
+    {
+      "id": "518",
+      "dutch": "streng",
+      "article": null,
+      "english": "strict",
+      "type": "adjective",
+      "example": "Onze docent is streng.",
+      "exampleTranslation": "Our teacher is strict."
+    },
+    {
+      "id": "519",
+      "dutch": "studeren",
+      "article": null,
+      "english": "to study",
+      "type": "verb",
+      "example": "Mijn zus studeert in Rotterdam.",
+      "exampleTranslation": "My sister studies in Rotterdam."
+    },
+    {
+      "id": "520",
+      "dutch": "studie",
+      "article": "de",
+      "english": "studies / degree course",
+      "type": "noun",
+      "example": "Mijn studie duurt vier jaar.",
+      "exampleTranslation": "My degree course takes four years."
+    },
+    {
+      "id": "521",
+      "dutch": "uitstappen",
+      "article": null,
+      "english": "to get off / get out",
+      "type": "verb",
+      "example": "We stappen uit bij het station.",
+      "exampleTranslation": "We get off at the station."
+    },
+    {
+      "id": "522",
+      "dutch": "vrijheid",
+      "article": "de",
+      "english": "freedom",
+      "type": "noun",
+      "example": "Ik wil graag meer vrijheid.",
+      "exampleTranslation": "I would like more freedom."
+    },
+    {
+      "id": "523",
+      "dutch": "wachten",
+      "article": null,
+      "english": "to wait",
+      "type": "verb",
+      "example": "Ik wacht op de bus.",
+      "exampleTranslation": "I am waiting for the bus."
+    },
+    {
+      "id": "524",
+      "dutch": "was",
+      "article": "de",
+      "english": "laundry",
+      "type": "noun",
+      "example": "Ik doe de was op zaterdag.",
+      "exampleTranslation": "I do the laundry on Saturday."
+    },
+    {
+      "id": "525",
+      "dutch": "wasmachine",
+      "article": "de",
+      "english": "washing machine",
+      "type": "noun",
+      "example": "De wasmachine staat in de badkamer.",
+      "exampleTranslation": "The washing machine is in the bathroom."
+    },
+    {
+      "id": "526",
+      "dutch": "zelfstandig",
+      "article": null,
+      "english": "independent",
+      "type": "adjective",
+      "example": "Mijn dochter is heel zelfstandig.",
+      "exampleTranslation": "My daughter is very independent."
     }
   ]
 }

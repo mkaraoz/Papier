@@ -10,6 +10,7 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.stateIn
 import org.mk.papier.data.ThemeRepository
+import org.mk.papier.data.NewWordsRepository
 import org.mk.papier.data.WordRepository
 import org.mk.papier.model.Word
 
@@ -22,9 +23,12 @@ class WordListViewModel(
 
     private val typeFilter: String? = savedStateHandle["filter"]
     private val themeFilter: String? = savedStateHandle["theme"]
+    val isNewWords: Boolean = savedStateHandle["newWords"] ?: false
+    private val newWordsRepository = NewWordsRepository(application)
 
     /** Header title — the theme name when we arrived from the Themes screen. */
-    val title: String = themeFilter?.replaceFirstChar { it.uppercase() } ?: "Word List"
+    val title: String = if (isNewWords) "New Words"
+        else themeFilter?.replaceFirstChar { it.uppercase() } ?: "Word List"
 
     private val allWords: List<Word> = if (themeFilter != null) {
         ThemeRepository(application).loadThemes()
@@ -47,18 +51,35 @@ class WordListViewModel(
 
     private val _currentWords = MutableStateFlow(sortedWords)
 
-    val filteredWords = combine(_searchQuery, _currentWords) { query, words ->
-        if (query.isBlank()) words
-        else words.filter { word ->
-            word.dutch.contains(query, ignoreCase = true) ||
-            word.english.contains(query, ignoreCase = true) ||
-            word.sense?.contains(query, ignoreCase = true) == true
+    val filteredWords = combine(
+        _searchQuery, _currentWords, newWordsRepository.wordIds
+    ) { query, words, selectedIds ->
+        words.filter { word ->
+            (!isNewWords || word.id in selectedIds) && (
+                query.isBlank() ||
+                word.dutch.contains(query, ignoreCase = true) ||
+                word.english.contains(query, ignoreCase = true) ||
+                word.sense?.contains(query, ignoreCase = true) == true
+            )
         }
     }.stateIn(
         scope = viewModelScope,
         started = SharingStarted.WhileSubscribed(5_000),
-        initialValue = sortedWords
+        initialValue = sortedWords.filter { !isNewWords || it.id in newWordsRepository.wordIds.value }
     )
+
+    fun wordById(id: String): Word? = allWords.firstOrNull { it.id == id }
+
+    fun addToNewWords(word: Word): Boolean = newWordsRepository.add(word.id)
+
+    fun removeFromNewWords(wordId: String) {
+        newWordsRepository.remove(wordId)
+    }
+
+    override fun onCleared() {
+        newWordsRepository.close()
+        super.onCleared()
+    }
 
     fun onSearchQueryChange(query: String) {
         _searchQuery.value = query

@@ -8,7 +8,7 @@ val allTopics = listOf(
     Topic(
         id = "words",
         title = "Words",
-        subtitle = "Lists, themes, idioms & flashcards",
+        subtitle = "Lists, themes, idioms & new words",
         category = Category.WORDS,
         icon = TopicIcon.BOOK,
         colorHex = 0xFF4A90D9

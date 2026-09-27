@@ -19,14 +19,13 @@ import org.mk.papier.ui.pronouns.PronounsScreen
 import org.mk.papier.ui.sentences.SentencesScreen
 import org.mk.papier.ui.tags.TagsScreen
 import org.mk.papier.ui.theme.PapierTheme
-import org.mk.papier.ui.words.FlashcardsScreen
 import org.mk.papier.ui.words.WordListScreen
 import org.mk.papier.ui.words.WordsHubScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-         enableEdgeToEdge()
+        enableEdgeToEdge()
         setContent {
             PapierTheme {
                 val navController = rememberNavController()
@@ -89,14 +88,13 @@ class MainActivity : ComponentActivity() {
                         }
 
                         composable(
-                            route = "flashcards?filter={filter}",
-                            arguments = listOf(navArgument("filter") {
-                                type = NavType.StringType
-                                nullable = true
-                                defaultValue = null
+                            route = "new_words",
+                            arguments = listOf(navArgument("newWords") {
+                                type = NavType.BoolType
+                                defaultValue = true
                             })
                         ) {
-                            FlashcardsScreen(onBack = { navController.popBackStack() })
+                            WordListScreen(onBack = { navController.popBackStack() })
                         }
                     }
                 }

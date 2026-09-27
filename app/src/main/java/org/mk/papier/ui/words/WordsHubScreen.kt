@@ -18,11 +18,10 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.automirrored.filled.Chat
 import androidx.compose.material.icons.automirrored.filled.List
-import androidx.compose.material.icons.filled.FlashOn
+import androidx.compose.material.icons.filled.BookmarkAdd
 import androidx.compose.material.icons.filled.LocalOffer
 import androidx.compose.material.icons.filled.Notes
 import androidx.compose.material.icons.filled.Spellcheck
-import androidx.compose.material.icons.filled.Style
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.Icon
@@ -48,8 +47,7 @@ private data class HubItem(
 private val hubItems = listOf(
     HubItem("All Words", "Full sorted list", Color(0xFF4A90D9), Icons.AutoMirrored.Filled.List, "word_list"),
     HubItem("Verbs", "Verb forms only", Color(0xFF4CAF50), Icons.Default.Spellcheck, "word_list?filter=verb"),
-    HubItem("Flashcards", "Flip and learn", Color(0xFFFF9800), Icons.Default.Style, "flashcards"),
-    HubItem("Verb Cards", "Cards, verbs only", Color(0xFF9C27B0), Icons.Default.FlashOn, "flashcards?filter=verb"),
+    HubItem("New Words", "Your words to learn", Color(0xFFFF9800), Icons.Default.BookmarkAdd, "new_words"),
     HubItem("Idioms", "Everyday expressions", Color(0xFF00897B), Icons.AutoMirrored.Filled.Chat, "phrases"),
     HubItem("Themes", "Words grouped by topic", Color(0xFFE91E63), Icons.Default.LocalOffer, "tags"),
     HubItem("Sentences", "A2 practice lines", Color(0xFF5C6BC0), Icons.Default.Notes, "sentences")

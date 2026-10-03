@@ -39,6 +39,7 @@
 - Planned, not implemented: grammar (word order/tenses/prepositions), basics (alphabet/numbers), time screens, manually triggered public Google Drive JSON sync with local cache. Do not restore flashcards without a new request.
 - Whether themes should cover every word or remain curated is undecided.
 - README is outdated. Initial review checked JSON parsing, duplicate word IDs and theme references, but did not run a build/device test.
+- Dutch Scroll prototype added on `scroll` on 2026-10-03: 25 existing vocabulary words with two curated extra examples each and word/example TTS. Home and Words now lead to a picker for three versions: V1 original full-card layout with local ratings; V2 feed with next-word peek, compact header, plain example rows, and reshuffled repeat passes; V3 denser feed with a right-side Listen/Save/Share rail, visible sentence audio, and New Words saving. CEFR is hidden until reliable data exists. Build/content checks passed; device/UI testing is pending. Preserve each version as a separate navigation destination for comparison and add future iterations separately.
 
 ## Historical context
 - Imported at the user's request from `/home/mk/.claude/projects/-home-mk-AndroidStudioProjects-Papier/memory/`.

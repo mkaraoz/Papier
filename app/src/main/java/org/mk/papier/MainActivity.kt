@@ -17,6 +17,10 @@ import org.mk.papier.ui.home.HomeScreen
 import org.mk.papier.ui.phrases.PhrasesScreen
 import org.mk.papier.ui.pronouns.PronounsScreen
 import org.mk.papier.ui.sentences.SentencesScreen
+import org.mk.papier.ui.scroll.ScrollPickerScreen
+import org.mk.papier.ui.scroll.ScrollV1Screen
+import org.mk.papier.ui.scroll.ScrollV2Screen
+import org.mk.papier.ui.scroll.ScrollV3Screen
 import org.mk.papier.ui.tags.TagsScreen
 import org.mk.papier.ui.theme.PapierTheme
 import org.mk.papier.ui.words.WordListScreen
@@ -35,6 +39,7 @@ class MainActivity : ComponentActivity() {
                         composable("home") {
                             HomeScreen(onTopicClick = { topic ->
                                 when (topic.id) {
+                                    "scroll" -> navController.navigate("scroll_picker")
                                     "words" -> navController.navigate("words_hub")
                                     "pronouns" -> navController.navigate("pronouns")
                                 }
@@ -60,6 +65,25 @@ class MainActivity : ComponentActivity() {
 
                         composable("sentences") {
                             SentencesScreen(onBack = { navController.popBackStack() })
+                        }
+
+                        composable("scroll_picker") {
+                            ScrollPickerScreen(
+                                onBack = { navController.popBackStack() },
+                                onNavigate = { route -> navController.navigate(route) }
+                            )
+                        }
+
+                        composable("scroll_v1") {
+                            ScrollV1Screen(onBack = { navController.popBackStack() })
+                        }
+
+                        composable("scroll_v2") {
+                            ScrollV2Screen(onBack = { navController.popBackStack() })
+                        }
+
+                        composable("scroll_v3") {
+                            ScrollV3Screen(onBack = { navController.popBackStack() })
                         }
 
                         composable("words_hub") {

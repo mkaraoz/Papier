@@ -6,6 +6,14 @@ import org.mk.papier.model.TopicIcon
 
 val allTopics = listOf(
     Topic(
+        id = "scroll",
+        title = "Dutch Scroll",
+        subtitle = "Compare three vocabulary feeds",
+        category = Category.WORDS,
+        icon = TopicIcon.SCROLL,
+        colorHex = 0xFFF16828
+    ),
+    Topic(
         id = "words",
         title = "Words",
         subtitle = "Lists, themes, idioms & new words",

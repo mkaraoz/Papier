@@ -9,7 +9,7 @@ enum class Category(val displayName: String) {
 }
 
 enum class TopicIcon {
-    BOOK, EDIT, ABC, NUMBERS, CALENDAR, CLOCK, CHAT, LABEL
+    BOOK, EDIT, ABC, NUMBERS, CALENDAR, CLOCK, CHAT, LABEL, SCROLL
 }
 
 data class Topic(

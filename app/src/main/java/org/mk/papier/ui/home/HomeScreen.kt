@@ -31,6 +31,7 @@ import androidx.compose.material.icons.filled.LocalOffer
 import androidx.compose.material.icons.filled.Schedule
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.filled.Tag
+import androidx.compose.material.icons.filled.SwipeVertical
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.FilterChip
@@ -191,6 +192,7 @@ private fun TopicIcon.toImageVector(): ImageVector = when (this) {
     TopicIcon.CLOCK -> Icons.Default.Schedule
     TopicIcon.CHAT -> Icons.AutoMirrored.Filled.Chat
     TopicIcon.LABEL -> Icons.Default.LocalOffer
+    TopicIcon.SCROLL -> Icons.Default.SwipeVertical
 }
 
 @Preview(showBackground = true, showSystemUi = true)

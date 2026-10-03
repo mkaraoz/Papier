@@ -85,6 +85,12 @@ class DutchTts(context: Context) {
         tts.speak(text, TextToSpeech.QUEUE_FLUSH, Bundle(), id)
     }
 
+    fun stop() {
+        mainHandler.removeCallbacksAndMessages(null)
+        engine?.stop()
+        speakingId = null
+    }
+
     fun shutdown() {
         mainHandler.removeCallbacksAndMessages(null)
         engine?.stop()

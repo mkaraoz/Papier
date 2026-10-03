@@ -8,7 +8,7 @@ val allTopics = listOf(
     Topic(
         id = "scroll",
         title = "Dutch Scroll",
-        subtitle = "Compare three vocabulary feeds",
+        subtitle = "Compare four vocabulary feeds",
         category = Category.WORDS,
         icon = TopicIcon.SCROLL,
         colorHex = 0xFFF16828

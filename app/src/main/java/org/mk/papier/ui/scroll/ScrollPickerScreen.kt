@@ -31,7 +31,8 @@ private data class Version(val title: String, val description: String, val route
 private val versions = listOf(
     Version("Version 1 · Cards", "Original full-card layout with ratings", "scroll_v1"),
     Version("Version 2 · Feed", "Next-word peek and quiet example rows", "scroll_v2"),
-    Version("Version 3 · Actions", "Compact feed with useful side actions", "scroll_v3")
+    Version("Version 3 · Actions", "Compact feed with useful side actions", "scroll_v3"),
+    Version("Version 4 · Stories", "Tap or swipe through words sideways", "scroll_v4")
 )
 
 @Composable

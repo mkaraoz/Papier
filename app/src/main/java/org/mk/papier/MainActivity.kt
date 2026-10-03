@@ -21,6 +21,8 @@ import org.mk.papier.ui.scroll.ScrollPickerScreen
 import org.mk.papier.ui.scroll.ScrollV1Screen
 import org.mk.papier.ui.scroll.ScrollV2Screen
 import org.mk.papier.ui.scroll.ScrollV3Screen
+import org.mk.papier.ui.scroll.ScrollV4Screen
+import org.mk.papier.ui.scroll.ScrollPracticeScreen
 import org.mk.papier.ui.tags.TagsScreen
 import org.mk.papier.ui.theme.PapierTheme
 import org.mk.papier.ui.words.WordListScreen
@@ -84,6 +86,22 @@ class MainActivity : ComponentActivity() {
 
                         composable("scroll_v3") {
                             ScrollV3Screen(onBack = { navController.popBackStack() })
+                        }
+
+                        composable("scroll_v4") {
+                            ScrollV4Screen(
+                                onBack = { navController.popBackStack() },
+                                onPractice = { wordId ->
+                                    navController.navigate("scroll_practice/${Uri.encode(wordId)}")
+                                }
+                            )
+                        }
+
+                        composable(
+                            route = "scroll_practice/{wordId}",
+                            arguments = listOf(navArgument("wordId") { type = NavType.StringType })
+                        ) {
+                            ScrollPracticeScreen(onBack = { navController.popBackStack() })
                         }
 
                         composable("words_hub") {

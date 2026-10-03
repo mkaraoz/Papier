@@ -9,3 +9,6 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Local release signing key and password. Never commit these.
+/.signing/

@@ -25,10 +25,20 @@
 - MainActivity defines routes; optional filter/theme arguments reach ViewModels through SavedStateHandle.
 - AGP 9.x provides built-in Kotlin: do not add the kotlin-android plugin or legacy kotlinOptions configuration.
 - Verify suspected IDE-only Compose errors with `./gradlew assembleDebug`.
+- `./build-apk.sh` builds, aligns, signs and verifies a release APK at `build/apk/Papier_yyyyMMdd_HHmmss.apk` (local timestamp); it does not install or run device tests. The persistent key/password live in ignored `.signing/`; never commit or regenerate an existing release key. A new release key cannot update a debug-signed installation in place.
 - Content is bundled under app/src/main/assets. WordRepository loads vocabulary.json; test_words.json is the small development fixture.
 - Themes reference the master vocabulary. Homonyms can use a sense-qualified key such as `dag (day)`; speech reads only the Dutch word.
 - sentences.json is a bare array. dutch_phrases.json has a metadata wrapper; update its version/date when editing phrases.
 - Phrase ordering and pronoun group ordering follow their files. If phrase flashcards are added, use examples[0] on the face to avoid varying example counts disrupting the layout.
+
+## Release signing memory
+- The user explicitly asked to retain these details in project documentation and agent memory.
+- Project-relative keystore: `.signing/papier-release.p12` (PKCS12). Current absolute location: `/home/mk/AndroidStudioProjects/Papier/.signing/papier-release.p12`.
+- Password file: `.signing/password`; it supplies both the keystore and private-key password. Key alias: `papier`.
+- `./build-apk.sh` reuses these files automatically. Release build and signature verification succeeded on 2026-09-27.
+- `.signing/` is hidden and ignored by Git. Back up the key and password together outside the checkout; a Git clone does not restore them. No external backup has been confirmed.
+- On a new machine, restore both files before building. If missing, recover the original key rather than silently replacing it; updates need the same signing identity.
+- README's “Release signing files” section is the user-facing reference. Store only paths and instructions in documentation, never the actual password or private key.
 
 ## State recorded on 2026-09-27
 - Implemented: home, Words hub, searchable word list, verb filtering, New Words, themes, idioms, practice sentences, pronouns, word-list Dutch TTS.
